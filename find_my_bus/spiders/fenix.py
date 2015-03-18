@@ -32,8 +32,25 @@ class FenixSpider(InitSpider):
 
     def parse(self, response):
         hxs = Selector(response, type='html')
-        horario = hxs.xpath('//div[contains(@class, "horario")]')
-        titulo = hxs.xpath('.//h1/a/text()').extract()[0]
+       	horario = hxs.xpath('//div[contains(@class, "horario")]')
+
+        titulo = horario.xpath('.//h1/a/text()').extract()[0]
+        conteudo = horario.xpath('.//div')
+        
+        tmp = conteudo[0]
+        dados = [i for i in tmp.xpath('.//text()').extract() if i != u' ']
+
+        percurso = dados[3].strip()[0:5]
+        tarifa = {
+        	"cartao": dados[8].strip(),
+        	"dinheiro": dados[10].strip(),
+        }
+
         item = FindMyBusItem(nome=titulo)
+
+        print dados
+        print percurso
+        print tarifa["cartao"]
+
         yield item
         yield self.make_requests_from_url(self.start_urls[0])
