@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
-
+from find_my_bus.items import FindMyBusItem
 from scrapy.http import Request
 from scrapy.selector import Selector
 from scrapy.contrib.spiders.init import InitSpider
@@ -27,11 +27,13 @@ class FenixSpider(InitSpider):
         return self.initialized()
 
     def make_requests_from_url(self, url):
-    	return Request(url % self.urls.pop())
+    	if (len(self.urls)):
+    		return Request(url % self.urls.pop())
 
     def parse(self, response):
         hxs = Selector(response, type='html')
         horario = hxs.xpath('//div[contains(@class, "horario")]')
         titulo = hxs.xpath('.//h1/a/text()').extract()[0]
-        print titulo
+        item = FindMyBusItem(nome=titulo)
+        yield item
         yield self.make_requests_from_url(self.start_urls[0])
