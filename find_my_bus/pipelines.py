@@ -22,5 +22,5 @@ class FilePipeline(BaseItemExporter):
 
 	def process_item(self, item, spider):
 		tmp = dict(self._get_serialized_fields(item))
-		# self.list.append(tmp)
+		self.list.append(tmp)
 		return item

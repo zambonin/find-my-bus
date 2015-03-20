@@ -34,23 +34,33 @@ class FenixSpider(InitSpider):
         hxs = Selector(response, type='html')
        	horario = hxs.xpath('//div[contains(@class, "horario")]')
 
-        titulo = horario.xpath('.//h1/a/text()').extract()[0]
-        conteudo = horario.xpath('.//div')
+        titulo = horario.xpath('./h1/a/text()').extract()[0]
+        conteudo = horario.xpath('./div')
         
         tmp = conteudo[0]
         dados = [i for i in tmp.xpath('.//text()').extract() if i != u' ']
 
-        percurso = dados[3].strip()[0:5]
+        percurso = dados[3].strip()[:5]
         tarifa = {
         	"cartao": dados[8].strip(),
         	"dinheiro": dados[10].strip(),
         }
 
-        item = FindMyBusItem(nome=titulo)
+        conj_horarios = {}
 
-        print dados
-        print percurso
-        print tarifa["cartao"]
+        for i in conteudo[1:]:
+        	linhas = i.xpath('./div')
+        	nome = linhas[0].xpath('./h4/text()').extract()[0]
+        	horarios = []
+        	for j in linhas[1:]:
+        		horarios.append(j.xpath('./a/text()').extract()[0].strip()[:5])
+        	conj_horarios[nome] = horarios
+
+        itinerario = horario.xpath('./ol/li/text()').extract()
+
+        item = FindMyBusItem(nome=titulo, preco=tarifa,
+         empresa="Consórcio Fênix", horarios=conj_horarios, 
+         itinerario=itinerario)
 
         yield item
         yield self.make_requests_from_url(self.start_urls[0])
