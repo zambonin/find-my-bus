@@ -20,7 +20,7 @@ class FilePipeline(BaseItemExporter):
 	def close_spider(self, spider):
 		with open('items.json', 'w') as fp:
 			# fp.write(json.dumps(self.list))
-			json.dump(self.list, fp, indent=4)
+			json.dump(self.list, fp, indent=2)
 
 	def process_item(self, item, spider):
 		tmp = dict(self._get_serialized_fields(item))
