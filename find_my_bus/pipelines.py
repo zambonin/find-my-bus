@@ -7,6 +7,7 @@
 
 import json
 from scrapy.contrib.exporter import BaseItemExporter
+from scrapy.contrib.exporter import JsonLinesItemExporter
 
 class FindMyBusPipeline(object):
     def process_item(self, item, spider):
@@ -18,7 +19,8 @@ class FilePipeline(BaseItemExporter):
 
 	def close_spider(self, spider):
 		with open('items.json', 'w') as fp:
-			fp.write(json.dumps(self.list))
+			# fp.write(json.dumps(self.list))
+			json.dump(self.list, fp, indent=4)
 
 	def process_item(self, item, spider):
 		tmp = dict(self._get_serialized_fields(item))
