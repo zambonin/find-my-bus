@@ -58,9 +58,10 @@ class FenixSpider(InitSpider):
 
         itinerario = horario.xpath('./ol/li/text()').extract()
 
-        item = FindMyBusItem(nome=titulo, preco=tarifa,
+        #item = FindMyBusItem(nome=titulo, preco=tarifa,
          empresa="Consórcio Fênix", horarios=conj_horarios, 
          itinerario=itinerario)
 
+	item = FindMyBuyItem(itinerario=itinerario, horarios=conj_horarios, empresa="Consórcio Fênix", preco=tarifa, nome=titulo)
         yield item
         yield self.make_requests_from_url(self.start_urls[0])
