@@ -17,7 +17,7 @@ class FenixSpider(InitSpider):
     	return Request(url=self.start_urls[0] % "/horarios/", callback=self.organize)
 
     def organize(self, response):
-        hxs = Selector(response)    	
+        hxs = Selector(response)
         links = hxs.xpath('//ul[contains(@class, "nav-custom1")]/li/a')
 
         for link in links:
@@ -36,11 +36,12 @@ class FenixSpider(InitSpider):
 
         titulo = horario.xpath('./h1/a/text()').extract()[0]
         conteudo = horario.xpath('./div')
-        
+
         tmp = conteudo[0]
         dados = [i for i in tmp.xpath('.//text()').extract() if i != u' ']
 
         percurso = dados[3].strip()[:5]
+
         tarifa = {
         	"cartao": dados[8].strip(),
         	"dinheiro": dados[10].strip(),
@@ -58,10 +59,8 @@ class FenixSpider(InitSpider):
 
         itinerario = horario.xpath('./ol/li/text()').extract()
 
-        #item = FindMyBusItem(nome=titulo, preco=tarifa,
-         empresa="Consórcio Fênix", horarios=conj_horarios, 
-         itinerario=itinerario)
+        item = FindMyBusItem(nome=titulo, preco=tarifa, empresa="Consórcio Fênix",
+            horarios=conj_horarios, itinerario=itinerario, tempo_medio=percurso)
 
-	item = FindMyBuyItem(itinerario=itinerario, horarios=conj_horarios, empresa="Consórcio Fênix", preco=tarifa, nome=titulo)
         yield item
         yield self.make_requests_from_url(self.start_urls[0])

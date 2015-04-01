@@ -1,5 +1,8 @@
 [
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "TITRI/TILAG - 333", 
     "itinerario": [
       "TITRI", 
       "AV.PROF. HENRIQUE DA SILVA FONTES", 
@@ -16,6 +19,10 @@
       "AV.MADRE BENVENUTA", 
       "AV.PROF. HENRIQUE DA SILVA FONTES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "07:25", 
@@ -132,15 +139,12 @@
       "Domingo - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "13:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TITRI/TILAG - 333"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:49", 
+    "nome": "TITRI / TIRIO - 848", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -166,6 +170,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "07:16", 
@@ -186,15 +194,12 @@
         "17:55", 
         "21:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TITRI / TIRIO - 848"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:44", 
+    "nome": "TIRIO / TITRI - 847", 
     "itinerario": [
       "RODOVIA SC 405", 
       "AVENIDA JORGE LACERDA", 
@@ -220,6 +225,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "08:14", 
@@ -239,15 +248,12 @@
         "19:00", 
         "21:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TIRIO / TITRI - 847"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "TICEN - TITRI - Direto - 110", 
     "itinerario": [
       "TICEN", 
       "R. ANT\u00d4NIO PEREIRA OLIVEIRA", 
@@ -263,6 +269,10 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:29", 
@@ -333,15 +343,12 @@
         "18:34", 
         "18:52"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TICEN - TITRI - Direto - 110"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:29", 
+    "nome": "TICAN TITRI - 235", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -367,6 +374,10 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "22:00"
@@ -404,15 +415,12 @@
       "S\u00e1bado - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "22:28"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TICAN TITRI - 235"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:47", 
+    "nome": "TICAN TICEN via TITRI - 231", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -458,6 +466,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "04:50", 
@@ -534,15 +546,12 @@
         "23:45", 
         "00:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TICAN TICEN via TITRI - 231"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Santo Ant\u00f4nio via Beira Mar - 332", 
     "itinerario": [
       "TICEN", 
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
@@ -556,6 +565,10 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "06:12", 
@@ -625,15 +638,12 @@
         "22:49", 
         "23:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Santo Ant\u00f4nio via Beira Mar - 332"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Santo Ant\u00f4nio Direto - 212", 
     "itinerario": [
       "TICEN", 
       "ELEVADO FRANCISCO DIAS VELHO", 
@@ -654,6 +664,10 @@
       "AVENIDA PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "16:40", 
@@ -669,15 +683,12 @@
         "18:04", 
         "18:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Santo Ant\u00f4nio Direto - 212"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Santo Ant\u00f4nio - Direto - 310", 
     "itinerario": [
       "TICEN", 
       "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -691,19 +702,20 @@
       "AV. GOV. IRINEU BORNHAUSEN / BEIRA-MAR NORTE", 
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE"
     ], 
-    "horarios": {
-      "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
-        "18:20"
-      ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
     }, 
-    "nome": "Santo Ant\u00f4nio - Direto - 310"
+    "horarios": {
+      "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
+        "18:20"
+      ]
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:35", 
+    "nome": "Santo Ant\u00f4nio - 331", 
     "itinerario": [
       "TICEN", 
       "AV. PAULO FONTES", 
@@ -727,6 +739,10 @@
       "AV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "24:10"
@@ -815,15 +831,12 @@
         "21:52", 
         "23:21"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Santo Ant\u00f4nio - 331"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Rio Tavares - Direto - 410", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -841,6 +854,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "05:53", 
@@ -1275,15 +1292,12 @@
         "20:10", 
         "20:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Rio Tavares - Direto - 410"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Rio Tavares - 430", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -1306,6 +1320,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "05:32", 
@@ -1627,15 +1645,12 @@
         "00:00", 
         "00:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Rio Tavares - 430"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:35", 
+    "nome": "Lagoa da Concei\u00e7\u00e3o via C\u00f3rrego Grande - 845", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -1654,6 +1669,10 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "12:20", 
@@ -1669,15 +1688,12 @@
         "13:04", 
         "18:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Lagoa da Concei\u00e7\u00e3o via C\u00f3rrego Grande - 845"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:39", 
+    "nome": "Lagoa da Concei\u00e7\u00e3o - Semidireto - 320", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -1708,6 +1724,10 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma A lado 1": [
         "09:30", 
@@ -1873,15 +1893,12 @@
         "22:10", 
         "22:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Lagoa da Concei\u00e7\u00e3o - Semidireto - 320"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Lagoa da Concei\u00e7\u00e3o - Direto - 311", 
     "itinerario": [
       "TICEN", 
       "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -1902,6 +1919,10 @@
       "AV.PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "07:24", 
@@ -1911,15 +1932,12 @@
       "Dias \u00dateis - Sa\u00edda TILAG - Terminal Integra\u00e7\u00e3o Lagoa da Concei\u00e7\u00e3o": [
         "08:25"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Lagoa da Concei\u00e7\u00e3o - Direto - 311"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:40", 
+    "nome": "Lagoa da Concei\u00e7\u00e3o - 330", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -1948,6 +1966,10 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:20", 
@@ -2220,15 +2242,12 @@
         "23:35", 
         "24:04"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Lagoa da Concei\u00e7\u00e3o - 330"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:30", 
+    "nome": "Lagoa / Rio Tavares - 841", 
     "itinerario": [
       "AVENIDA AFONSO DELAMBERT NETO", 
       "RUA LAURINDO JANU\u00c1RIO DA SILVEIRA", 
@@ -2244,6 +2263,10 @@
       "AVENIDA AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TILAG - Terminal Integra\u00e7\u00e3o Lagoa da Concei\u00e7\u00e3o": [
         "06:20", 
@@ -2370,15 +2393,12 @@
         "23:25", 
         "24:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Lagoa / Rio Tavares - 841"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:30", 
+    "nome": "Lagoa / Rio Tavares - 843", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -2393,6 +2413,10 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TILAG - Terminal Integra\u00e7\u00e3o Lagoa da Concei\u00e7\u00e3o": [
         "05:44", 
@@ -2526,15 +2550,12 @@
         "22:44", 
         "23:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Lagoa / Rio Tavares - 843"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:46", 
+    "nome": "Canasvieiras via Gama D'E\u00e7a - 230", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -2570,6 +2591,10 @@
       "RODOVIA SC 401", 
       "RUA FRANCISCO FAUSTO MARTINS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "06:00", 
@@ -2661,15 +2686,12 @@
         "21:03", 
         "22:52"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras via Gama D'E\u00e7a - 230"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:40", 
+    "nome": "Canasvieiras Trindade - 233", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -2698,6 +2720,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "05:58", 
@@ -2975,15 +3001,12 @@
         "22:07", 
         "22:26"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras Trindade - 233"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:51", 
+    "nome": "Canasvieiras Mauro Ramos - 221", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -3023,6 +3046,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "06:33", 
@@ -3417,15 +3444,12 @@
         "20:45", 
         "21:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras Mauro Ramos - 221"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Canasvieiras Direto - 210", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -3448,6 +3472,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "05:58", 
@@ -3886,15 +3914,12 @@
         "21:55", 
         "22:23"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras Direto - 210"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:65", 
+    "nome": "Canasvieiras / Lagoa da Concei\u00e7\u00e3o - 840", 
     "itinerario": [
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TRAVESSA OLINDINA VIEIRA DOS SANTOS", 
@@ -3930,6 +3955,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "06:10", 
@@ -3986,15 +4015,12 @@
         "16:00", 
         "16:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras / Lagoa da Concei\u00e7\u00e3o - 840"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:68", 
+    "nome": "Canasvieiras / Lagoa da Concei\u00e7\u00e3o - 842", 
     "itinerario": [
       "TICAN", 
       "R. FRANCISCO FAUSTINO MARTINS", 
@@ -4018,6 +4044,10 @@
       "R. FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "10:08", 
@@ -4074,15 +4104,12 @@
         "21:33", 
         "22:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras / Lagoa da Concei\u00e7\u00e3o - 842"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Beira Mar Norte - 134", 
     "itinerario": [
       "TICEN", 
       "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -4099,6 +4126,10 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:29", 
@@ -4333,15 +4364,12 @@
         "21:50", 
         "22:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Beira Mar Norte - 134"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:24", 
+    "nome": "Agron\u00f4mica via Mauro Ramos - 133", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -4366,6 +4394,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "05:18", 
@@ -4645,15 +4677,12 @@
         "23:19", 
         "23:49"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Agron\u00f4mica via Mauro Ramos - 133"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:26", 
+    "nome": "Agron\u00f4mica via Gama D'E\u00e7a/H.I. - 132", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -4672,6 +4701,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:15", 
@@ -4709,15 +4742,12 @@
         "20:24", 
         "21:53"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Agron\u00f4mica via Gama D'E\u00e7a/H.I. - 132"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:25", 
+    "nome": "Agron\u00f4mica via Gama D'E\u00e7a - 131", 
     "itinerario": [
       "TICEN", 
       "R. CTE. CONSTANTINO NICOLAU SPYRIDES", 
@@ -4748,6 +4778,10 @@
       "R. PEDRO IVO", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma A lado 1": [
         "07:56", 
@@ -4924,15 +4958,12 @@
         "22:19", 
         "23:19"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Agron\u00f4mica via Gama D'E\u00e7a - 131"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Santinho Escolar - 296", 
     "itinerario": [
       "ESTRADA DOM JO\u00c3O BECKER", 
       "RUA INTENDENTE JO\u00c3O NUNES VIEIRA", 
@@ -4956,6 +4987,10 @@
       "ESTRADA DOM JO\u00c3O BECKER", 
       "ESTRADA VEREADOR ONILDO LEMOS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Graciliano Gomes": [
         "12:05", 
@@ -4965,15 +5000,12 @@
         "07:10", 
         "12:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Santinho Escolar - 296"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:70", 
+    "nome": "Saco Grande Direto - D-174", 
     "itinerario": [
       "ROD. VIRG\u00cdLIO V\u00c1RZEA", 
       "ROD. JO\u00c3O PAULO", 
@@ -4998,20 +5030,21 @@
       "MA", 
       "ROD. VIRG\u00cdLIO V\u00c1RZEA (PONTO FINAL)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Posto Sambaqui": [
         "06:27", 
         "07:42"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco Grande Direto - D-174"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:96", 
+    "nome": "Rio Vermelho Direto - D-267", 
     "itinerario": [
       "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL", 
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
@@ -5033,6 +5066,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Rio Vermelho": [
         "05:20", 
@@ -5041,15 +5078,12 @@
         "07:00", 
         "11:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Rio Vermelho Direto - D-267"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:70", 
+    "nome": "Ribeir\u00e3o da Ilha Direto - D-565", 
     "itinerario": [
       "RODOVIA SC 405", 
       "VIA EXPRESSA SUL", 
@@ -5057,19 +5091,20 @@
       "TICEN", 
       "RUA BALDICERO FILOMENO,8605"
     ], 
-    "horarios": {
-      "Dias \u00dateis - Sa\u00edda Vandelim (Ribeir\u00e3o da Ilha)": [
-        "05:55"
-      ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
     }, 
-    "nome": "Ribeir\u00e3o da Ilha Direto - D-565"
+    "horarios": {
+      "Dias \u00dateis - Sa\u00edda Vandelim (Ribeir\u00e3o da Ilha)": [
+        "05:55"
+      ]
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:82", 
+    "nome": "Praia Brava Direto - D-266", 
     "itinerario": [
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN", 
@@ -5096,21 +5131,22 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Praia Brava": [
         "06:05", 
         "06:54", 
         "12:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Praia Brava Direto - D-266"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:54", 
+    "nome": "Monte Verde Direto - D-168", 
     "itinerario": [
       "R. TIMBA\u00daBA", 
       "R. DO MARFIM", 
@@ -5142,19 +5178,20 @@
       "R. ALM\u00cdSCAR", 
       "R. TIMBA\u00daBA (PONTO FINAL)"
     ], 
-    "horarios": {
-      "Dias \u00dateis - Sa\u00edda Bistek Monte Verde": [
-        "06:42"
-      ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
     }, 
-    "nome": "Monte Verde Direto - D-168"
+    "horarios": {
+      "Dias \u00dateis - Sa\u00edda Bistek Monte Verde": [
+        "06:42"
+      ]
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:60", 
+    "nome": "Madrugad\u00e3o Sul via Tapera - 501", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -5187,6 +5224,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma C lado 1": [
         "01:00", 
@@ -5202,15 +5243,12 @@
       "S\u00e1bado - Sa\u00edda Pantano do Sul": [
         "02:05"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Madrugad\u00e3o Sul via Tapera - 501"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:64", 
+    "nome": "Madrugad\u00e3o Sul - 500", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -5243,6 +5281,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Pantano do Sul": [
         "01:20", 
@@ -5268,15 +5310,12 @@
         "02:25", 
         "04:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Madrugad\u00e3o Sul - 500"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:68", 
+    "nome": "Madrugad\u00e3o Norte - 200", 
     "itinerario": [
       "ESTRADA DOM JO\u00c3O BECKER", 
       "RUA INTENDENTE JO\u00c3O NUNES VIEIRA", 
@@ -5351,6 +5390,10 @@
       "ESTRADA DOM JO\u00c3O BECKER", 
       "ESTRADA VEREADOR ONILDO LEMOS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Santinho": [
         "03:40"
@@ -5371,15 +5414,12 @@
       "S\u00e1bado - Sa\u00edda Santinho": [
         "03:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Madrugad\u00e3o Norte - 200"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:47", 
+    "nome": "Madrugad\u00e3o Leste - 300", 
     "itinerario": [
       "TICEN", 
       "AV. PAULO FONTES", 
@@ -5421,6 +5461,10 @@
       "AV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Barra da Lagoa": [
         "01:50", 
@@ -5449,15 +5493,12 @@
         "01:50", 
         "03:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Madrugad\u00e3o Leste - 300"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:40", 
+    "nome": "Madrugad\u00e3o Continente - 600", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "RUA F\u00daLVIO ADUCCI", 
@@ -5498,6 +5539,10 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma C lado 1": [
         "00:30", 
@@ -5520,15 +5565,12 @@
         "03:30", 
         "04:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Madrugad\u00e3o Continente - 600"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:30", 
+    "nome": "Madrugad\u00e3o Centro - 100", 
     "itinerario": [
       "TICEN", 
       "AV. PAULO FONTES", 
@@ -5553,6 +5595,10 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma C lado 1": [
         "00:30", 
@@ -5575,15 +5621,12 @@
         "03:30", 
         "04:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Madrugad\u00e3o Centro - 100"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:53", 
+    "nome": "Jardim Atl\u00e2ntico UFSC - 946", 
     "itinerario": [
       "RUA GENUINO PEREIRA DA SILVA", 
       "RUA ELESB\u00c3O PINTO DA LUZ", 
@@ -5626,6 +5669,10 @@
       "RUA EDELBERTO DE OLIVEIRA", 
       "RUA GENUINO PEREIRA DA SILVA (PONTO FINAL)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda UFSC - Universidade Federal de Santa Catarina": [
         "12:05", 
@@ -5636,15 +5683,12 @@
         "06:40", 
         "12:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Jardim Atl\u00e2ntico UFSC - 946"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:58", 
+    "nome": "Interpraias - 294", 
     "itinerario": [
       "AVENIDA DOS B\u00daZIOS", 
       "RODOVIA MAUR\u00cdCIO SIROTSKY SOBRINHO", 
@@ -5676,6 +5720,10 @@
       "AVENIDA DOS B\u00daZIOS", 
       "SERVID\u00c3O JOS\u00c9 CARDOSO DE OLIVEIRA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Santinho": [
         "06:40", 
@@ -5717,15 +5765,12 @@
         "16:05", 
         "18:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Interpraias - 294"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:88", 
+    "nome": "Ingleses Direto - D-264", 
     "itinerario": [
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN", 
@@ -5749,6 +5794,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Santinho": [
         "06:25", 
@@ -5756,15 +5805,12 @@
         "07:14", 
         "12:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Ingleses Direto - D-264"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:72", 
+    "nome": "Costa de Dentro Direto - D-563", 
     "itinerario": [
       "RODOVIA SC 406", 
       "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -5776,19 +5822,20 @@
       "TICEN", 
       "ESTRADA JO\u00c3O BELARMINO DA SILVA"
     ], 
-    "horarios": {
-      "Dias \u00dateis - Sa\u00edda Costa de Dentro": [
-        "06:10"
-      ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
     }, 
-    "nome": "Costa de Dentro Direto - D-563"
+    "horarios": {
+      "Dias \u00dateis - Sa\u00edda Costa de Dentro": [
+        "06:10"
+      ]
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:87", 
+    "nome": "C\u00f3rrego Grande Direto - D-163", 
     "itinerario": [
       "R. MAESTRO ALDO KRIEGER", 
       "R. JO\u00c3O PIO DUARTE SILVA", 
@@ -5822,6 +5869,10 @@
       "R. JO\u00c3O PIO DUARTE SILVA", 
       "R. MAESTRO ALDO KRIEGER"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o": [
         "06:35", 
@@ -5832,15 +5883,12 @@
         "13:15", 
         "17:34"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "C\u00f3rrego Grande Direto - D-163"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:55", 
+    "nome": "Circular Continente via Biblioteca P\u00fablica - 607", 
     "itinerario": [
       "RUA VALMOR AZULINO DUARTE", 
       "RUA MAURO DE CARVALHO", 
@@ -5872,20 +5920,21 @@
       "TICEN", 
       "RUA PEDRO BITTENCOURT"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Big Capoeiras": [
         "12:50", 
         "17:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Continente via Biblioteca P\u00fablica - 607"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:43", 
+    "nome": "Circular Continente via Biblioteca P\u00fablica - 603", 
     "itinerario": [
       "RUA JOAQUIM NABUCO", 
       "RUA VALMOR AZULINO DUARTE", 
@@ -5918,20 +5967,21 @@
       "RUA JOS\u00c9 MACHADO SIMAS", 
       "RUA LATERAL AO SUPERMERCADO BIG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Big Capoeiras": [
         "06:30", 
         "11:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Continente via Biblioteca P\u00fablica - 603"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:42", 
+    "nome": "Circular Continente - 606", 
     "itinerario": [
       "RUA JOSU\u00c9 DI BERNARDI", 
       "AVENIDA PRESIDENTE KENNEDY", 
@@ -5950,6 +6000,10 @@
       "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
       "RUA EDELBERTO DE OLIVEIRA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Big Capoeiras": [
         "06:00", 
@@ -5985,15 +6039,12 @@
         "18:30", 
         "19:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Continente - 606"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:43", 
+    "nome": "Circular Continente - 602", 
     "itinerario": [
       "RUA JOAQUIM NABUCO", 
       "RUA VALMOR AZULINO DUARTE", 
@@ -6024,6 +6075,10 @@
       "RUA JOS\u00c9 MACHADO SIMAS", 
       "RUA PROFESSOR EG\u00cdDIO FERREIRA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Big Capoeiras": [
         "07:20", 
@@ -6057,15 +6112,12 @@
         "18:00", 
         "19:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Continente - 602"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:50", 
+    "nome": "Circular Abra\u00e3o - 601", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "AVENIDA PATR\u00cdCIO CALDEIRA DE ANDRADE", 
@@ -6102,6 +6154,10 @@
       "RUA LATERAL AO SUPERMERCADO BIG", 
       "RUA JOS\u00c9 MACHADO SIMAS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICAP": [
         "06:40", 
@@ -6115,15 +6171,12 @@
         "17:40", 
         "18:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Abra\u00e3o - 601"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:45", 
+    "nome": "Circular Abra\u00e3o - 608", 
     "itinerario": [
       "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
       "RUA PEDRO I", 
@@ -6162,6 +6215,10 @@
       "RUA C\u00c2NDIDO RAMOS", 
       "RUA PROFESSOR EG\u00cdDIO FERREIRA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICAP": [
         "07:10", 
@@ -6175,15 +6232,12 @@
         "19:10", 
         "20:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Abra\u00e3o - 608"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:45", 
+    "nome": "Circular Abra\u00e3o - 605", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "AVENIDA PATR\u00cdCIO CALDEIRA DE ANDRADE", 
@@ -6220,6 +6274,10 @@
       "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
       "RUA PEDRO I"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICAP": [
         "06:40", 
@@ -6240,15 +6298,12 @@
         "19:30", 
         "20:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Abra\u00e3o - 605"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:51", 
+    "nome": "Capoeiras UFSC - 948", 
     "itinerario": [
       "RUA JOSU\u00c9 DE BERNARDI", 
       "RUA AC\u00c1CIO MOREIRA", 
@@ -6295,6 +6350,10 @@
       "AV. GOV. IV SILVEIRA", 
       "AV. PRESIDENTE KENEDY"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda UFSC - Universidade Federal de Santa Catarina": [
         "12:05", 
@@ -6306,15 +6365,12 @@
         "12:46", 
         "17:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Capoeiras UFSC - 948"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:55", 
+    "nome": "Canasvieiras Santo Ant\u00f4nio via Ratones - 941", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -6341,6 +6397,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TISAN - Terminal Integra\u00e7\u00e3o Santo Antonio": [
         "11:50", 
@@ -6350,15 +6410,12 @@
         "07:20", 
         "12:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras Santo Ant\u00f4nio via Ratones - 941"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:98", 
+    "nome": "Cacup\u00e9 Via Gama D'E\u00e7a - D-846", 
     "itinerario": [
       "TISAN", 
       "ESTRADA CAMINHO DOS A\u00c7ORES", 
@@ -6388,19 +6445,20 @@
       "ROD. NILTA FRANZONI VIEGAS", 
       "TISAN"
     ], 
-    "horarios": {
-      "Dias \u00dateis - Sa\u00edda TISAN - Terminal Integra\u00e7\u00e3o Santo Antonio": [
-        "07:25"
-      ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
     }, 
-    "nome": "Cacup\u00e9 Via Gama D'E\u00e7a - D-846"
+    "horarios": {
+      "Dias \u00dateis - Sa\u00edda TISAN - Terminal Integra\u00e7\u00e3o Santo Antonio": [
+        "07:25"
+      ]
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:77", 
+    "nome": "Cachoeira Direto - D-260", 
     "itinerario": [
       "Rua Edelberto de Oliveira", 
       "Rua Porto Rico", 
@@ -6424,21 +6482,22 @@
       "AVENIDA MAURO RAMOS", 
       "RUA SILVA JARDIM"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Cachoeira do Bom Jesus": [
         "06:50", 
         "07:10", 
         "12:02"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Cachoeira Direto - D-260"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:10", 
+    "nome": "Barra da Lagoa Direto - D-360", 
     "itinerario": [
       "R. AMARO COELHO", 
       "R. ALTAMIRO BARCELO DUTRA", 
@@ -6473,6 +6532,10 @@
       "R. ORLANDO CHAPLIN", 
       "R. AMARO COELHO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Barra da Lagoa": [
         "06:18", 
@@ -6481,15 +6544,12 @@
         "08:08", 
         "13:05"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Barra da Lagoa Direto - D-360"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:49", 
+    "nome": "Abra\u00e3o UFSC - 949", 
     "itinerario": [
       "RUA PROFESSORA ROSINHA CAMPOS", 
       "RUA JO\u00c3O MEIRELLES", 
@@ -6529,6 +6589,10 @@
       "RUA PROFESSORA ROSINHA CAMPOS", 
       "RUA CAMPOLINO ALVES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Abra\u00e3o": [
         "06:40", 
@@ -6540,15 +6604,12 @@
         "18:27", 
         "22:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Abra\u00e3o UFSC - 949"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:60", 
+    "nome": "Executivo Sambaqui - 2124", 
     "itinerario": [
       "Terminal Cidade De Florian\u00f3polis", 
       "Pra\u00e7a Fernando Machado", 
@@ -6592,6 +6653,10 @@
       "Rua Arcipreste Paiva", 
       "Pra\u00e7a Fernando Machado"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "08:00", 
@@ -6606,15 +6671,12 @@
         "15:00", 
         "18:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Sambaqui - 2124"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:73", 
+    "nome": "Executivo Rio Vermelho - 1125", 
     "itinerario": [
       "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL", 
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
@@ -6654,6 +6716,10 @@
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
       "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Rio Vermelho": [
         "06:10", 
@@ -6733,15 +6799,12 @@
         "12:45", 
         "13:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Rio Vermelho - 1125"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:60", 
+    "nome": "Executivo Ribeir\u00e3o da Ilha - 4123", 
     "itinerario": [
       "Rodovia Baldicero Filomeno (sa\u00edda Bairro)", 
       "Rodovia SC-405", 
@@ -6768,6 +6831,10 @@
       "Rodovia SC- 405", 
       "Rodovia Baldicero Filomeno"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:10", 
@@ -6799,15 +6866,12 @@
         "17:25", 
         "18:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Ribeir\u00e3o da Ilha - 4123"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:72", 
+    "nome": "Executivo Ponta das Canas / Praia Brava - 1122", 
     "itinerario": [
       "ESTRADA JORNALISTA JAIME DE ARRUDA RAMOS", 
       "AVENIDA LUIZ BOITEUX PIAZZA", 
@@ -6852,6 +6916,10 @@
       "AVENIDA EPIT\u00c1CIO BITTENCOURT", 
       "AVENIDA EPIT\u00c1CIO BITTENCOURT"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:20", 
@@ -6905,15 +6973,12 @@
         "12:15", 
         "13:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Ponta das Canas / Praia Brava - 1122"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Executivo Parque S\u00e3o Jorge - 1113", 
     "itinerario": [
       "Terminal Cidade De Florian\u00f3polis", 
       "Pra\u00e7a Fernando Machado", 
@@ -6954,6 +7019,10 @@
       "Avenida Paulo Fontes", 
       "Terminal Cidade De Florian\u00f3polis"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "06:30", 
@@ -7007,15 +7076,12 @@
         "18:48", 
         "19:18"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo Parque S\u00e3o Jorge - 1113"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:69", 
+    "nome": "Executivo Pantano do Sul via Gramal - 4125", 
     "itinerario": [
       "Estrada Jo\u00e3o Berlamino da Silva (Sa\u00edda Bairro)", 
       "\"Rodovia \"\"Seu Chico\"\"Francisco Thomaz dos Santos(SC 406)\"", 
@@ -7056,6 +7122,10 @@
       "\"Rodovia \"\"Seu Chico\"\"Francisco Thomaz dos Santos(SC 406)\"", 
       "Estrada Jo\u00e3o Berlamino da Silva"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:15", 
@@ -7089,15 +7159,12 @@
         "17:20", 
         "17:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Pantano do Sul via Gramal - 4125"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "n\u00e3o e", 
+    "nome": "Executivo Pantano do Sul via Campeche - 4121", 
     "itinerario": [
       "Estrada Jo\u00e3o Belarrmino da Silva (Sa\u00edda Bairro)", 
       "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
@@ -7142,15 +7209,16 @@
       "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
       "Estrada Jo\u00e3o Belarmino da Silva"
     ], 
-    "horarios": {}, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
     }, 
-    "nome": "Executivo Pantano do Sul via Campeche - 4121"
+    "horarios": {}
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:66", 
+    "nome": "Executivo Pantano do Sul via Campeche - 4120", 
     "itinerario": [
       "Estrada Jo\u00e3o Belarrmino da Silva (Sa\u00edda Bairro)", 
       "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
@@ -7195,6 +7263,10 @@
       "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
       "Estrada Jo\u00e3o Belarmino da Silva"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:35", 
@@ -7240,15 +7312,12 @@
         "11:30", 
         "12:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Pantano do Sul via Campeche - 4120"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:65", 
+    "nome": "Executivo Muqu\u00e9m - 1129", 
     "itinerario": [
       "SA\u00cdDA BAIRRO", 
       "R. MANOEL PETRONILHO DA SILVEIRA (MUQU\u00c9M)", 
@@ -7289,6 +7358,10 @@
       "ROD. JO\u00c3O GUALBERTO SOARES", 
       "R. MANOEL PETRONILHO DA SILVEIRA (MUQU\u00c9M)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:50", 
@@ -7314,15 +7387,12 @@
         "18:10", 
         "19:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Muqu\u00e9m - 1129"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "n\u00e3o e", 
+    "nome": "Executivo Lagoa da Concei\u00e7\u00e3o via Joaquina - 2123", 
     "itinerario": [
       "Terminal Cidade de Florian\u00f3polis", 
       "Pra\u00e7a Fernando Machado", 
@@ -7365,15 +7435,16 @@
       "Avenida Paulo Fontes", 
       "Terminal Cidade de Florian\u00f3polis"
     ], 
-    "horarios": {}, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
     }, 
-    "nome": "Executivo Lagoa da Concei\u00e7\u00e3o via Joaquina - 2123"
+    "horarios": {}
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:60", 
+    "nome": "Executivo Jurer\u00ea - 1123", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
       "PRA\u00c7A FERNANDO MACHADO", 
@@ -7418,6 +7489,10 @@
       "PRA\u00c7A FERNANDO MACHADO", 
       "AVENIDA PAULO FONTES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:25", 
@@ -7457,15 +7532,12 @@
         "11:15", 
         "12:35"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Jurer\u00ea - 1123"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:36", 
+    "nome": "Executivo Jo\u00e3o Paulo - 1117", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIANOPOLIS", 
       "P\u00c7A FERNANDO MACHADO", 
@@ -7502,6 +7574,10 @@
       "AV.PAULO FONTES", 
       "TERMINAL CIDADE DE FLORIANOPOLIS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "06:30", 
@@ -7556,15 +7632,12 @@
         "18:39", 
         "19:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo Jo\u00e3o Paulo - 1117"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:70", 
+    "nome": "Executivo Ingleses/Santinho - 1121", 
     "itinerario": [
       "ESTRADA VEREADOR ONILDO LEMOS", 
       "ESTRADA DOM JO\u00c3O BECKER", 
@@ -7602,6 +7675,10 @@
       "ESTRADA DOM JO\u00c3O BECKER", 
       "ESTRADA VEREADOR ONILDO LEMOS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:10", 
@@ -7673,15 +7750,12 @@
         "12:50", 
         "13:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Ingleses/Santinho - 1121"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:65", 
+    "nome": "Executivo Gaivotas - 1127", 
     "itinerario": [
       "RUA DAS GAIVOTAS", 
       "RODOVIA SC 403", 
@@ -7715,6 +7789,10 @@
       "RODOVIA SC 403", 
       "RUA DAS GAIVOTAS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:20", 
@@ -7740,15 +7818,12 @@
         "18:05", 
         "19:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Gaivotas - 1127"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:66", 
+    "nome": "Executivo Costa do Mo\u00e7ambique - 1128", 
     "itinerario": [
       "RUA C\u00c2NDIDO PEREIRA DOS ANJOS", 
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
@@ -7790,6 +7865,10 @@
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
       "RUA C\u00c2NDIDO PEREIRA DOS ANJOS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:45", 
@@ -7837,15 +7916,12 @@
         "10:50", 
         "11:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Costa do Mo\u00e7ambique - 1128"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:37", 
+    "nome": "Executivo C\u00f3rrego Grande via Po\u00e7\u00e3o - 1118", 
     "itinerario": [
       "Terminal Cidade de Florian\u00f3polis", 
       "Pra\u00e7a Fernando Machado", 
@@ -7889,6 +7965,10 @@
       "Avenida Paulo Fontes", 
       "Terminal Cidade de Florian\u00f3polis"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "06:40", 
@@ -7906,15 +7986,12 @@
         "17:12", 
         "18:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo C\u00f3rrego Grande via Po\u00e7\u00e3o - 1118"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:37", 
+    "nome": "Executivo Corrego Grande via Gama D\u00b4e\u00e7a - 1115", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIANOPOLIS", 
       "PRA\u00c7A FERNANDO MACHADO", 
@@ -7961,6 +8038,10 @@
       "AVENIDA PAULO FONTES", 
       "TERMINAL CIDADE DE FLORIANOPOLIS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o": [
         "20:15", 
@@ -7975,15 +8056,12 @@
         "21:20", 
         "22:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo Corrego Grande via Gama D\u00b4e\u00e7a - 1115"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:70", 
+    "nome": "Executivo Corredor Continente / Santa M\u00f4nica - 3002", 
     "itinerario": [
       "Rua Gibraltar (Sa\u00edda C\u00f3rrego Grande)", 
       "Rua Florenza", 
@@ -8079,6 +8157,10 @@
       "Rua Apeninos", 
       "Rua Gibraltar (C\u00f3rrego Grande )"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o": [
         "06:30", 
@@ -8138,15 +8220,12 @@
         "19:15", 
         "19:45"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo Corredor Continente / Santa M\u00f4nica - 3002"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:64", 
+    "nome": "Executivo Canasvieiras - 1120", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
       "PRA\u00c7A FERNANDO MACHADO", 
@@ -8196,6 +8275,10 @@
       "PRA\u00c7A FERNANDO MACHADO", 
       "AVENIDA PAULO FONTES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:20", 
@@ -8233,15 +8316,12 @@
         "11:30", 
         "12:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Canasvieiras - 1120"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:50", 
+    "nome": "Executivo Campeche - 4122", 
     "itinerario": [
       "R\u00f3tula da Praia do Campeche (Sa\u00edda Bairro)", 
       "Avenida Campeche", 
@@ -8276,6 +8356,10 @@
       "Avenida Campeche", 
       "R\u00f3tula da Praia do Campeche"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Pedrita": [
         "06:30", 
@@ -8309,15 +8393,12 @@
         "19:00", 
         "19:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Campeche - 4122"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:72", 
+    "nome": "Executivo Caieira da Barra do Sul via Aeroporto - 4124", 
     "itinerario": [
       "Rodovia Baldicero Filomeno (sa\u00edda Bairro)", 
       "Rodovia A\u00e7oriana", 
@@ -8357,6 +8438,10 @@
       "Rodovia A\u00e7oriana", 
       "Rodovia Baldicero Filomeno"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "06:45", 
@@ -8404,15 +8489,12 @@
         "17:50", 
         "18:25"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Caieira da Barra do Sul via Aeroporto - 4124"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:60", 
+    "nome": "Executivo Cachoeira - 1126", 
     "itinerario": [
       "Estrada Anarolina Silveira Santos (Sa\u00edda Bairro)", 
       "R. Leonel Pereira", 
@@ -8453,6 +8535,10 @@
       "R. Leonel Pereira", 
       "Estrada Anarolina Silveira Santos"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Cachoeira do Bom Jesus": [
         "06:25", 
@@ -8478,15 +8564,12 @@
         "18:30", 
         "19:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Cachoeira - 1126"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:59", 
+    "nome": "Executivo Barra da Lagoa - 2120", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
       "PRA\u00c7A FERNANDO MACHADO", 
@@ -8547,6 +8630,10 @@
       "AV. PAULO FONTES", 
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS"
     ], 
+    "preco": {
+      "dinheiro": "R$ 7,00", 
+      "cartao": "R$ 7,00"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Barra da Lagoa": [
         "06:30", 
@@ -8623,15 +8710,12 @@
         "15:40", 
         "18:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 7,00", 
-      "cartao": "R$ 7,00"
-    }, 
-    "nome": "Executivo Barra da Lagoa - 2120"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:40", 
+    "nome": "Executivo Aeroporto - 6120", 
     "itinerario": [
       "Aeroporto Herc\u00edlio Luz", 
       "Avenida Deputado Diom\u00edcio Freitas", 
@@ -8683,6 +8767,10 @@
       "Avenida Deputado Diom\u00edcio Freitas", 
       "Aeroporto Herc\u00edlio Luz"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Terminal Cidade de Florian\u00f3polis": [
         "07:40", 
@@ -8706,15 +8794,12 @@
         "17:05", 
         "18:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo Aeroporto - 6120"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:72", 
+    "nome": "Executivo Abra\u00e3o / C\u00f3rrego Grande - 3001", 
     "itinerario": [
       "Rua Jos\u00e9 Filomeno (Sa\u00edda Capoeiras)", 
       "Rua Josu\u00e9 di Bernardi", 
@@ -8793,6 +8878,10 @@
       "Rua Altamiro Di Bernardi", 
       "Rua Jos\u00e9 Filomeno (Capoeiras)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 5,50", 
+      "cartao": "R$ 5,50"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Abra\u00e3o": [
         "06:20", 
@@ -8883,15 +8972,12 @@
         "18:40", 
         "19:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 5,50", 
-      "cartao": "R$ 5,50"
-    }, 
-    "nome": "Executivo Abra\u00e3o / C\u00f3rrego Grande - 3001"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:74", 
+    "nome": "TITRI/Tapera - 471", 
     "itinerario": [
       "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA (PONTO FINAL)", 
       "RODOVIA A\u00c7ORIANA", 
@@ -8929,6 +9015,10 @@
       "RODOVIA A\u00c7ORIANA", 
       "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA (PONTO FINAL)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Tapera (CEFA)": [
         "06:15", 
@@ -8939,15 +9029,12 @@
         "13:10", 
         "18:31"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TITRI/Tapera - 471"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:15", 
+    "nome": "TITRI - UFSC - 180", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -8957,6 +9044,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "07:20", 
@@ -9012,15 +9103,12 @@
         "22:31", 
         "23:01"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "TITRI - UFSC - 180"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:12", 
+    "nome": "Tecn\u00f3polis - 182", 
     "itinerario": [
       "TITRI", 
       "ROD. SC 401", 
@@ -9031,6 +9119,10 @@
       "ROD. SC 401", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Tecn\u00f3polis": [
         "07:30", 
@@ -9047,15 +9139,12 @@
         "13:47", 
         "17:58"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Tecn\u00f3polis - 182"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:59", 
+    "nome": "Tapera / TITRI - 470", 
     "itinerario": [
       "RODOVIA A\u00c7ORIANA", 
       "RUA JOS\u00c9 CORREIA", 
@@ -9092,6 +9181,10 @@
       "RODOVIA A\u00c7ORIANA", 
       "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Tapera (CEFA)": [
         "06:30", 
@@ -9105,15 +9198,12 @@
         "16:26", 
         "18:41"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Tapera / TITRI - 470"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:21", 
+    "nome": "Sol Nascente - 155", 
     "itinerario": [
       "TITRI", 
       "ROD. SC 401", 
@@ -9141,6 +9231,10 @@
       "ROD. SC 401", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Pedra de Listra": [
         "06:20", 
@@ -9169,15 +9263,12 @@
         "06:45", 
         "14:08"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Sol Nascente - 155"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:13", 
+    "nome": "Serrinha - 179", 
     "itinerario": [
       "TITRI", 
       "R. PROF. MILTON ROQUE RAMOS KRIENGER", 
@@ -9192,6 +9283,10 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "06:28", 
@@ -9311,15 +9406,12 @@
         "21:20", 
         "23:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Serrinha - 179"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "SC 401 Retorno Saco Grande - 175", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -9331,6 +9423,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Posto Sambaqui": [
         "06:22", 
@@ -9355,15 +9451,12 @@
         "16:46", 
         "18:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "SC 401 Retorno Saco Grande - 175"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:19", 
+    "nome": "Santa M\u00f4nica - 177", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -9388,6 +9481,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "06:09", 
@@ -9512,15 +9609,12 @@
         "18:50", 
         "21:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Santa M\u00f4nica - 177"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "Saco Grande via Jo\u00e3o Paulo - 174", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -9536,6 +9630,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Posto Sambaqui": [
         "05:00", 
@@ -9714,15 +9812,12 @@
         "23:20", 
         "00:23"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco Grande via Jo\u00e3o Paulo - 174"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:57", 
+    "nome": "Saco Grande via HU - 176", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -9773,6 +9868,10 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Posto Sambaqui": [
         "05:55", 
@@ -9816,15 +9915,12 @@
         "22:30", 
         "23:27"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco Grande via HU - 176"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:12", 
+    "nome": "Saco Grande Retorno SC 401 - 178", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -9837,6 +9933,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "07:58", 
@@ -9952,15 +10052,12 @@
         "22:38", 
         "23:33"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco Grande Retorno SC 401 - 178"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Saco dos Lim\u00f5es-Trindade v M.Benvenuta - 944", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -9981,6 +10078,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "06:09", 
@@ -10000,15 +10101,12 @@
         "18:15", 
         "19:21"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco dos Lim\u00f5es-Trindade v M.Benvenuta - 944"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "Saco dos Lim\u00f5es-Trindade - 943", 
     "itinerario": [
       "TITRI", 
       "R. MILTON ROQUE RAMOS KRIGER", 
@@ -10028,6 +10126,10 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TISAC": [
         "07:31", 
@@ -10099,15 +10201,12 @@
         "17:20", 
         "19:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco dos Lim\u00f5es-Trindade - 943"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:14", 
+    "nome": "Parque S\u00e3o Jorge via SC 404 - 172", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10120,6 +10219,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Itacorubi": [
         "06:39", 
@@ -10133,15 +10236,12 @@
         "07:22", 
         "08:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Parque S\u00e3o Jorge via SC 404 - 172"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Parque S\u00e3o Jorge via Madre Benvenuta - 171", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10159,6 +10259,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Itacorubi": [
         "06:59", 
@@ -10174,15 +10278,12 @@
         "18:00", 
         "18:54"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Parque S\u00e3o Jorge via Madre Benvenuta - 171"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:18", 
+    "nome": "Morro do Quilombo - 173", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10204,6 +10305,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Morro do Quilombo": [
         "06:02", 
@@ -10310,15 +10415,12 @@
         "20:05", 
         "21:04"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Morro do Quilombo - 173"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:13", 
+    "nome": "Monte Verde via Man\u00e9 Vicente - 169", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10342,6 +10444,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "05:54", 
@@ -10439,15 +10545,12 @@
         "19:50", 
         "22:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Monte Verde via Man\u00e9 Vicente - 169"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:12", 
+    "nome": "Monte Verde - 168", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10469,6 +10572,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "06:09", 
@@ -10601,15 +10708,12 @@
         "23:20", 
         "00:23"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Monte Verde - 168"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:14", 
+    "nome": "Jo\u00e3o Paulo - 167", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10624,6 +10728,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "08:00", 
@@ -10639,15 +10747,12 @@
         "18:03", 
         "18:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Jo\u00e3o Paulo - 167"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:14", 
+    "nome": "Jardim Anchieta - 166", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -10680,6 +10785,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Jardim Anchieta": [
         "06:42", 
@@ -10688,15 +10797,12 @@
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "12:32"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Jardim Anchieta - 166"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "Itacorubi - 165", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10716,6 +10822,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "06:05", 
@@ -10882,15 +10992,12 @@
         "23:18", 
         "00:23"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Itacorubi - 165"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:20", 
+    "nome": "C\u00f3rrego Grande via Beira-Mar - 187", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -10904,6 +11011,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o": [
         "17:43", 
@@ -10913,15 +11024,12 @@
         "17:25", 
         "18:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "C\u00f3rrego Grande via Beira-Mar - 187"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:19", 
+    "nome": "C\u00f3rrego Grande - Po\u00e7\u00e3o - 164", 
     "itinerario": [
       "TITRI", 
       "R. MILTON ROQUE RAMOS KRIGER", 
@@ -10937,6 +11045,10 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Po\u00e7\u00e3o": [
         "06:48", 
@@ -11019,15 +11131,12 @@
         "20:09", 
         "22:38"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "C\u00f3rrego Grande - Po\u00e7\u00e3o - 164"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "C\u00f3rrego Grande - 163", 
     "itinerario": [
       "TITRI", 
       "R. MILTON ROQUE RAMOS KRIGER", 
@@ -11044,6 +11153,10 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o": [
         "05:33", 
@@ -11201,15 +11314,12 @@
         "23:50", 
         "00:23"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "C\u00f3rrego Grande - 163"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:20", 
+    "nome": "Caminho da Cruz via Jo\u00e3o Paulo - 170", 
     "itinerario": [
       "TITRI", 
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11236,6 +11346,10 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Caminho da Cruz": [
         "08:48", 
@@ -11274,15 +11388,12 @@
         "19:48", 
         "21:53"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Caminho da Cruz via Jo\u00e3o Paulo - 170"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:31", 
+    "nome": "Cacup\u00e9 - 846", 
     "itinerario": [
       "TISAN", 
       "ROD. NILTA FRANZONI VIEGAS", 
@@ -11305,6 +11416,10 @@
       "ROD. NILTA FRANZONI VIEGAS", 
       "TISAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TITRI - Terminal Integra\u00e7\u00e3o Trindade": [
         "06:43", 
@@ -11399,15 +11514,12 @@
         "20:20", 
         "22:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Cacup\u00e9 - 846"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Sambaqui - 365", 
     "itinerario": [
       "TISAN", 
       "ROD. NILTA FRANZONI VIEGAS", 
@@ -11426,6 +11538,10 @@
       "ROD. NILTA FRANZONI VIEGAS", 
       "TISAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Sambaqui": [
         "05:16", 
@@ -11585,15 +11701,12 @@
         "23:03", 
         "00:34"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Sambaqui - 365"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "Jurer\u00ea - 272", 
     "itinerario": [
       "TISAN", 
       "RODOVIA SC 401", 
@@ -11612,6 +11725,10 @@
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
       "TISAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Forte": [
         "05:49", 
@@ -11753,15 +11870,12 @@
         "22:45", 
         "00:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Jurer\u00ea - 272"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Daniela - 271", 
     "itinerario": [
       "TISAN", 
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
@@ -11782,6 +11896,10 @@
       "RODOVIA JOSE CARLOS DAUX - SC 401", 
       "TISAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Daniela": [
         "05:50", 
@@ -11899,15 +12017,12 @@
         "21:50", 
         "23:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Daniela - 271"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "Circular Ratones - 273", 
     "itinerario": [
       "TISAN", 
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
@@ -11922,6 +12037,10 @@
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
       "TISAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Ratones": [
         "05:30", 
@@ -12054,15 +12173,12 @@
         "23:05", 
         "00:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Ratones - 273"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:19", 
+    "nome": "Canasvieiras Santo Ant\u00f4nio via Jurer\u00ea - 940", 
     "itinerario": [
       "TISAN", 
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
@@ -12077,6 +12193,10 @@
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
       "TISAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TREVO JURERE": [
         "05:50", 
@@ -12210,15 +12330,12 @@
         "22:15", 
         "23:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras Santo Ant\u00f4nio via Jurer\u00ea - 940"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:42", 
+    "nome": "Cacup\u00e9/Jo\u00e3o Paulo - 181", 
     "itinerario": [
       "ROD. JO\u00c3O PAULO", 
       "VILA IVAN MATOS", 
@@ -12259,6 +12376,10 @@
       "ROD. VIRG\u00cdLIO V\u00c1RZEA", 
       "ROD. JO\u00c3O PAULO (PONTO FINAL)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TISAN - Terminal Integra\u00e7\u00e3o Santo Antonio": [
         "06:55", 
@@ -12268,15 +12389,12 @@
         "11:58", 
         "17:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Cacup\u00e9/Jo\u00e3o Paulo - 181"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "Trevo do Erasmo - 466", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -12289,6 +12407,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TIRIO - Terminal Integra\u00e7\u00e3o Rio Tavares": [
         "06:30", 
@@ -12409,15 +12531,12 @@
         "21:17", 
         "21:58"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Trevo do Erasmo - 466"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:29", 
+    "nome": "Tapera / Rio Tavares - 469", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -12431,6 +12550,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Rua do Juca": [
         "05:46", 
@@ -12486,15 +12609,12 @@
         "21:00", 
         "21:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Tapera / Rio Tavares - 469"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:42", 
+    "nome": "Ribeir\u00e3o da Ilha - 565", 
     "itinerario": [
       "RODOVIA SC 405", 
       "TIRIO", 
@@ -12503,6 +12623,10 @@
       "RUA BALDICERO FILOMENO,8605", 
       "RUA BALDICERO FILOMENO,8605"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Vandelim (Ribeir\u00e3o da Ilha)": [
         "06:10", 
@@ -12515,15 +12639,12 @@
         "22:30", 
         "24:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Ribeir\u00e3o da Ilha - 565"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:35", 
+    "nome": "Pantano do Sul - 564", 
     "itinerario": [
       "RODOVIA SC 406", 
       "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -12538,6 +12659,10 @@
       "ESTRADA ESTRADA JO\u00c3O BELARMINO DA SILVA", 
       "ESTRADA ESTRADA JO\u00c3O BELARMINO DA SILVA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Pantano do Sul": [
         "05:50", 
@@ -12633,15 +12758,12 @@
         "23:15", 
         "24:05"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Pantano do Sul - 564"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:39", 
+    "nome": "Costa de Dentro - 563", 
     "itinerario": [
       "ESTRADA JO\u00c3O BELARMINO DA SILVA", 
       "RODOVIA SC 406", 
@@ -12657,6 +12779,10 @@
       "ESTRADA ROS\u00c1LIA PAULINA FERREIRA", 
       "ESTRADA ROS\u00c1LIA PAULINA FERREIRA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Costa de Dentro": [
         "04:10", 
@@ -12836,15 +12962,12 @@
         "23:38", 
         "24:09"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Costa de Dentro - 563"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Costa de Cima - 562", 
     "itinerario": [
       "RODOVIA SC 406", 
       "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -12858,6 +12981,10 @@
       "RODOVIA SC 406", 
       "ESTRADA ROZ\u00c1LIA PAULINA FERREIRA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TIRIO - Terminal Integra\u00e7\u00e3o Rio Tavares": [
         "07:00", 
@@ -12884,15 +13011,12 @@
         "20:13", 
         "23:13"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Costa de Cima - 562"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Castanheiras via Gramal - 464", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -12908,6 +13032,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Caixa d'Agua": [
         "05:50", 
@@ -13003,15 +13131,12 @@
         "22:54", 
         "24:02"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Castanheiras via Gramal - 464"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:15", 
+    "nome": "Castanheiras via Eucaliptos - 463", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -13027,6 +13152,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TIRIO - Terminal Integra\u00e7\u00e3o Rio Tavares": [
         "05:50", 
@@ -13194,15 +13323,12 @@
         "23:28", 
         "24:43"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Castanheiras via Eucaliptos - 463"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:21", 
+    "nome": "Campeche Via Capela - 472", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -13214,6 +13340,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TIRIO - Terminal Integra\u00e7\u00e3o Rio Tavares": [
         "06:10", 
@@ -13232,15 +13362,12 @@
         "21:20", 
         "22:35"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Campeche Via Capela - 472"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:20", 
+    "nome": "Campeche - 462", 
     "itinerario": [
       "TIRIO", 
       "RODOVIA SC 405", 
@@ -13254,6 +13381,10 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Pedrita": [
         "05:05", 
@@ -13494,15 +13625,12 @@
         "23:13", 
         "23:58"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Campeche - 462"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:46", 
+    "nome": "Caieira via Tapera - 566", 
     "itinerario": [
       "RODOVIA A\u00c7ORIANA", 
       "RODOVIA APAR\u00cdCIO RAMOS CORDEIRO", 
@@ -13515,6 +13643,10 @@
       "RODOVIA A\u00c7ORIANA", 
       "RODOVIA BALDICERO FILOMENO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Caieira da Barra do Sul": [
         "06:35", 
@@ -13529,15 +13661,12 @@
         "18:05", 
         "18:35"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Caieira via Tapera - 566"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:48", 
+    "nome": "Caieira da Barra do Sul - 561", 
     "itinerario": [
       "RODOVIA BALDICERO FILOMENO", 
       "RODOVIA SC 405", 
@@ -13546,6 +13675,10 @@
       "RODOVIA BALDICERO FILOMENO", 
       "ACESSO - NAUFRAGADOS (PF)"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Caieira da Barra do Sul": [
         "04:50", 
@@ -13812,15 +13945,12 @@
         "24:06", 
         "24:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Caieira da Barra do Sul - 561"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:57", 
+    "nome": "Arma\u00e7\u00e3o - 560", 
     "itinerario": [
       "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
       "RODOVIA SC 406", 
@@ -13832,19 +13962,20 @@
       "RODOVIA SC 406", 
       "RODOVIA SC 406"
     ], 
-    "horarios": {
-      "Dias \u00dateis - Sa\u00edda Arma\u00e7\u00e3o": [
-        "06:25"
-      ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
     }, 
-    "nome": "Arma\u00e7\u00e3o - 560"
+    "horarios": {
+      "Dias \u00dateis - Sa\u00edda Arma\u00e7\u00e3o": [
+        "06:25"
+      ]
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Osni Ortiga - 364", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -13856,6 +13987,10 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TILAG - Terminal Integra\u00e7\u00e3o Lagoa da Concei\u00e7\u00e3o": [
         "06:55", 
@@ -13863,15 +13998,12 @@
         "19:00", 
         "21:26"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Osni Ortiga - 364"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Joaquina - 363", 
     "itinerario": [
       "TILAG", 
       "R. CRISOGONO VIEIRA DA CRUZ", 
@@ -13887,6 +14019,10 @@
       "R. CRISOGONO VIEIRA DA CRUZ", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda Joaquina": [
         "09:03", 
@@ -13956,15 +14092,12 @@
         "21:27", 
         "23:27"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Joaquina - 363"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:12", 
+    "nome": "Canto dos Ara\u00e7as - 362", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -13983,6 +14116,10 @@
       "R. CRIS\u00d3GONO VIEIRA DA CRUZ", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Cantos dos Ara\u00e7\u00e1s": [
         "06:40", 
@@ -14060,15 +14197,12 @@
         "22:40", 
         "23:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canto dos Ara\u00e7as - 362"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:25", 
+    "nome": "Barra da Lagoa - 360", 
     "itinerario": [
       "TILAG", 
       "AV. AFONSO DELAMBERT NETO", 
@@ -14089,6 +14223,10 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Barra da Lagoa": [
         "05:10", 
@@ -14382,15 +14520,12 @@
         "23:28", 
         "00:27"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Barra da Lagoa - 360"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:55", 
+    "nome": "Volta ao Morro Pantanal Sul - 138", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -14417,6 +14552,10 @@
       "AV. GOV. GUSTAVO RICHAD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma A lado 2": [
         "05:45", 
@@ -14545,15 +14684,12 @@
         "23:00", 
         "23:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Volta ao Morro Pantanal Sul - 138"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:53", 
+    "nome": "Volta ao Morro Pantanal Norte - 137", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -14576,6 +14712,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma A lado 2": [
         "05:00", 
@@ -14704,15 +14844,12 @@
         "23:05", 
         "23:45"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Volta ao Morro Pantanal Norte - 137"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:53", 
+    "nome": "Volta ao Morro Carvoeira Sul - 136", 
     "itinerario": [
       "TICEN", 
       "R. DR. \u00c1LVARO MILEN DA SILVEIRA", 
@@ -14736,6 +14873,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma A lado 2": [
         "05:15", 
@@ -14863,15 +15004,12 @@
         "22:40", 
         "23:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Volta ao Morro Carvoeira Sul - 136"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:53", 
+    "nome": "Volta ao Morro Carvoeira Norte - 135", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -14894,6 +15032,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma A lado 2": [
         "05:30", 
@@ -15022,15 +15164,12 @@
         "23:25", 
         "00:05"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Volta ao Morro Carvoeira Norte - 135"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Vila S\u00e3o Jo\u00e3o - 669", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "RUA F\u00daLVIO ADUCCI", 
@@ -15066,6 +15205,10 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Vila S\u00e3o Jo\u00e3o": [
         "05:30", 
@@ -15073,15 +15216,12 @@
         "06:25", 
         "06:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Vila S\u00e3o Jo\u00e3o - 669"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Vila Aparecida - 761", 
     "itinerario": [
       "RUA PASCOAL SIMONE", 
       "RUA DA FONTE", 
@@ -15110,6 +15250,10 @@
       "RUA EDISON LOPES", 
       "RUA PEDRO BITTENCOURT"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma C lado 1": [
         "06:40", 
@@ -15254,15 +15398,12 @@
         "22:21", 
         "22:59"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Vila Aparecida - 761"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:43", 
+    "nome": "Vila / Promorar - 671", 
     "itinerario": [
       "PONTE GOVERNADOR COLOMBO SALLES", 
       "RUA QUATORZE DE JULHO", 
@@ -15304,6 +15445,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "06:00", 
@@ -15427,15 +15572,12 @@
         "23:05", 
         "23:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Vila / Promorar - 671"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:29", 
+    "nome": "UNICA Via Beira Mar - 150", 
     "itinerario": [
       "TICEN", 
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
@@ -15449,6 +15591,10 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "07:00", 
@@ -15471,15 +15617,12 @@
         "19:00", 
         "22:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "UNICA Via Beira Mar - 150"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:45", 
+    "nome": "UFSC-Semidireto-Sa\u00edda Sul - 154", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -15495,6 +15638,10 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 2": [
         "06:23", 
@@ -15512,15 +15659,12 @@
         "21:25", 
         "22:33"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "UFSC-Semidireto-Sa\u00edda Sul - 154"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:48", 
+    "nome": "UFSC - Semidireto - 185", 
     "itinerario": [
       "TICEN", 
       "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -15536,6 +15680,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 2": [
         "06:00", 
@@ -15643,15 +15791,12 @@
         "22:47", 
         "23:21"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "UFSC - Semidireto - 185"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:25", 
+    "nome": "UDESC Via Beira Mar - 184", 
     "itinerario": [
       "TICEN", 
       "AV. OSVALDO RODRIGUES CABRAL", 
@@ -15676,6 +15821,10 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Celesc - Itacurubi": [
         "06:01", 
@@ -15924,15 +16073,12 @@
         "23:19", 
         "00:08"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "UDESC Via Beira Mar - 184"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Transcaeira - 191", 
     "itinerario": [
       "TITRI", 
       "AVENIDA PROFESSOR HENRIQUE DA SILVA FONTES", 
@@ -15969,6 +16115,10 @@
       "AVENIDA PROFESSOR HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:35", 
@@ -15989,15 +16139,12 @@
         "19:30", 
         "21:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Transcaeira - 191"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:57", 
+    "nome": "Ticen Itacorubi - 104", 
     "itinerario": [
       "TICEN", 
       "ELEVADO RITA MARIA", 
@@ -16029,21 +16176,22 @@
       "AVENIDA PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "07:05", 
         "08:15", 
         "12:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Ticen Itacorubi - 104"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:38", 
+    "nome": "Tapera Direto - 461", 
     "itinerario": [
       "TICEN", 
       "AVENIDA PAULO FONTES", 
@@ -16068,6 +16216,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma B lado 2": [
         "06:15", 
@@ -16261,15 +16413,12 @@
         "22:10", 
         "22:45"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Tapera Direto - 461"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:46", 
+    "nome": "Tapera / Saco dos Lim\u00f5es - 467", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -16300,6 +16449,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 2": [
         "05:30", 
@@ -16563,15 +16716,12 @@
         "22:56", 
         "23:41"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Tapera / Saco dos Lim\u00f5es - 467"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:20", 
+    "nome": "Saco dos Lim\u00f5es - 162", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -16598,6 +16748,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:00", 
@@ -16643,15 +16797,12 @@
         "18:47", 
         "19:44"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Saco dos Lim\u00f5es - 162"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Promorar via Ivo Silveira - 668", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "RUA GENERAL EURICO GASPAR DUTRA", 
@@ -16679,6 +16830,10 @@
       "RUA PAULA RAMOS", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "07:00", 
@@ -16772,15 +16927,12 @@
         "20:13", 
         "21:12"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Promorar via Ivo Silveira - 668"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:25", 
+    "nome": "Promorar - 667", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "RUA F\u00daLVIO ADUCCI", 
@@ -16827,20 +16979,21 @@
       "TICEN", 
       "RUA PEDRO BITTENCOURT"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Promorar": [
         "06:10", 
         "06:37"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Promorar - 667"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:35", 
+    "nome": "Porto da Lagoa - 460", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -16858,6 +17011,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Porto da Lagoa": [
         "05:50", 
@@ -16964,15 +17121,12 @@
         "13:00", 
         "13:55"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Porto da Lagoa - 460"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:15", 
+    "nome": "Morro Nova Trento - 769", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17003,6 +17157,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Nova Trento": [
         "06:42", 
@@ -17108,15 +17266,12 @@
         "22:29", 
         "23:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro Nova Trento - 769"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Morro do Hor\u00e1cio via Mauro Ramos - 768", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17138,6 +17293,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma C lado 1": [
         "06:30", 
@@ -17240,15 +17399,12 @@
         "20:51", 
         "22:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro do Hor\u00e1cio via Mauro Ramos - 768"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:31", 
+    "nome": "Morro do Hor\u00e1cio via Gama D'E\u00e7a - 767", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17275,6 +17431,10 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma C lado 1": [
         "08:28", 
@@ -17284,15 +17444,12 @@
         "08:53", 
         "13:44"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro do Hor\u00e1cio via Gama D'E\u00e7a - 767"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "Morro do Geraldo - 760", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "RUA PROFESSORA \u00c1UREA CRUZ", 
@@ -17313,6 +17470,10 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Morro do Geraldo": [
         "07:13", 
@@ -17369,15 +17530,12 @@
         "19:30", 
         "20:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro do Geraldo - 760"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:21", 
+    "nome": "Morro do 25 Via Gama D`E\u00e7a - 770", 
     "itinerario": [
       "TICEN", 
       "AV. PAULO FONTES", 
@@ -17400,6 +17558,10 @@
       "R. PEDRO IVO", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma C lado 1": [
         "09:30", 
@@ -17413,15 +17575,12 @@
         "15:42", 
         "20:13"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro do 25 Via Gama D`E\u00e7a - 770"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:17", 
+    "nome": "Morro do 25 - 766", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17443,6 +17602,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda Morro do Vinte e Cinco": [
         "08:04", 
@@ -17514,15 +17677,12 @@
         "21:13", 
         "22:53"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro do 25 - 766"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:12", 
+    "nome": "Morro da Queimada - 765", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17537,6 +17697,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda TICEN - Plataforma C lado 1": [
         "08:25", 
@@ -17667,15 +17831,12 @@
         "22:02", 
         "22:47"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Morro da Queimada - 765"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:28", 
+    "nome": "Morro da Penitenci\u00e1ria - 161", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17706,6 +17867,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Morro da Penitenci\u00e1ria": [
         "06:00", 
@@ -17806,15 +17971,12 @@
         "22:30", 
         "23:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Morro da Penitenci\u00e1ria - 161"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Morro da Cruz - 160", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17838,6 +18000,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Morro da Cruz": [
         "07:04", 
@@ -17934,15 +18100,12 @@
         "19:15", 
         "20:35"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Morro da Cruz - 160"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:15", 
+    "nome": "Monte Serrat - 764", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -17964,6 +18127,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Domingo - Sa\u00edda Monte Serrat": [
         "06:28", 
@@ -18113,15 +18280,12 @@
         "20:13", 
         "21:36"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Monte Serrat - 764"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "Monte Cristo - 670", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
       "RUA GENERAL EURICO GASPAR DUTRA", 
@@ -18155,6 +18319,10 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "06:00", 
@@ -18544,15 +18712,12 @@
         "23:06", 
         "23:45"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Monte Cristo - 670"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:19", 
+    "nome": "Itagua\u00e7u - 664", 
     "itinerario": [
       "RUA CAPIT\u00c3O EUCLIDES DE CASTRO", 
       "AVENIDA ENGENHEIRO MAX DE SOUZA", 
@@ -18579,6 +18744,10 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "07:00", 
@@ -18685,15 +18854,12 @@
         "18:30", 
         "19:45"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Itagua\u00e7u - 664"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:28", 
+    "nome": "Costeira do Pirajuba\u00e9 - 153", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -18715,6 +18881,10 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Ressacada": [
         "06:42", 
@@ -18755,15 +18925,12 @@
         "18:25", 
         "19:06"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Costeira do Pirajuba\u00e9 - 153"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:27", 
+    "nome": "Corredor Sudoeste Semidireto - 186", 
     "itinerario": [
       "RUA PROCURADOR ABELARDO GOMES", 
       "AVENIDA PAULO FONTES", 
@@ -18785,6 +18952,10 @@
       "TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Aeroporto Herc\u00edlio Luz": [
         "05:30", 
@@ -18960,15 +19131,12 @@
         "19:15", 
         "19:54"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Corredor Sudoeste Semidireto - 186"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:29", 
+    "nome": "Corredor Sudoeste - 183", 
     "itinerario": [
       "RUA PROCURADOR ABELARDO GOMES", 
       "AVENIDA PAULO FONTES", 
@@ -18993,6 +19161,10 @@
       "TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Aeroporto Herc\u00edlio Luz": [
         "05:00", 
@@ -19227,15 +19399,12 @@
         "23:38", 
         "00:06"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Corredor Sudoeste - 183"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:24", 
+    "nome": "Corredor Continente - 630", 
     "itinerario": [
       "TICEN", 
       "R PEDRO BITTENCOURT", 
@@ -19260,6 +19429,10 @@
       "AV GUSTAVO RICHARDT", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "05:30", 
@@ -19690,15 +19863,12 @@
         "23:22", 
         "23:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Corredor Continente - 630"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "Coloninha - 663", 
     "itinerario": [
       "PONTE GOVERNADOR COLOMBO SALLES", 
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -19752,6 +19922,10 @@
       "AL\u00c7A DE ACESSO AO TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Coloninha": [
         "07:00", 
@@ -19786,15 +19960,12 @@
         "09:15", 
         "12:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Coloninha - 663"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:29", 
+    "nome": "Circular centro - 101", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -19813,6 +19984,10 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:30", 
@@ -19832,15 +20007,12 @@
         "18:30", 
         "19:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular centro - 101"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Chico Mendes - 772", 
     "itinerario": [
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -19862,6 +20034,10 @@
       "TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma C lado 1": [
         "06:40", 
@@ -19920,15 +20096,12 @@
         "20:05", 
         "20:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Chico Mendes - 772"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:34", 
+    "nome": "Centro Administrativo Via Mauro Ramos - 156", 
     "itinerario": [
       "TICEN", 
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -19954,6 +20127,10 @@
       "AV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Centro Administrativo": [
         "06:56", 
@@ -19992,15 +20169,12 @@
         "19:35", 
         "21:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Centro Administrativo Via Mauro Ramos - 156"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Centro Administrativo Via Beira Mar Norte - 151", 
     "itinerario": [
       "TICEN", 
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
@@ -20010,6 +20184,10 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma A lado 1": [
         "06:40", 
@@ -20022,15 +20200,12 @@
         "18:57", 
         "19:08"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Centro Administrativo Via Beira Mar Norte - 151"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:49", 
+    "nome": "Capoeiras via Ivo Silveira - 632", 
     "itinerario": [
       "RUA JOSU\u00c9 DI BERNARDI", 
       "RUA AC\u00c1CIO MOREIRA", 
@@ -20054,20 +20229,21 @@
       "RUA JOS\u00c9 FILOMENO", 
       "RUA JOS\u00c9 FILOMENO"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Capoeiras": [
         "07:05", 
         "07:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Capoeiras via Ivo Silveira - 632"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Capoeiras - 631", 
     "itinerario": [
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -20100,6 +20276,10 @@
       "TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "05:35", 
@@ -20433,15 +20613,12 @@
         "23:30", 
         "00:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Capoeiras - 631"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "Caeira do Saco dos Lim\u00f5es - 763", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -20461,6 +20638,10 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Caeira do Saco dos Lim\u00f5es": [
         "05:50", 
@@ -20636,15 +20817,12 @@
         "20:44", 
         "21:48"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Caeira do Saco dos Lim\u00f5es - 763"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:20", 
+    "nome": "Balne\u00e1rio - 661", 
     "itinerario": [
       "TICEN", 
       "R PEDRO BITTENCOURT", 
@@ -20678,6 +20856,10 @@
       "AL\u00c7A DE ACESSO A TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Balne\u00e1rio": [
         "06:20", 
@@ -20747,15 +20929,12 @@
       "S\u00e1bado - Sa\u00edda TICEN - Plataforma B lado 1": [
         "12:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Balne\u00e1rio - 661"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Bairro de F\u00e1tima - 844", 
     "itinerario": [
       "TICEN", 
       "RUA PEDRO BITTENCOURT", 
@@ -20788,6 +20967,10 @@
       "AL\u00c7A DE ACESSO AO TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "06:30", 
@@ -21062,15 +21245,12 @@
         "22:28", 
         "23:18"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Bairro de F\u00e1tima - 844"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "Aracy Vaz Callado - 660", 
     "itinerario": [
       "RUA FELIPE NEVES", 
       "RUA NOSSA SENHORA DO ROS\u00c1RIO", 
@@ -21110,6 +21290,10 @@
       "RUA FRANCISCO EVANGELISTA", 
       "RUA NORM\u00c9LIA DA SILVA BRASIL"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Aracy Vaz Callado": [
         "05:30", 
@@ -21350,15 +21534,12 @@
         "23:10", 
         "00:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Aracy Vaz Callado - 660"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:15", 
+    "nome": "Angelo Laporta - 762", 
     "itinerario": [
       "TICEN", 
       "R. PROC. ABELARDO GOMES", 
@@ -21379,12 +21560,16 @@
       "R. JAIRO CALLADO", 
       "R. ALLAN KARDEC", 
       "R. FREI CANECA", 
-      "R. HEITOR LUZ", 
+      "R.DEM\u00c9TRIO RIBEIRO", 
       "AV. MAURO RAMOS", 
       "R. SILVA JARDIM", 
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 2,15", 
+      "cartao": "R$ 1,86"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Angelo Laporta": [
         "06:15", 
@@ -21472,15 +21657,12 @@
         "21:50", 
         "23:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 2,15", 
-      "cartao": "R$ 1,86"
-    }, 
-    "nome": "Angelo Laporta - 762"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:19", 
+    "nome": "Abra\u00e3o - 665", 
     "itinerario": [
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -21503,6 +21685,10 @@
       "TICEN", 
       "TICEN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICEN - Plataforma B lado 1": [
         "05:55", 
@@ -21917,15 +22103,12 @@
         "22:47", 
         "23:17"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Abra\u00e3o - 665"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:20", 
+    "nome": "Vargem Pequena - 282", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -21939,6 +22122,10 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "05:20", 
@@ -22033,15 +22220,12 @@
         "22:50", 
         "23:40"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Vargem Pequena - 282"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:13", 
+    "nome": "Vargem Grande - 270", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22049,6 +22233,10 @@
       "ESTRADA CRIST\u00d3V\u00c3O MACHADO DE CAMPOS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Vargem Grande": [
         "05:30", 
@@ -22177,15 +22365,12 @@
         "23:30", 
         "24:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Vargem Grande - 270"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:10", 
+    "nome": "Vargem do Bom Jesus - 283", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22197,6 +22382,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda VARGEM DO BOM JESUS": [
         "06:57", 
@@ -22212,15 +22401,12 @@
         "17:38", 
         "18:52"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Vargem do Bom Jesus - 283"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:44", 
+    "nome": "Travess\u00e3o via Rua da Intend\u00eancia - 284", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -22244,6 +22430,10 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "11:35", 
@@ -22253,15 +22443,12 @@
         "12:07", 
         "17:09"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Travess\u00e3o via Rua da Intend\u00eancia - 284"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:41", 
+    "nome": "Travess\u00e3o via Rua Alzira Rosa Aguiar - 269", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22285,6 +22472,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "07:11", 
@@ -22298,15 +22489,12 @@
         "18:45", 
         "22:45"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Travess\u00e3o via Rua Alzira Rosa Aguiar - 269"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:23", 
+    "nome": "S\u00edtio de Baixo - 268", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22323,6 +22511,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Primos": [
         "05:57", 
@@ -22410,15 +22602,12 @@
         "22:38", 
         "22:56"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "S\u00edtio de Baixo - 268"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:42", 
+    "nome": "Rio Vermelho via Muqu\u00e9m - 274", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22441,6 +22630,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Rio Vermelho": [
         "06:02", 
@@ -22488,15 +22681,12 @@
         "19:20", 
         "22:15"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Rio Vermelho via Muqu\u00e9m - 274"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:39", 
+    "nome": "Rio Vermelho - 267", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22514,6 +22704,10 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda Rio Vermelho": [
         "04:50", 
@@ -22806,15 +23000,12 @@
         "24:30", 
         "25:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Rio Vermelho - 267"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:29", 
+    "nome": "Praia Brava - 266", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -22831,6 +23022,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "05:53", 
@@ -23029,15 +23224,12 @@
         "23:32", 
         "24:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Praia Brava - 266"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:26", 
+    "nome": "Ponta das Canas - 265", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23057,6 +23249,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "05:30", 
@@ -23084,15 +23280,12 @@
       "Dias \u00dateis - Sa\u00edda Ponta das Canas": [
         "04:50"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Ponta das Canas - 265"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:27", 
+    "nome": "Ingleses - 264", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23111,6 +23304,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Santinho": [
         "04:52", 
@@ -23491,15 +23688,12 @@
         "22:57", 
         "00:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Ingleses - 264"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:21", 
+    "nome": "Gaivotas Circular - 263", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23519,6 +23713,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "06:20", 
@@ -23604,15 +23802,12 @@
         "23:15", 
         "24:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Gaivotas Circular - 263"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:30", 
+    "nome": "Forte/Canasvieiras - 250", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23636,6 +23831,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Forte": [
         "06:45", 
@@ -23676,15 +23875,12 @@
         "17:30", 
         "22:30"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Forte/Canasvieiras - 250"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:32", 
+    "nome": "Escolar Cachoeira - 280", 
     "itinerario": [
       "ESTRADA ANAROLINA SILVEIRA SANTOS", 
       "RUA LEONEL PEREIRA", 
@@ -23698,21 +23894,22 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Cachoeira do Bom Jesus": [
         "07:40", 
         "12:40", 
         "17:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Escolar Cachoeira - 280"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:36", 
+    "nome": "Costa do Mo\u00e7ambique - 281", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23731,6 +23928,10 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "05:38", 
@@ -23888,15 +24089,12 @@
         "23:00", 
         "00:07"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Costa do Mo\u00e7ambique - 281"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:16", 
+    "nome": "Circular Canasvieiras - 262", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23918,6 +24116,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda MADEREIRA VAGEM PEQUENA": [
         "05:38", 
@@ -24037,15 +24239,12 @@
         "23:30", 
         "24:10"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Circular Canasvieiras - 262"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:18", 
+    "nome": "Capivari via Jo\u00e3o Gualberto Soares - 275", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24062,6 +24261,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Capivari": [
         "17:00", 
@@ -24127,15 +24330,12 @@
         "21:25", 
         "23:32"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Capivari via Jo\u00e3o Gualberto Soares - 275"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:19", 
+    "nome": "Capivari via Graciliano Gomes - 261", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24152,6 +24352,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Capivari": [
         "05:18", 
@@ -24241,15 +24445,12 @@
         "06:48", 
         "07:37"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Capivari via Graciliano Gomes - 261"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:28", 
+    "nome": "Canasvieiras/Jurer\u00ea - 291", 
     "itinerario": [
       "AVENIDA LUIZ BOITEUX PIAZZA", 
       "RODOVIA SC 401", 
@@ -24269,6 +24470,10 @@
       "RUA DOUTOR JO\u00c3O DE OLIVEIRA", 
       "RUA MANOEL MANCELLOS MOURA"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Forte": [
         "07:20", 
@@ -24278,15 +24483,12 @@
         "12:05", 
         "17:20"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Canasvieiras/Jurer\u00ea - 291"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:14", 
+    "nome": "Cachoeira do Bom Jesus - 260", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -24299,6 +24501,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "S\u00e1bado - Sa\u00edda TICAN - Terminal Integra\u00e7\u00e3o Canasvieiras": [
         "05:10", 
@@ -24524,15 +24730,12 @@
         "24:30", 
         "25:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Cachoeira do Bom Jesus - 260"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:22", 
+    "nome": "Balne\u00e1rio Ingleses - 277", 
     "itinerario": [
       "TICAN", 
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24550,6 +24753,10 @@
       "TICAN", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Ingleses": [
         "06:15", 
@@ -24583,15 +24790,12 @@
         "18:25", 
         "19:00"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Balne\u00e1rio Ingleses - 277"
+    }
   }, 
   {
+    "empresa": "Cons\u00f3rcio F\u00eanix", 
+    "tempo_medio": "00:12", 
+    "nome": "Balne\u00e1rio Canasvieiras - 276", 
     "itinerario": [
       "TICAN", 
       "RODOVIA SC 401", 
@@ -24607,6 +24811,10 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "preco": {
+      "dinheiro": "R$ 3,10", 
+      "cartao": "R$ 2,98"
+    }, 
     "horarios": {
       "Dias \u00dateis - Sa\u00edda Mercado Magia": [
         "05:42", 
@@ -24868,12 +25076,6 @@
         "23:30", 
         "23:58"
       ]
-    }, 
-    "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "preco": {
-      "dinheiro": "R$ 3,10", 
-      "cartao": "R$ 2,98"
-    }, 
-    "nome": "Balne\u00e1rio Canasvieiras - 276"
+    }
   }
 ]

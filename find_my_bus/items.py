@@ -16,3 +16,4 @@ class FindMyBusItem(scrapy.Item):
     empresa = scrapy.Field()
     horarios = scrapy.Field()
     itinerario = scrapy.Field()
+    tempo_medio = scrapy.Field()
