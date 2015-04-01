@@ -40,12 +40,14 @@ class FenixSpider(InitSpider):
         tmp = conteudo[0]
         dados = [i for i in tmp.xpath('.//text()').extract() if i != u' ']
 
-        percurso = dados[3].strip()[:5]
+        percurso = dados[3].strip()[3:5] + " minutos"
 
         tarifa = {
         	"cartao": dados[8].strip(),
         	"dinheiro": dados[10].strip(),
         }
+
+        modificacao = dados[5]
 
         conj_horarios = {}
 
@@ -60,7 +62,7 @@ class FenixSpider(InitSpider):
         itinerario = horario.xpath('./ol/li/text()').extract()
 
         item = FindMyBusItem(nome=titulo, preco=tarifa, empresa="Consórcio Fênix",
-            horarios=conj_horarios, itinerario=itinerario, tempo_medio=percurso)
+            horarios=conj_horarios, itinerario=itinerario, tempo_medio=percurso, modificacao=modificacao)
 
         yield item
         yield self.make_requests_from_url(self.start_urls[0])

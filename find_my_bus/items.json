@@ -1,7 +1,7 @@
 [
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "TITRI/TILAG - 333", 
     "itinerario": [
       "TITRI", 
@@ -19,6 +19,7 @@
       "AV.MADRE BENVENUTA", 
       "AV.PROF. HENRIQUE DA SILVA FONTES"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -143,7 +144,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:49", 
+    "tempo_medio": "49 minutos", 
     "nome": "TITRI / TIRIO - 848", 
     "itinerario": [
       "TIRIO", 
@@ -170,6 +171,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -198,7 +200,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:44", 
+    "tempo_medio": "44 minutos", 
     "nome": "TIRIO / TITRI - 847", 
     "itinerario": [
       "RODOVIA SC 405", 
@@ -225,6 +227,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -252,7 +255,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "TICEN - TITRI - Direto - 110", 
     "itinerario": [
       "TICEN", 
@@ -269,6 +272,7 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -347,7 +351,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:29", 
+    "tempo_medio": "29 minutos", 
     "nome": "TICAN TITRI - 235", 
     "itinerario": [
       "TICAN", 
@@ -374,6 +378,7 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -419,7 +424,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:47", 
+    "tempo_medio": "47 minutos", 
     "nome": "TICAN TICEN via TITRI - 231", 
     "itinerario": [
       "TICAN", 
@@ -466,6 +471,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -550,7 +556,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Santo Ant\u00f4nio via Beira Mar - 332", 
     "itinerario": [
       "TICEN", 
@@ -565,6 +571,7 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -642,7 +649,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Santo Ant\u00f4nio Direto - 212", 
     "itinerario": [
       "TICEN", 
@@ -664,6 +671,7 @@
       "AVENIDA PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -687,7 +695,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Santo Ant\u00f4nio - Direto - 310", 
     "itinerario": [
       "TICEN", 
@@ -702,6 +710,7 @@
       "AV. GOV. IRINEU BORNHAUSEN / BEIRA-MAR NORTE", 
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -714,7 +723,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:35", 
+    "tempo_medio": "35 minutos", 
     "nome": "Santo Ant\u00f4nio - 331", 
     "itinerario": [
       "TICEN", 
@@ -739,6 +748,7 @@
       "AV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -835,7 +845,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Rio Tavares - Direto - 410", 
     "itinerario": [
       "TICEN", 
@@ -854,6 +864,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -1296,7 +1307,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Rio Tavares - 430", 
     "itinerario": [
       "TICEN", 
@@ -1320,6 +1331,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -1649,7 +1661,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:35", 
+    "tempo_medio": "35 minutos", 
     "nome": "Lagoa da Concei\u00e7\u00e3o via C\u00f3rrego Grande - 845", 
     "itinerario": [
       "TILAG", 
@@ -1669,6 +1681,7 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -1692,7 +1705,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:39", 
+    "tempo_medio": "39 minutos", 
     "nome": "Lagoa da Concei\u00e7\u00e3o - Semidireto - 320", 
     "itinerario": [
       "TILAG", 
@@ -1724,6 +1737,7 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -1897,7 +1911,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Lagoa da Concei\u00e7\u00e3o - Direto - 311", 
     "itinerario": [
       "TICEN", 
@@ -1919,6 +1933,7 @@
       "AV.PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -1936,7 +1951,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:40", 
+    "tempo_medio": "40 minutos", 
     "nome": "Lagoa da Concei\u00e7\u00e3o - 330", 
     "itinerario": [
       "TILAG", 
@@ -1966,6 +1981,7 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -2246,7 +2262,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:30", 
+    "tempo_medio": "30 minutos", 
     "nome": "Lagoa / Rio Tavares - 841", 
     "itinerario": [
       "AVENIDA AFONSO DELAMBERT NETO", 
@@ -2263,6 +2279,7 @@
       "AVENIDA AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -2397,7 +2414,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:30", 
+    "tempo_medio": "30 minutos", 
     "nome": "Lagoa / Rio Tavares - 843", 
     "itinerario": [
       "TILAG", 
@@ -2413,6 +2430,7 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -2554,7 +2572,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:46", 
+    "tempo_medio": "46 minutos", 
     "nome": "Canasvieiras via Gama D'E\u00e7a - 230", 
     "itinerario": [
       "TICAN", 
@@ -2591,6 +2609,7 @@
       "RODOVIA SC 401", 
       "RUA FRANCISCO FAUSTO MARTINS"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -2690,7 +2709,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:40", 
+    "tempo_medio": "40 minutos", 
     "nome": "Canasvieiras Trindade - 233", 
     "itinerario": [
       "TICAN", 
@@ -2720,6 +2739,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -3005,7 +3025,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:51", 
+    "tempo_medio": "51 minutos", 
     "nome": "Canasvieiras Mauro Ramos - 221", 
     "itinerario": [
       "TICAN", 
@@ -3046,6 +3066,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -3448,7 +3469,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Canasvieiras Direto - 210", 
     "itinerario": [
       "TICAN", 
@@ -3472,6 +3493,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -3918,7 +3940,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:65", 
+    "tempo_medio": "65 minutos", 
     "nome": "Canasvieiras / Lagoa da Concei\u00e7\u00e3o - 840", 
     "itinerario": [
       "RUA FRANCISCO FAUSTO MARTINS", 
@@ -3955,6 +3977,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -4019,7 +4042,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:68", 
+    "tempo_medio": "68 minutos", 
     "nome": "Canasvieiras / Lagoa da Concei\u00e7\u00e3o - 842", 
     "itinerario": [
       "TICAN", 
@@ -4044,6 +4067,7 @@
       "R. FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -4108,7 +4132,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Beira Mar Norte - 134", 
     "itinerario": [
       "TICEN", 
@@ -4126,6 +4150,7 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -4368,7 +4393,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:24", 
+    "tempo_medio": "24 minutos", 
     "nome": "Agron\u00f4mica via Mauro Ramos - 133", 
     "itinerario": [
       "TICEN", 
@@ -4394,6 +4419,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -4681,7 +4707,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:26", 
+    "tempo_medio": "26 minutos", 
     "nome": "Agron\u00f4mica via Gama D'E\u00e7a/H.I. - 132", 
     "itinerario": [
       "TICEN", 
@@ -4701,6 +4727,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -4746,7 +4773,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:25", 
+    "tempo_medio": "25 minutos", 
     "nome": "Agron\u00f4mica via Gama D'E\u00e7a - 131", 
     "itinerario": [
       "TICEN", 
@@ -4778,6 +4805,7 @@
       "R. PEDRO IVO", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -4962,7 +4990,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Santinho Escolar - 296", 
     "itinerario": [
       "ESTRADA DOM JO\u00c3O BECKER", 
@@ -4987,6 +5015,7 @@
       "ESTRADA DOM JO\u00c3O BECKER", 
       "ESTRADA VEREADOR ONILDO LEMOS"
     ], 
+    "modificacao": " 09/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5004,7 +5033,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:70", 
+    "tempo_medio": "70 minutos", 
     "nome": "Saco Grande Direto - D-174", 
     "itinerario": [
       "ROD. VIRG\u00cdLIO V\u00c1RZEA", 
@@ -5030,6 +5059,7 @@
       "MA", 
       "ROD. VIRG\u00cdLIO V\u00c1RZEA (PONTO FINAL)"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5043,7 +5073,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:96", 
+    "tempo_medio": "96 minutos", 
     "nome": "Rio Vermelho Direto - D-267", 
     "itinerario": [
       "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL", 
@@ -5066,6 +5096,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5082,7 +5113,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:70", 
+    "tempo_medio": "70 minutos", 
     "nome": "Ribeir\u00e3o da Ilha Direto - D-565", 
     "itinerario": [
       "RODOVIA SC 405", 
@@ -5091,6 +5122,7 @@
       "TICEN", 
       "RUA BALDICERO FILOMENO,8605"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5103,7 +5135,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:82", 
+    "tempo_medio": "82 minutos", 
     "nome": "Praia Brava Direto - D-266", 
     "itinerario": [
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
@@ -5131,6 +5163,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5145,7 +5178,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:54", 
+    "tempo_medio": "54 minutos", 
     "nome": "Monte Verde Direto - D-168", 
     "itinerario": [
       "R. TIMBA\u00daBA", 
@@ -5178,6 +5211,7 @@
       "R. ALM\u00cdSCAR", 
       "R. TIMBA\u00daBA (PONTO FINAL)"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5190,7 +5224,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:60", 
+    "tempo_medio": "60 minutos", 
     "nome": "Madrugad\u00e3o Sul via Tapera - 501", 
     "itinerario": [
       "TICEN", 
@@ -5224,6 +5258,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5247,7 +5282,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:64", 
+    "tempo_medio": "64 minutos", 
     "nome": "Madrugad\u00e3o Sul - 500", 
     "itinerario": [
       "TICEN", 
@@ -5281,6 +5316,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5314,7 +5350,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:68", 
+    "tempo_medio": "68 minutos", 
     "nome": "Madrugad\u00e3o Norte - 200", 
     "itinerario": [
       "ESTRADA DOM JO\u00c3O BECKER", 
@@ -5390,6 +5426,7 @@
       "ESTRADA DOM JO\u00c3O BECKER", 
       "ESTRADA VEREADOR ONILDO LEMOS"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5418,7 +5455,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:47", 
+    "tempo_medio": "47 minutos", 
     "nome": "Madrugad\u00e3o Leste - 300", 
     "itinerario": [
       "TICEN", 
@@ -5461,6 +5498,7 @@
       "AV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5497,7 +5535,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:40", 
+    "tempo_medio": "40 minutos", 
     "nome": "Madrugad\u00e3o Continente - 600", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -5539,6 +5577,7 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5569,7 +5608,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:30", 
+    "tempo_medio": "30 minutos", 
     "nome": "Madrugad\u00e3o Centro - 100", 
     "itinerario": [
       "TICEN", 
@@ -5595,6 +5634,7 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5625,7 +5665,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:53", 
+    "tempo_medio": "53 minutos", 
     "nome": "Jardim Atl\u00e2ntico UFSC - 946", 
     "itinerario": [
       "RUA GENUINO PEREIRA DA SILVA", 
@@ -5669,6 +5709,7 @@
       "RUA EDELBERTO DE OLIVEIRA", 
       "RUA GENUINO PEREIRA DA SILVA (PONTO FINAL)"
     ], 
+    "modificacao": " 22/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5687,7 +5728,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:58", 
+    "tempo_medio": "58 minutos", 
     "nome": "Interpraias - 294", 
     "itinerario": [
       "AVENIDA DOS B\u00daZIOS", 
@@ -5720,6 +5761,7 @@
       "AVENIDA DOS B\u00daZIOS", 
       "SERVID\u00c3O JOS\u00c9 CARDOSO DE OLIVEIRA"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5769,7 +5811,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:88", 
+    "tempo_medio": "88 minutos", 
     "nome": "Ingleses Direto - D-264", 
     "itinerario": [
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
@@ -5794,6 +5836,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5809,7 +5852,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:72", 
+    "tempo_medio": "72 minutos", 
     "nome": "Costa de Dentro Direto - D-563", 
     "itinerario": [
       "RODOVIA SC 406", 
@@ -5822,6 +5865,7 @@
       "TICEN", 
       "ESTRADA JO\u00c3O BELARMINO DA SILVA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5834,7 +5878,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:87", 
+    "tempo_medio": "87 minutos", 
     "nome": "C\u00f3rrego Grande Direto - D-163", 
     "itinerario": [
       "R. MAESTRO ALDO KRIEGER", 
@@ -5869,6 +5913,7 @@
       "R. JO\u00c3O PIO DUARTE SILVA", 
       "R. MAESTRO ALDO KRIEGER"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5887,7 +5932,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:55", 
+    "tempo_medio": "55 minutos", 
     "nome": "Circular Continente via Biblioteca P\u00fablica - 607", 
     "itinerario": [
       "RUA VALMOR AZULINO DUARTE", 
@@ -5920,6 +5965,7 @@
       "TICEN", 
       "RUA PEDRO BITTENCOURT"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5933,7 +5979,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:43", 
+    "tempo_medio": "43 minutos", 
     "nome": "Circular Continente via Biblioteca P\u00fablica - 603", 
     "itinerario": [
       "RUA JOAQUIM NABUCO", 
@@ -5967,6 +6013,7 @@
       "RUA JOS\u00c9 MACHADO SIMAS", 
       "RUA LATERAL AO SUPERMERCADO BIG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -5980,7 +6027,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:42", 
+    "tempo_medio": "42 minutos", 
     "nome": "Circular Continente - 606", 
     "itinerario": [
       "RUA JOSU\u00c9 DI BERNARDI", 
@@ -6000,6 +6047,7 @@
       "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
       "RUA EDELBERTO DE OLIVEIRA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6043,7 +6091,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:43", 
+    "tempo_medio": "43 minutos", 
     "nome": "Circular Continente - 602", 
     "itinerario": [
       "RUA JOAQUIM NABUCO", 
@@ -6075,6 +6123,7 @@
       "RUA JOS\u00c9 MACHADO SIMAS", 
       "RUA PROFESSOR EG\u00cdDIO FERREIRA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6116,7 +6165,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:50", 
+    "tempo_medio": "50 minutos", 
     "nome": "Circular Abra\u00e3o - 601", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -6154,6 +6203,7 @@
       "RUA LATERAL AO SUPERMERCADO BIG", 
       "RUA JOS\u00c9 MACHADO SIMAS"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6175,7 +6225,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:45", 
+    "tempo_medio": "45 minutos", 
     "nome": "Circular Abra\u00e3o - 608", 
     "itinerario": [
       "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
@@ -6215,6 +6265,7 @@
       "RUA C\u00c2NDIDO RAMOS", 
       "RUA PROFESSOR EG\u00cdDIO FERREIRA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6236,7 +6287,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:45", 
+    "tempo_medio": "45 minutos", 
     "nome": "Circular Abra\u00e3o - 605", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -6274,6 +6325,7 @@
       "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
       "RUA PEDRO I"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6302,7 +6354,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:51", 
+    "tempo_medio": "51 minutos", 
     "nome": "Capoeiras UFSC - 948", 
     "itinerario": [
       "RUA JOSU\u00c9 DE BERNARDI", 
@@ -6350,6 +6402,7 @@
       "AV. GOV. IV SILVEIRA", 
       "AV. PRESIDENTE KENEDY"
     ], 
+    "modificacao": " 22/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6369,7 +6422,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:55", 
+    "tempo_medio": "55 minutos", 
     "nome": "Canasvieiras Santo Ant\u00f4nio via Ratones - 941", 
     "itinerario": [
       "TICAN", 
@@ -6397,6 +6450,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 09/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6414,7 +6468,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:98", 
+    "tempo_medio": "98 minutos", 
     "nome": "Cacup\u00e9 Via Gama D'E\u00e7a - D-846", 
     "itinerario": [
       "TISAN", 
@@ -6445,6 +6499,7 @@
       "ROD. NILTA FRANZONI VIEGAS", 
       "TISAN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6457,7 +6512,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:77", 
+    "tempo_medio": "77 minutos", 
     "nome": "Cachoeira Direto - D-260", 
     "itinerario": [
       "Rua Edelberto de Oliveira", 
@@ -6482,6 +6537,7 @@
       "AVENIDA MAURO RAMOS", 
       "RUA SILVA JARDIM"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6496,7 +6552,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:10", 
+    "tempo_medio": "10 minutos", 
     "nome": "Barra da Lagoa Direto - D-360", 
     "itinerario": [
       "R. AMARO COELHO", 
@@ -6532,6 +6588,7 @@
       "R. ORLANDO CHAPLIN", 
       "R. AMARO COELHO"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6548,7 +6605,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:49", 
+    "tempo_medio": "49 minutos", 
     "nome": "Abra\u00e3o UFSC - 949", 
     "itinerario": [
       "RUA PROFESSORA ROSINHA CAMPOS", 
@@ -6589,6 +6646,7 @@
       "RUA PROFESSORA ROSINHA CAMPOS", 
       "RUA CAMPOLINO ALVES"
     ], 
+    "modificacao": " 22/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -6608,7 +6666,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:60", 
+    "tempo_medio": "60 minutos", 
     "nome": "Executivo Sambaqui - 2124", 
     "itinerario": [
       "Terminal Cidade De Florian\u00f3polis", 
@@ -6653,6 +6711,7 @@
       "Rua Arcipreste Paiva", 
       "Pra\u00e7a Fernando Machado"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -6675,7 +6734,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:73", 
+    "tempo_medio": "73 minutos", 
     "nome": "Executivo Rio Vermelho - 1125", 
     "itinerario": [
       "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL", 
@@ -6716,6 +6775,7 @@
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
       "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -6803,7 +6863,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:60", 
+    "tempo_medio": "60 minutos", 
     "nome": "Executivo Ribeir\u00e3o da Ilha - 4123", 
     "itinerario": [
       "Rodovia Baldicero Filomeno (sa\u00edda Bairro)", 
@@ -6831,6 +6891,7 @@
       "Rodovia SC- 405", 
       "Rodovia Baldicero Filomeno"
     ], 
+    "modificacao": " 22/12/2014", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -6870,7 +6931,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:72", 
+    "tempo_medio": "72 minutos", 
     "nome": "Executivo Ponta das Canas / Praia Brava - 1122", 
     "itinerario": [
       "ESTRADA JORNALISTA JAIME DE ARRUDA RAMOS", 
@@ -6916,6 +6977,7 @@
       "AVENIDA EPIT\u00c1CIO BITTENCOURT", 
       "AVENIDA EPIT\u00c1CIO BITTENCOURT"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -6977,7 +7039,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Executivo Parque S\u00e3o Jorge - 1113", 
     "itinerario": [
       "Terminal Cidade De Florian\u00f3polis", 
@@ -7019,6 +7081,7 @@
       "Avenida Paulo Fontes", 
       "Terminal Cidade De Florian\u00f3polis"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -7080,7 +7143,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:69", 
+    "tempo_medio": "69 minutos", 
     "nome": "Executivo Pantano do Sul via Gramal - 4125", 
     "itinerario": [
       "Estrada Jo\u00e3o Berlamino da Silva (Sa\u00edda Bairro)", 
@@ -7122,6 +7185,7 @@
       "\"Rodovia \"\"Seu Chico\"\"Francisco Thomaz dos Santos(SC 406)\"", 
       "Estrada Jo\u00e3o Berlamino da Silva"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7163,7 +7227,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "n\u00e3o e", 
+    "tempo_medio": " e minutos", 
     "nome": "Executivo Pantano do Sul via Campeche - 4121", 
     "itinerario": [
       "Estrada Jo\u00e3o Belarrmino da Silva (Sa\u00edda Bairro)", 
@@ -7209,6 +7273,7 @@
       "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
       "Estrada Jo\u00e3o Belarmino da Silva"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7217,7 +7282,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:66", 
+    "tempo_medio": "66 minutos", 
     "nome": "Executivo Pantano do Sul via Campeche - 4120", 
     "itinerario": [
       "Estrada Jo\u00e3o Belarrmino da Silva (Sa\u00edda Bairro)", 
@@ -7263,6 +7328,7 @@
       "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
       "Estrada Jo\u00e3o Belarmino da Silva"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7316,7 +7382,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:65", 
+    "tempo_medio": "65 minutos", 
     "nome": "Executivo Muqu\u00e9m - 1129", 
     "itinerario": [
       "SA\u00cdDA BAIRRO", 
@@ -7358,6 +7424,7 @@
       "ROD. JO\u00c3O GUALBERTO SOARES", 
       "R. MANOEL PETRONILHO DA SILVEIRA (MUQU\u00c9M)"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7391,7 +7458,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "n\u00e3o e", 
+    "tempo_medio": " e minutos", 
     "nome": "Executivo Lagoa da Concei\u00e7\u00e3o via Joaquina - 2123", 
     "itinerario": [
       "Terminal Cidade de Florian\u00f3polis", 
@@ -7435,6 +7502,7 @@
       "Avenida Paulo Fontes", 
       "Terminal Cidade de Florian\u00f3polis"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7443,7 +7511,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:60", 
+    "tempo_medio": "60 minutos", 
     "nome": "Executivo Jurer\u00ea - 1123", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
@@ -7489,6 +7557,7 @@
       "PRA\u00c7A FERNANDO MACHADO", 
       "AVENIDA PAULO FONTES"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7536,7 +7605,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:36", 
+    "tempo_medio": "36 minutos", 
     "nome": "Executivo Jo\u00e3o Paulo - 1117", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIANOPOLIS", 
@@ -7574,6 +7643,7 @@
       "AV.PAULO FONTES", 
       "TERMINAL CIDADE DE FLORIANOPOLIS"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -7636,7 +7706,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:70", 
+    "tempo_medio": "70 minutos", 
     "nome": "Executivo Ingleses/Santinho - 1121", 
     "itinerario": [
       "ESTRADA VEREADOR ONILDO LEMOS", 
@@ -7675,6 +7745,7 @@
       "ESTRADA DOM JO\u00c3O BECKER", 
       "ESTRADA VEREADOR ONILDO LEMOS"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7754,7 +7825,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:65", 
+    "tempo_medio": "65 minutos", 
     "nome": "Executivo Gaivotas - 1127", 
     "itinerario": [
       "RUA DAS GAIVOTAS", 
@@ -7789,6 +7860,7 @@
       "RODOVIA SC 403", 
       "RUA DAS GAIVOTAS"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7822,7 +7894,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:66", 
+    "tempo_medio": "66 minutos", 
     "nome": "Executivo Costa do Mo\u00e7ambique - 1128", 
     "itinerario": [
       "RUA C\u00c2NDIDO PEREIRA DOS ANJOS", 
@@ -7865,6 +7937,7 @@
       "RODOVIA JO\u00c3O GUALBERTO SOARES", 
       "RUA C\u00c2NDIDO PEREIRA DOS ANJOS"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -7920,7 +7993,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:37", 
+    "tempo_medio": "37 minutos", 
     "nome": "Executivo C\u00f3rrego Grande via Po\u00e7\u00e3o - 1118", 
     "itinerario": [
       "Terminal Cidade de Florian\u00f3polis", 
@@ -7965,6 +8038,7 @@
       "Avenida Paulo Fontes", 
       "Terminal Cidade de Florian\u00f3polis"
     ], 
+    "modificacao": " 01/12/2014", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -7990,7 +8064,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:37", 
+    "tempo_medio": "37 minutos", 
     "nome": "Executivo Corrego Grande via Gama D\u00b4e\u00e7a - 1115", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIANOPOLIS", 
@@ -8038,6 +8112,7 @@
       "AVENIDA PAULO FONTES", 
       "TERMINAL CIDADE DE FLORIANOPOLIS"
     ], 
+    "modificacao": " 17/11/2014", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -8060,7 +8135,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:70", 
+    "tempo_medio": "70 minutos", 
     "nome": "Executivo Corredor Continente / Santa M\u00f4nica - 3002", 
     "itinerario": [
       "Rua Gibraltar (Sa\u00edda C\u00f3rrego Grande)", 
@@ -8157,6 +8232,7 @@
       "Rua Apeninos", 
       "Rua Gibraltar (C\u00f3rrego Grande )"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -8224,7 +8300,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:64", 
+    "tempo_medio": "64 minutos", 
     "nome": "Executivo Canasvieiras - 1120", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
@@ -8275,6 +8351,7 @@
       "PRA\u00c7A FERNANDO MACHADO", 
       "AVENIDA PAULO FONTES"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -8320,7 +8397,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:50", 
+    "tempo_medio": "50 minutos", 
     "nome": "Executivo Campeche - 4122", 
     "itinerario": [
       "R\u00f3tula da Praia do Campeche (Sa\u00edda Bairro)", 
@@ -8356,6 +8433,7 @@
       "Avenida Campeche", 
       "R\u00f3tula da Praia do Campeche"
     ], 
+    "modificacao": " 01/12/2014", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -8397,7 +8475,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:72", 
+    "tempo_medio": "72 minutos", 
     "nome": "Executivo Caieira da Barra do Sul via Aeroporto - 4124", 
     "itinerario": [
       "Rodovia Baldicero Filomeno (sa\u00edda Bairro)", 
@@ -8438,6 +8516,7 @@
       "Rodovia A\u00e7oriana", 
       "Rodovia Baldicero Filomeno"
     ], 
+    "modificacao": " 01/12/2014", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -8493,7 +8572,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:60", 
+    "tempo_medio": "60 minutos", 
     "nome": "Executivo Cachoeira - 1126", 
     "itinerario": [
       "Estrada Anarolina Silveira Santos (Sa\u00edda Bairro)", 
@@ -8535,6 +8614,7 @@
       "R. Leonel Pereira", 
       "Estrada Anarolina Silveira Santos"
     ], 
+    "modificacao": " 22/12/2014", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -8568,7 +8648,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:59", 
+    "tempo_medio": "59 minutos", 
     "nome": "Executivo Barra da Lagoa - 2120", 
     "itinerario": [
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
@@ -8630,6 +8710,7 @@
       "AV. PAULO FONTES", 
       "TERMINAL CIDADE DE FLORIAN\u00d3POLIS"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 7,00", 
       "cartao": "R$ 7,00"
@@ -8714,7 +8795,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:40", 
+    "tempo_medio": "40 minutos", 
     "nome": "Executivo Aeroporto - 6120", 
     "itinerario": [
       "Aeroporto Herc\u00edlio Luz", 
@@ -8767,6 +8848,7 @@
       "Avenida Deputado Diom\u00edcio Freitas", 
       "Aeroporto Herc\u00edlio Luz"
     ], 
+    "modificacao": " 22/12/2014", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -8798,7 +8880,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:72", 
+    "tempo_medio": "72 minutos", 
     "nome": "Executivo Abra\u00e3o / C\u00f3rrego Grande - 3001", 
     "itinerario": [
       "Rua Jos\u00e9 Filomeno (Sa\u00edda Capoeiras)", 
@@ -8878,6 +8960,7 @@
       "Rua Altamiro Di Bernardi", 
       "Rua Jos\u00e9 Filomeno (Capoeiras)"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 5,50", 
       "cartao": "R$ 5,50"
@@ -8976,7 +9059,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:74", 
+    "tempo_medio": "74 minutos", 
     "nome": "TITRI/Tapera - 471", 
     "itinerario": [
       "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA (PONTO FINAL)", 
@@ -9015,6 +9098,7 @@
       "RODOVIA A\u00c7ORIANA", 
       "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA (PONTO FINAL)"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9033,7 +9117,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:15", 
+    "tempo_medio": "15 minutos", 
     "nome": "TITRI - UFSC - 180", 
     "itinerario": [
       "TITRI", 
@@ -9044,6 +9128,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9107,7 +9192,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:12", 
+    "tempo_medio": "12 minutos", 
     "nome": "Tecn\u00f3polis - 182", 
     "itinerario": [
       "TITRI", 
@@ -9119,6 +9204,7 @@
       "ROD. SC 401", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9143,7 +9229,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:59", 
+    "tempo_medio": "59 minutos", 
     "nome": "Tapera / TITRI - 470", 
     "itinerario": [
       "RODOVIA A\u00c7ORIANA", 
@@ -9181,6 +9267,7 @@
       "RODOVIA A\u00c7ORIANA", 
       "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9202,7 +9289,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:21", 
+    "tempo_medio": "21 minutos", 
     "nome": "Sol Nascente - 155", 
     "itinerario": [
       "TITRI", 
@@ -9231,6 +9318,7 @@
       "ROD. SC 401", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9267,7 +9355,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:13", 
+    "tempo_medio": "13 minutos", 
     "nome": "Serrinha - 179", 
     "itinerario": [
       "TITRI", 
@@ -9283,6 +9371,7 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9410,7 +9499,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "SC 401 Retorno Saco Grande - 175", 
     "itinerario": [
       "TITRI", 
@@ -9423,6 +9512,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9455,7 +9545,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:19", 
+    "tempo_medio": "19 minutos", 
     "nome": "Santa M\u00f4nica - 177", 
     "itinerario": [
       "TITRI", 
@@ -9481,6 +9571,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9613,7 +9704,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "Saco Grande via Jo\u00e3o Paulo - 174", 
     "itinerario": [
       "TITRI", 
@@ -9630,6 +9721,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9816,7 +9908,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:57", 
+    "tempo_medio": "57 minutos", 
     "nome": "Saco Grande via HU - 176", 
     "itinerario": [
       "TITRI", 
@@ -9868,6 +9960,7 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -9919,7 +10012,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:12", 
+    "tempo_medio": "12 minutos", 
     "nome": "Saco Grande Retorno SC 401 - 178", 
     "itinerario": [
       "TITRI", 
@@ -9933,6 +10026,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10056,7 +10150,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Saco dos Lim\u00f5es-Trindade v M.Benvenuta - 944", 
     "itinerario": [
       "TITRI", 
@@ -10078,6 +10172,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10105,7 +10200,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "Saco dos Lim\u00f5es-Trindade - 943", 
     "itinerario": [
       "TITRI", 
@@ -10126,6 +10221,7 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10205,7 +10301,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:14", 
+    "tempo_medio": "14 minutos", 
     "nome": "Parque S\u00e3o Jorge via SC 404 - 172", 
     "itinerario": [
       "TITRI", 
@@ -10219,6 +10315,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10240,7 +10337,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Parque S\u00e3o Jorge via Madre Benvenuta - 171", 
     "itinerario": [
       "TITRI", 
@@ -10259,6 +10356,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10282,7 +10380,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:18", 
+    "tempo_medio": "18 minutos", 
     "nome": "Morro do Quilombo - 173", 
     "itinerario": [
       "TITRI", 
@@ -10305,6 +10403,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10419,7 +10518,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:13", 
+    "tempo_medio": "13 minutos", 
     "nome": "Monte Verde via Man\u00e9 Vicente - 169", 
     "itinerario": [
       "TITRI", 
@@ -10444,6 +10543,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10549,7 +10649,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:12", 
+    "tempo_medio": "12 minutos", 
     "nome": "Monte Verde - 168", 
     "itinerario": [
       "TITRI", 
@@ -10572,6 +10672,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10712,7 +10813,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:14", 
+    "tempo_medio": "14 minutos", 
     "nome": "Jo\u00e3o Paulo - 167", 
     "itinerario": [
       "TITRI", 
@@ -10728,6 +10829,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10751,7 +10853,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:14", 
+    "tempo_medio": "14 minutos", 
     "nome": "Jardim Anchieta - 166", 
     "itinerario": [
       "TITRI", 
@@ -10785,6 +10887,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "modificacao": " 09/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10801,7 +10904,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "Itacorubi - 165", 
     "itinerario": [
       "TITRI", 
@@ -10822,6 +10925,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -10996,7 +11100,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:20", 
+    "tempo_medio": "20 minutos", 
     "nome": "C\u00f3rrego Grande via Beira-Mar - 187", 
     "itinerario": [
       "TITRI", 
@@ -11011,6 +11115,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11028,7 +11133,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:19", 
+    "tempo_medio": "19 minutos", 
     "nome": "C\u00f3rrego Grande - Po\u00e7\u00e3o - 164", 
     "itinerario": [
       "TITRI", 
@@ -11045,6 +11150,7 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11135,7 +11241,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "C\u00f3rrego Grande - 163", 
     "itinerario": [
       "TITRI", 
@@ -11153,6 +11259,7 @@
       "R. PROF. ODILON FERNANDES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11318,7 +11425,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:20", 
+    "tempo_medio": "20 minutos", 
     "nome": "Caminho da Cruz via Jo\u00e3o Paulo - 170", 
     "itinerario": [
       "TITRI", 
@@ -11346,6 +11453,7 @@
       "AV. PROF. HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11392,7 +11500,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:31", 
+    "tempo_medio": "31 minutos", 
     "nome": "Cacup\u00e9 - 846", 
     "itinerario": [
       "TISAN", 
@@ -11416,6 +11524,7 @@
       "ROD. NILTA FRANZONI VIEGAS", 
       "TISAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11518,7 +11627,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Sambaqui - 365", 
     "itinerario": [
       "TISAN", 
@@ -11538,6 +11647,7 @@
       "ROD. NILTA FRANZONI VIEGAS", 
       "TISAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11705,7 +11815,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "Jurer\u00ea - 272", 
     "itinerario": [
       "TISAN", 
@@ -11725,6 +11835,7 @@
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
       "TISAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -11874,7 +11985,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Daniela - 271", 
     "itinerario": [
       "TISAN", 
@@ -11896,6 +12007,7 @@
       "RODOVIA JOSE CARLOS DAUX - SC 401", 
       "TISAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12021,7 +12133,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "Circular Ratones - 273", 
     "itinerario": [
       "TISAN", 
@@ -12037,6 +12149,7 @@
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
       "TISAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12177,7 +12290,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:19", 
+    "tempo_medio": "19 minutos", 
     "nome": "Canasvieiras Santo Ant\u00f4nio via Jurer\u00ea - 940", 
     "itinerario": [
       "TISAN", 
@@ -12193,6 +12306,7 @@
       "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
       "TISAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12334,7 +12448,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:42", 
+    "tempo_medio": "42 minutos", 
     "nome": "Cacup\u00e9/Jo\u00e3o Paulo - 181", 
     "itinerario": [
       "ROD. JO\u00c3O PAULO", 
@@ -12376,6 +12490,7 @@
       "ROD. VIRG\u00cdLIO V\u00c1RZEA", 
       "ROD. JO\u00c3O PAULO (PONTO FINAL)"
     ], 
+    "modificacao": " 09/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12393,7 +12508,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "Trevo do Erasmo - 466", 
     "itinerario": [
       "TIRIO", 
@@ -12407,6 +12522,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12535,7 +12651,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:29", 
+    "tempo_medio": "29 minutos", 
     "nome": "Tapera / Rio Tavares - 469", 
     "itinerario": [
       "TIRIO", 
@@ -12550,6 +12666,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12613,7 +12730,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:42", 
+    "tempo_medio": "42 minutos", 
     "nome": "Ribeir\u00e3o da Ilha - 565", 
     "itinerario": [
       "RODOVIA SC 405", 
@@ -12623,6 +12740,7 @@
       "RUA BALDICERO FILOMENO,8605", 
       "RUA BALDICERO FILOMENO,8605"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12643,7 +12761,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:35", 
+    "tempo_medio": "35 minutos", 
     "nome": "Pantano do Sul - 564", 
     "itinerario": [
       "RODOVIA SC 406", 
@@ -12659,6 +12777,7 @@
       "ESTRADA ESTRADA JO\u00c3O BELARMINO DA SILVA", 
       "ESTRADA ESTRADA JO\u00c3O BELARMINO DA SILVA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12762,7 +12881,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:39", 
+    "tempo_medio": "39 minutos", 
     "nome": "Costa de Dentro - 563", 
     "itinerario": [
       "ESTRADA JO\u00c3O BELARMINO DA SILVA", 
@@ -12779,6 +12898,7 @@
       "ESTRADA ROS\u00c1LIA PAULINA FERREIRA", 
       "ESTRADA ROS\u00c1LIA PAULINA FERREIRA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -12966,7 +13086,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Costa de Cima - 562", 
     "itinerario": [
       "RODOVIA SC 406", 
@@ -12981,6 +13101,7 @@
       "RODOVIA SC 406", 
       "ESTRADA ROZ\u00c1LIA PAULINA FERREIRA"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13015,7 +13136,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Castanheiras via Gramal - 464", 
     "itinerario": [
       "TIRIO", 
@@ -13032,6 +13153,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13135,7 +13257,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:15", 
+    "tempo_medio": "15 minutos", 
     "nome": "Castanheiras via Eucaliptos - 463", 
     "itinerario": [
       "TIRIO", 
@@ -13152,6 +13274,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13327,7 +13450,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:21", 
+    "tempo_medio": "21 minutos", 
     "nome": "Campeche Via Capela - 472", 
     "itinerario": [
       "TIRIO", 
@@ -13340,6 +13463,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13366,7 +13490,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:20", 
+    "tempo_medio": "20 minutos", 
     "nome": "Campeche - 462", 
     "itinerario": [
       "TIRIO", 
@@ -13381,6 +13505,7 @@
       "RODOVIA SC 405", 
       "TIRIO"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13629,7 +13754,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:46", 
+    "tempo_medio": "46 minutos", 
     "nome": "Caieira via Tapera - 566", 
     "itinerario": [
       "RODOVIA A\u00c7ORIANA", 
@@ -13643,6 +13768,7 @@
       "RODOVIA A\u00c7ORIANA", 
       "RODOVIA BALDICERO FILOMENO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13665,7 +13791,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:48", 
+    "tempo_medio": "48 minutos", 
     "nome": "Caieira da Barra do Sul - 561", 
     "itinerario": [
       "RODOVIA BALDICERO FILOMENO", 
@@ -13675,6 +13801,7 @@
       "RODOVIA BALDICERO FILOMENO", 
       "ACESSO - NAUFRAGADOS (PF)"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13949,7 +14076,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:57", 
+    "tempo_medio": "57 minutos", 
     "nome": "Arma\u00e7\u00e3o - 560", 
     "itinerario": [
       "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -13962,6 +14089,7 @@
       "RODOVIA SC 406", 
       "RODOVIA SC 406"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -13974,7 +14102,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Osni Ortiga - 364", 
     "itinerario": [
       "TILAG", 
@@ -13987,6 +14115,7 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -14002,7 +14131,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Joaquina - 363", 
     "itinerario": [
       "TILAG", 
@@ -14019,6 +14148,7 @@
       "R. CRISOGONO VIEIRA DA CRUZ", 
       "TILAG"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -14096,7 +14226,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:12", 
+    "tempo_medio": "12 minutos", 
     "nome": "Canto dos Ara\u00e7as - 362", 
     "itinerario": [
       "TILAG", 
@@ -14116,6 +14246,7 @@
       "R. CRIS\u00d3GONO VIEIRA DA CRUZ", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -14201,7 +14332,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:25", 
+    "tempo_medio": "25 minutos", 
     "nome": "Barra da Lagoa - 360", 
     "itinerario": [
       "TILAG", 
@@ -14223,6 +14354,7 @@
       "AV. AFONSO DELAMBERT NETO", 
       "TILAG"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -14524,7 +14656,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:55", 
+    "tempo_medio": "55 minutos", 
     "nome": "Volta ao Morro Pantanal Sul - 138", 
     "itinerario": [
       "TICEN", 
@@ -14552,6 +14684,7 @@
       "AV. GOV. GUSTAVO RICHAD", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -14688,7 +14821,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:53", 
+    "tempo_medio": "53 minutos", 
     "nome": "Volta ao Morro Pantanal Norte - 137", 
     "itinerario": [
       "TICEN", 
@@ -14712,6 +14845,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -14848,7 +14982,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:53", 
+    "tempo_medio": "53 minutos", 
     "nome": "Volta ao Morro Carvoeira Sul - 136", 
     "itinerario": [
       "TICEN", 
@@ -14873,6 +15007,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15008,7 +15143,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:53", 
+    "tempo_medio": "53 minutos", 
     "nome": "Volta ao Morro Carvoeira Norte - 135", 
     "itinerario": [
       "TICEN", 
@@ -15032,6 +15167,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15168,7 +15304,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Vila S\u00e3o Jo\u00e3o - 669", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -15205,6 +15341,7 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15220,7 +15357,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Vila Aparecida - 761", 
     "itinerario": [
       "RUA PASCOAL SIMONE", 
@@ -15250,6 +15387,7 @@
       "RUA EDISON LOPES", 
       "RUA PEDRO BITTENCOURT"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -15402,7 +15540,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:43", 
+    "tempo_medio": "43 minutos", 
     "nome": "Vila / Promorar - 671", 
     "itinerario": [
       "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -15445,6 +15583,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15576,7 +15715,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:29", 
+    "tempo_medio": "29 minutos", 
     "nome": "UNICA Via Beira Mar - 150", 
     "itinerario": [
       "TICEN", 
@@ -15591,6 +15730,7 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15621,7 +15761,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:45", 
+    "tempo_medio": "45 minutos", 
     "nome": "UFSC-Semidireto-Sa\u00edda Sul - 154", 
     "itinerario": [
       "TICEN", 
@@ -15638,6 +15778,7 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15663,7 +15804,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:48", 
+    "tempo_medio": "48 minutos", 
     "nome": "UFSC - Semidireto - 185", 
     "itinerario": [
       "TICEN", 
@@ -15680,6 +15821,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -15795,7 +15937,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:25", 
+    "tempo_medio": "25 minutos", 
     "nome": "UDESC Via Beira Mar - 184", 
     "itinerario": [
       "TICEN", 
@@ -15821,6 +15963,7 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16077,7 +16220,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Transcaeira - 191", 
     "itinerario": [
       "TITRI", 
@@ -16115,6 +16258,7 @@
       "AVENIDA PROFESSOR HENRIQUE DA SILVA FONTES", 
       "TITRI"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16143,7 +16287,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:57", 
+    "tempo_medio": "57 minutos", 
     "nome": "Ticen Itacorubi - 104", 
     "itinerario": [
       "TICEN", 
@@ -16176,6 +16320,7 @@
       "AVENIDA PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16190,7 +16335,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:38", 
+    "tempo_medio": "38 minutos", 
     "nome": "Tapera Direto - 461", 
     "itinerario": [
       "TICEN", 
@@ -16216,6 +16361,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16417,7 +16563,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:46", 
+    "tempo_medio": "46 minutos", 
     "nome": "Tapera / Saco dos Lim\u00f5es - 467", 
     "itinerario": [
       "TICEN", 
@@ -16449,6 +16595,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16720,7 +16867,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:20", 
+    "tempo_medio": "20 minutos", 
     "nome": "Saco dos Lim\u00f5es - 162", 
     "itinerario": [
       "TICEN", 
@@ -16748,6 +16895,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16801,7 +16949,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Promorar via Ivo Silveira - 668", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -16830,6 +16978,7 @@
       "RUA PAULA RAMOS", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16931,7 +17080,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:25", 
+    "tempo_medio": "25 minutos", 
     "nome": "Promorar - 667", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -16979,6 +17128,7 @@
       "TICEN", 
       "RUA PEDRO BITTENCOURT"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -16992,7 +17142,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:35", 
+    "tempo_medio": "35 minutos", 
     "nome": "Porto da Lagoa - 460", 
     "itinerario": [
       "TICEN", 
@@ -17011,6 +17161,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -17125,7 +17276,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:15", 
+    "tempo_medio": "15 minutos", 
     "nome": "Morro Nova Trento - 769", 
     "itinerario": [
       "TICEN", 
@@ -17157,6 +17308,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17270,7 +17422,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Morro do Hor\u00e1cio via Mauro Ramos - 768", 
     "itinerario": [
       "TICEN", 
@@ -17293,6 +17445,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17403,7 +17556,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:31", 
+    "tempo_medio": "31 minutos", 
     "nome": "Morro do Hor\u00e1cio via Gama D'E\u00e7a - 767", 
     "itinerario": [
       "TICEN", 
@@ -17431,6 +17584,7 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17448,7 +17602,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "Morro do Geraldo - 760", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -17470,6 +17624,7 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "modificacao": " 04/02/2015", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17534,7 +17689,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:21", 
+    "tempo_medio": "21 minutos", 
     "nome": "Morro do 25 Via Gama D`E\u00e7a - 770", 
     "itinerario": [
       "TICEN", 
@@ -17558,6 +17713,7 @@
       "R. PEDRO IVO", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17579,7 +17735,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:17", 
+    "tempo_medio": "17 minutos", 
     "nome": "Morro do 25 - 766", 
     "itinerario": [
       "TICEN", 
@@ -17602,6 +17758,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17681,7 +17838,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:12", 
+    "tempo_medio": "12 minutos", 
     "nome": "Morro da Queimada - 765", 
     "itinerario": [
       "TICEN", 
@@ -17697,6 +17854,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -17835,7 +17993,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:28", 
+    "tempo_medio": "28 minutos", 
     "nome": "Morro da Penitenci\u00e1ria - 161", 
     "itinerario": [
       "TICEN", 
@@ -17867,6 +18025,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -17975,7 +18134,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Morro da Cruz - 160", 
     "itinerario": [
       "TICEN", 
@@ -18000,6 +18159,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -18104,7 +18264,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:15", 
+    "tempo_medio": "15 minutos", 
     "nome": "Monte Serrat - 764", 
     "itinerario": [
       "TICEN", 
@@ -18127,6 +18287,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -18284,7 +18445,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "Monte Cristo - 670", 
     "itinerario": [
       "AVENIDA GOVERNADOR IVO SILVEIRA", 
@@ -18319,6 +18480,7 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -18716,7 +18878,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:19", 
+    "tempo_medio": "19 minutos", 
     "nome": "Itagua\u00e7u - 664", 
     "itinerario": [
       "RUA CAPIT\u00c3O EUCLIDES DE CASTRO", 
@@ -18744,6 +18906,7 @@
       "RUA PEDRO BITTENCOURT", 
       "PONTE GOVERNADOR COLOMBO SALLES"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -18858,7 +19021,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:28", 
+    "tempo_medio": "28 minutos", 
     "nome": "Costeira do Pirajuba\u00e9 - 153", 
     "itinerario": [
       "TICEN", 
@@ -18881,6 +19044,7 @@
       "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -18929,7 +19093,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:27", 
+    "tempo_medio": "27 minutos", 
     "nome": "Corredor Sudoeste Semidireto - 186", 
     "itinerario": [
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -18952,6 +19116,7 @@
       "TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -19135,7 +19300,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:29", 
+    "tempo_medio": "29 minutos", 
     "nome": "Corredor Sudoeste - 183", 
     "itinerario": [
       "RUA PROCURADOR ABELARDO GOMES", 
@@ -19161,6 +19326,7 @@
       "TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -19403,7 +19569,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:24", 
+    "tempo_medio": "24 minutos", 
     "nome": "Corredor Continente - 630", 
     "itinerario": [
       "TICEN", 
@@ -19429,6 +19595,7 @@
       "AV GUSTAVO RICHARDT", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -19867,7 +20034,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "Coloninha - 663", 
     "itinerario": [
       "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -19922,6 +20089,7 @@
       "AL\u00c7A DE ACESSO AO TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -19964,7 +20132,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:29", 
+    "tempo_medio": "29 minutos", 
     "nome": "Circular centro - 101", 
     "itinerario": [
       "TICEN", 
@@ -19984,6 +20152,7 @@
       "AV. PAULO FONTES", 
       "TICEN"
     ], 
+    "modificacao": " 29/12/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -20011,7 +20180,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Chico Mendes - 772", 
     "itinerario": [
       "RUA PEDRO BITTENCOURT", 
@@ -20034,6 +20203,7 @@
       "TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -20100,7 +20270,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:34", 
+    "tempo_medio": "34 minutos", 
     "nome": "Centro Administrativo Via Mauro Ramos - 156", 
     "itinerario": [
       "TICEN", 
@@ -20127,6 +20297,7 @@
       "AV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -20173,7 +20344,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Centro Administrativo Via Beira Mar Norte - 151", 
     "itinerario": [
       "TICEN", 
@@ -20184,6 +20355,7 @@
       "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -20204,7 +20376,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:49", 
+    "tempo_medio": "49 minutos", 
     "nome": "Capoeiras via Ivo Silveira - 632", 
     "itinerario": [
       "RUA JOSU\u00c9 DI BERNARDI", 
@@ -20229,6 +20401,7 @@
       "RUA JOS\u00c9 FILOMENO", 
       "RUA JOS\u00c9 FILOMENO"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -20242,7 +20415,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Capoeiras - 631", 
     "itinerario": [
       "RUA PEDRO BITTENCOURT", 
@@ -20276,6 +20449,7 @@
       "TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -20617,7 +20791,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "Caeira do Saco dos Lim\u00f5es - 763", 
     "itinerario": [
       "TICEN", 
@@ -20638,6 +20812,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -20821,7 +20996,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:20", 
+    "tempo_medio": "20 minutos", 
     "nome": "Balne\u00e1rio - 661", 
     "itinerario": [
       "TICEN", 
@@ -20856,6 +21031,7 @@
       "AL\u00c7A DE ACESSO A TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -20933,7 +21109,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Bairro de F\u00e1tima - 844", 
     "itinerario": [
       "TICEN", 
@@ -20967,6 +21143,7 @@
       "AL\u00c7A DE ACESSO AO TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -21249,7 +21426,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "Aracy Vaz Callado - 660", 
     "itinerario": [
       "RUA FELIPE NEVES", 
@@ -21290,6 +21467,7 @@
       "RUA FRANCISCO EVANGELISTA", 
       "RUA NORM\u00c9LIA DA SILVA BRASIL"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -21538,7 +21716,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:15", 
+    "tempo_medio": "15 minutos", 
     "nome": "Angelo Laporta - 762", 
     "itinerario": [
       "TICEN", 
@@ -21566,6 +21744,7 @@
       "AV. GOV. GUSTAVO RICHARD", 
       "TICEN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 2,15", 
       "cartao": "R$ 1,86"
@@ -21661,7 +21840,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:19", 
+    "tempo_medio": "19 minutos", 
     "nome": "Abra\u00e3o - 665", 
     "itinerario": [
       "RUA PEDRO BITTENCOURT", 
@@ -21685,6 +21864,7 @@
       "TICEN", 
       "TICEN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22107,7 +22287,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:20", 
+    "tempo_medio": "20 minutos", 
     "nome": "Vargem Pequena - 282", 
     "itinerario": [
       "TICAN", 
@@ -22122,6 +22302,7 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22224,7 +22405,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:13", 
+    "tempo_medio": "13 minutos", 
     "nome": "Vargem Grande - 270", 
     "itinerario": [
       "TICAN", 
@@ -22233,6 +22414,7 @@
       "ESTRADA CRIST\u00d3V\u00c3O MACHADO DE CAMPOS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22369,7 +22551,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:10", 
+    "tempo_medio": "10 minutos", 
     "nome": "Vargem do Bom Jesus - 283", 
     "itinerario": [
       "TICAN", 
@@ -22382,6 +22564,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22405,7 +22588,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:44", 
+    "tempo_medio": "44 minutos", 
     "nome": "Travess\u00e3o via Rua da Intend\u00eancia - 284", 
     "itinerario": [
       "TICAN", 
@@ -22430,6 +22613,7 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22447,7 +22631,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:41", 
+    "tempo_medio": "41 minutos", 
     "nome": "Travess\u00e3o via Rua Alzira Rosa Aguiar - 269", 
     "itinerario": [
       "TICAN", 
@@ -22472,6 +22656,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22493,7 +22678,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:23", 
+    "tempo_medio": "23 minutos", 
     "nome": "S\u00edtio de Baixo - 268", 
     "itinerario": [
       "TICAN", 
@@ -22511,6 +22696,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 26/01/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22606,7 +22792,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:42", 
+    "tempo_medio": "42 minutos", 
     "nome": "Rio Vermelho via Muqu\u00e9m - 274", 
     "itinerario": [
       "TICAN", 
@@ -22630,6 +22816,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -22685,7 +22872,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:39", 
+    "tempo_medio": "39 minutos", 
     "nome": "Rio Vermelho - 267", 
     "itinerario": [
       "TICAN", 
@@ -22704,6 +22891,7 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23004,7 +23192,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:29", 
+    "tempo_medio": "29 minutos", 
     "nome": "Praia Brava - 266", 
     "itinerario": [
       "TICAN", 
@@ -23022,6 +23210,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23228,7 +23417,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:26", 
+    "tempo_medio": "26 minutos", 
     "nome": "Ponta das Canas - 265", 
     "itinerario": [
       "TICAN", 
@@ -23249,6 +23438,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23284,7 +23474,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:27", 
+    "tempo_medio": "27 minutos", 
     "nome": "Ingleses - 264", 
     "itinerario": [
       "TICAN", 
@@ -23304,6 +23494,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23692,7 +23883,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:21", 
+    "tempo_medio": "21 minutos", 
     "nome": "Gaivotas Circular - 263", 
     "itinerario": [
       "TICAN", 
@@ -23713,6 +23904,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23806,7 +23998,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:30", 
+    "tempo_medio": "30 minutos", 
     "nome": "Forte/Canasvieiras - 250", 
     "itinerario": [
       "TICAN", 
@@ -23831,6 +24023,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23879,7 +24072,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:32", 
+    "tempo_medio": "32 minutos", 
     "nome": "Escolar Cachoeira - 280", 
     "itinerario": [
       "ESTRADA ANAROLINA SILVEIRA SANTOS", 
@@ -23894,6 +24087,7 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 09/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -23908,7 +24102,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:36", 
+    "tempo_medio": "36 minutos", 
     "nome": "Costa do Mo\u00e7ambique - 281", 
     "itinerario": [
       "TICAN", 
@@ -23928,6 +24122,7 @@
       "RUA FRANCISCO FAUSTINO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24093,7 +24288,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:16", 
+    "tempo_medio": "16 minutos", 
     "nome": "Circular Canasvieiras - 262", 
     "itinerario": [
       "TICAN", 
@@ -24116,6 +24311,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24243,7 +24439,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:18", 
+    "tempo_medio": "18 minutos", 
     "nome": "Capivari via Jo\u00e3o Gualberto Soares - 275", 
     "itinerario": [
       "TICAN", 
@@ -24261,6 +24457,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24334,7 +24531,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:19", 
+    "tempo_medio": "19 minutos", 
     "nome": "Capivari via Graciliano Gomes - 261", 
     "itinerario": [
       "TICAN", 
@@ -24352,6 +24549,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24449,7 +24647,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:28", 
+    "tempo_medio": "28 minutos", 
     "nome": "Canasvieiras/Jurer\u00ea - 291", 
     "itinerario": [
       "AVENIDA LUIZ BOITEUX PIAZZA", 
@@ -24470,6 +24668,7 @@
       "RUA DOUTOR JO\u00c3O DE OLIVEIRA", 
       "RUA MANOEL MANCELLOS MOURA"
     ], 
+    "modificacao": " 09/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24487,7 +24686,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:14", 
+    "tempo_medio": "14 minutos", 
     "nome": "Cachoeira do Bom Jesus - 260", 
     "itinerario": [
       "TICAN", 
@@ -24501,6 +24700,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 01/11/2014", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24734,7 +24934,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:22", 
+    "tempo_medio": "22 minutos", 
     "nome": "Balne\u00e1rio Ingleses - 277", 
     "itinerario": [
       "TICAN", 
@@ -24753,6 +24953,7 @@
       "TICAN", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
@@ -24794,7 +24995,7 @@
   }, 
   {
     "empresa": "Cons\u00f3rcio F\u00eanix", 
-    "tempo_medio": "00:12", 
+    "tempo_medio": "12 minutos", 
     "nome": "Balne\u00e1rio Canasvieiras - 276", 
     "itinerario": [
       "TICAN", 
@@ -24811,6 +25012,7 @@
       "RUA FRANCISCO FAUSTO MARTINS", 
       "TICAN"
     ], 
+    "modificacao": " 23/02/2015", 
     "preco": {
       "dinheiro": "R$ 3,10", 
       "cartao": "R$ 2,98"
