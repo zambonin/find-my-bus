@@ -26,27 +26,45 @@ class BiguacuSpider(InitSpider):
 			path = link.extract()[0]
 			self.urls.append(self.start_urls[1] % path)
 
-		# print self.urls
 		return self.initialized()
 
 	def make_requests_from_url(self, url):
-		return Request(self.urls.pop(), callback=self.parse)
+		if(len(self.urls)):
+			return Request(self.urls.pop(), callback=self.parse)
 
 	def parse(self, response):
 		hxs = Selector(response)
 		cabecalho = hxs.xpath('//div/div')
 		
+		nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract()
+		preco = "R$"+ cabecalho.xpath('//div')[0].xpath('//span/text()')[6].extract()
 		modificacao = cabecalho.xpath('//div')[3].xpath('./text()').extract()[0].strip()
 		tempo_medio = cabecalho.xpath('//div')[6].xpath('./text()').extract()[0].strip()
-		nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract()
-		preco = "R$" + cabecalho.xpath('//div')[0].xpath('//span/text()')[6].extract()
 
-		# conj = hxs.xpath('//li/div')[0].xpath('./text()').extract()
-		# conj = hxs.xpath('//strong')[1].extract()
-		# horarios = hxs.xpath('//a/text()').extract()
+		conteudo = hxs.xpath('//div[contains(@class, "tabContent")]').xpath('./div')
+		conj_horarios = {}
 
-		# item = FindMyBusItem(nome=nome_onibus, preco=preco, empresa="Biguaçu Transportes",
-		# 	horarios=horarios, itinerario=itinerario, tempo_medio=tempo_medio, modificacao=modificacao)
+		itinerario = hxs.xpath('//div[@id="tabContent2"]').xpath('./div/div/ul/li/text()').extract()
 
-		# yield item
-		# yield self.make_requests_from_url(self.start_urls[0])
+		for i in conteudo[0:]:
+			dias = i.xpath('./div/ul/li/div/strong/text()').extract()
+			partida = i.xpath('./div/div/strong/text()').extract()
+			time = i.xpath('./div/ul/li')
+
+			keys = []
+
+			for k in dias:
+				if not partida:
+					keys.append(k)
+				else:
+					keys.append(k + " - " + partida[0])
+
+			for j in time[0:]:
+				for m in range(0, len(keys)):
+					conj_horarios[keys[m]] = j.xpath('./div/ul/li/div/a/text()').extract()
+		
+		item = FindMyBusItem(nome=nome_onibus, preco=preco, empresa="Biguaçu Transportes",
+			horarios=conj_horarios, itinerario=itinerario, tempo_medio=tempo_medio, modificacao=modificacao)
+
+		yield item
+		yield self.make_requests_from_url(self.start_urls[0])

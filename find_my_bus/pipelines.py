@@ -18,7 +18,7 @@ class FilePipeline(BaseItemExporter):
 		self.list = []
 
 	def close_spider(self, spider):
-		with open('items.json', 'w') as fp:
+		with open(spider.name + '.json', 'w') as fp:
 			json.dump(self.list, fp, indent=2)
 
 	def process_item(self, item, spider):
