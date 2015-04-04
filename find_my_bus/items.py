@@ -8,13 +8,13 @@
 import scrapy
 
 class FindMyBusItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    
-    nome = scrapy.Field()
-    preco = scrapy.Field()
-    empresa = scrapy.Field()
-    horarios = scrapy.Field()
-    itinerario = scrapy.Field()
-    tempo_medio = scrapy.Field()
-    modificacao = scrapy.Field()
+	# define the fields for your item here like:
+	# name = scrapy.Field()
+	
+	nome = scrapy.Field()
+	preco = scrapy.Field()
+	empresa = scrapy.Field()
+	horarios = scrapy.Field()
+	itinerario = scrapy.Field()
+	tempo_medio = scrapy.Field()
+	modificacao = scrapy.Field()
