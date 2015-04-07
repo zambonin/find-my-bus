@@ -34,7 +34,7 @@ class FenixSpider(InitSpider):
 		hxs = Selector(response, type='html')
 		horario = hxs.xpath('//div[contains(@class, "horario")]')
 
-		titulo = horario.xpath('./h1/a/text()').extract()[0]
+		titulo = " ".join(horario.xpath('./h1/a/text()').extract()[0].split("-")[::-1]).strip()
 		conteudo = horario.xpath('./div')
 
 		tmp = conteudo[0]
@@ -59,7 +59,10 @@ class FenixSpider(InitSpider):
 				horarios.append(j.xpath('./a/text()').extract()[0].strip()[:5])
 			conj_horarios[nome] = horarios
 
-		itinerario = horario.xpath('./ol/li/text()').extract()
+		itinerarios = []
+
+		it = horario.xpath('./ol/li/text()').extract()
+		itinerario = [[it], [i for i in it[::-1]]]
 
 		item = FindMyBusItem(nome=titulo, preco=tarifa, empresa="Consórcio Fênix",
 			horarios=conj_horarios, itinerario=itinerario, tempo_medio=percurso, modificacao=modificacao)

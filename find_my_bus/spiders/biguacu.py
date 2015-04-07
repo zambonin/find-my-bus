@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+from pprint import pprint
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
 from scrapy.contrib.spiders.init import InitSpider
@@ -44,8 +45,12 @@ class BiguacuSpider(InitSpider):
 		conteudo = hxs.xpath('//div[contains(@class, "tabContent")]').xpath('./div')
 		conj_horarios = {}
 
-		itinerario = hxs.xpath('//div[@id="tabContent2"]').xpath('./div/div/ul/li/text()').extract()
+		itinerario = hxs.xpath('//div[@id="tabContent2"]').xpath('./div/div/ul')
 
+		itinerarios = []
+		for a in [i.xpath('./li/text()').extract() for i in itinerario]:
+			itinerarios.append([b.split("-")[1].strip() for b in a])
+	
 		for i in conteudo[0:]:
 			dias = i.xpath('./div/ul/li/div/strong/text()').extract()
 			partida = i.xpath('./div/div/strong/text()').extract()
@@ -64,7 +69,7 @@ class BiguacuSpider(InitSpider):
 					conj_horarios[keys[m]] = j.xpath('./div/ul/li/div/a/text()').extract()
 		
 		item = FindMyBusItem(nome=nome_onibus, preco=preco, empresa="Biguaçu Transportes",
-			horarios=conj_horarios, itinerario=itinerario, tempo_medio=tempo_medio, modificacao=modificacao)
+			horarios=conj_horarios, itinerario=itinerarios, tempo_medio=tempo_medio, modificacao=modificacao)
 
 		yield item
 		yield self.make_requests_from_url(self.start_urls[0])
