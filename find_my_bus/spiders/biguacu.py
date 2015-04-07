@@ -1,6 +1,5 @@
 # -*- coding: utf-8 -*-
 import scrapy
-from pprint import pprint
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
 from scrapy.contrib.spiders.init import InitSpider
