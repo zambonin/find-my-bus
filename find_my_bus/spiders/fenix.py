@@ -1,5 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
+import string
 from find_my_bus.items import FindMyBusItem
 from scrapy.http import Request
 from scrapy.selector import Selector
@@ -14,11 +15,30 @@ class FenixSpider(InitSpider):
 	urls = []
 
 	def init_request(self):
-		return Request(url=self.start_urls[0] % "/horarios/", callback=self.organize)
+		"""
+		Aggregate the proper FormRequest objects, initiating the communication 
+		with the website.
+
+		Returns:
+			A FormRequest object with the necessary form submission data.
+		"""
+		return Request(url=self.start_urls[0] % "/horarios/", 
+						callback=self.organize)
 
 	def organize(self, response):
-		hxs = Selector(response)
-		links = hxs.xpath('//ul[contains(@class, "nav-custom1")]/li/a')
+		"""
+		Build the set of URLs that will be accessed later in accordance to the
+		form data received.
+
+		Parameters:
+			response: the previous FormRequest object.
+
+		Returns:
+			Calls the initialized() method that kickstarts the crawling (refer
+			to scrapy docs).
+		"""
+		source = Selector(response)
+		links = source.xpath('//ul[contains(@class, "nav-custom1")]/li/a')
 
 		for link in links:
 			path = link.xpath('@href').extract()[0]
@@ -27,22 +47,46 @@ class FenixSpider(InitSpider):
 		return self.initialized()
 
 	def make_requests_from_url(self, url):
-		if (len(self.urls)):
-			return Request(url % self.urls.pop())
+		"""
+		Formalize, for each URL that was constructed earlier, a request to read
+		its contents.
+
+		Parameters:
+			url: a single URL to be requested from.
+
+		Returns:
+			A Request object for each one of the URLs from the main class array.
+		"""
+		if len(self.urls):
+			return Request(url % self.urls.pop(), callback=self.parse)
 
 	def parse(self, response):
-		hxs = Selector(response, type='html')
-		horario = hxs.xpath('//div[contains(@class, "horario")]')
+		"""
+		Organize the contents from each URL through xpath manipulation.
 
-		titulo = " ".join(horario.xpath('./h1/a/text()').extract()[0].split("-")[::-1]).strip()
+		Parameters:
+			response: the reply from the earlier request.
+
+		Returns:
+			A FindMyBusItem object that contains the pertinent information about
+			each bus line, yielding it so it can begin the process again through
+			make_requests_from_url().
+		"""
+		source = Selector(response)
+
+		horario = source.xpath('//div[contains(@class, "horario")]')
+
+		nome_onibus = " ".join(horario.xpath('./h1/a/text()').extract()[0] \
+			.split(" - ")[::-1]).strip().upper()
+		
 		conteudo = horario.xpath('./div')
 
-		tmp = conteudo[0]
-		dados = [i for i in tmp.xpath('.//text()').extract() if i != u' ']
+		dados = [it for it in conteudo[0].xpath('.//text()') \
+										.extract() if it != u' ']
 
-		percurso = dados[3].strip()[3:5] + " minutos"
+		tempo_medio = dados[3].strip()[3:5] + " minutos"
 
-		tarifa = {
+		preco = {
 			"cartao": dados[8].strip(),
 			"dinheiro": dados[10].strip(),
 		}
@@ -51,21 +95,25 @@ class FenixSpider(InitSpider):
 
 		conj_horarios = {}
 
-		for i in conteudo[1:]:
-			linhas = i.xpath('./div')
+		for linha in conteudo[1:]:
+			linhas = linha.xpath('./div')
 			nome = linhas[0].xpath('./h4/text()').extract()[0]
 			horarios = []
-			for j in linhas[1:]:
-				horarios.append(j.xpath('./a/text()').extract()[0].strip()[:5])
+			for rua in linhas[1:]:
+				horarios.append(rua.xpath('./a/text()').extract()[0].strip()[:5])
 			conj_horarios[nome] = horarios
 
-		itinerarios = []
-
 		it = horario.xpath('./ol/li/text()').extract()
-		itinerario = [[it], [i for i in it[::-1]]]
+		itinerario = [it, [i for i in it[::-1]]]
 
-		item = FindMyBusItem(nome=titulo, preco=tarifa, empresa="Consórcio Fênix",
-			horarios=conj_horarios, itinerario=itinerario, tempo_medio=percurso, modificacao=modificacao)
+		for conj in itinerario:
+			if not conj:
+				conj.append("Itinerário indisponível.")
+
+		item = FindMyBusItem(nome=nome_onibus, preco=preco, 
+							empresa="Consórcio Fênix", horarios=conj_horarios,
+							itinerario=itinerario, tempo_medio=tempo_medio, 
+							modificacao=modificacao)
 
 		yield item
 		yield self.make_requests_from_url(self.start_urls[0])

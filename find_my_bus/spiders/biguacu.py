@@ -1,4 +1,4 @@
-# -*- coding: utf-8 -*-
+	# -*- coding: utf-8 -*-
 import scrapy
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
@@ -11,16 +11,40 @@ class BiguacuSpider(InitSpider):
 	allowed_domains = ["biguacutransportes.com.br"]
 	start_urls = (
 		'http://www.biguacutransportes.com.br/ajax/lineBus/searchGetLine',
-		'http://www.biguacutransportes.com.br/ajax/lineBus/preview/?line=%s&company=0&detail%%5B%%5D=1&detail%%5B%%5D=2&detail%%5B%%5D=3'
+		'http://www.biguacutransportes.com.br/ajax/lineBus/preview/?line=%s\
+		&company=1&detail%%5B%%5D=1&detail%%5B%%5D=2&detail%%5B%%5D=3'
 	)
 	urls = []
 
 	def init_request(self):
-		return FormRequest(url=self.start_urls[0], formdata={'company':'1'}, callback=self.organize)
+		"""
+		Aggregate the proper FormRequest objects, initiating the communication 
+		with the website.
+
+		Returns:
+			A FormRequest object with the necessary form submission data.
+		"""
+		for i in [1, 3]:
+			# 1 for the main lines, 3 for the executive ones
+			yield FormRequest(url=self.start_urls[0], 
+							formdata={'company': str(i)}, 
+							callback=self.organize)
 
 	def organize(self, response):
-		hxs = Selector(response)
-		links = [_.xpath('./td')[0].xpath('./text()') for _ in hxs.xpath('//tr')]
+		"""
+		Build the set of URLs that will be accessed later in accordance to the 
+		form data received.
+
+		Parameters:
+			response: the previous FormRequest object.
+
+		Returns:
+			Calls the initialized() method that kickstarts the crawling (refer 
+			to scrapy docs).
+		"""
+		source = Selector(response)
+		links = [it.xpath('./td')[0].xpath('./text()') 
+				for it in source.xpath('//tr')]
 		
 		for link in links:
 			path = link.extract()[0]
@@ -29,46 +53,75 @@ class BiguacuSpider(InitSpider):
 		return self.initialized()
 
 	def make_requests_from_url(self, url):
-		if(len(self.urls)):
+		"""
+		Formalize, for each URL that was constructed earlier, a request to read 
+		its contents.
+
+		Parameters:
+			url: a single URL to be requested from.
+
+		Returns:
+			A Request object for each one of the URLs from the main class array.
+		"""
+		if len(self.urls):
 			return Request(self.urls.pop(), callback=self.parse)
 
 	def parse(self, response):
-		hxs = Selector(response)
-		cabecalho = hxs.xpath('//div/div')
+		"""
+		Organize the contents from each URL through xpath manipulation.
+
+		Parameters:
+			response: the reply from the earlier request.
+
+		Returns:
+			A FindMyBusItem object that contains the pertinent information about
+			each bus line, yielding it so it can begin the process again through
+			make_requests_from_url().
+		"""
+		source = Selector(response)
 		
-		nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract()
+		cabecalho = source.xpath('//div/div')
+
+		nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract().strip()
 		preco = "R$"+ cabecalho.xpath('//div')[0].xpath('//span/text()')[6].extract()
 		modificacao = cabecalho.xpath('//div')[3].xpath('./text()').extract()[0].strip()
 		tempo_medio = cabecalho.xpath('//div')[6].xpath('./text()').extract()[0].strip()
 
-		conteudo = hxs.xpath('//div[contains(@class, "tabContent")]').xpath('./div')
-		conj_horarios = {}
+		conteudo = source.xpath('//div[contains(@class, "tabContent")]').xpath('./div')
 
-		itinerario = hxs.xpath('//div[@id="tabContent2"]').xpath('./div/div/ul')
+		itinerario = source.xpath('//div[@id="tabContent2"]').xpath('./div/div/ul')
 
 		itinerarios = []
-		for a in [i.xpath('./li/text()').extract() for i in itinerario]:
-			itinerarios.append([b.split("-")[1].strip() for b in a])
-	
-		for i in conteudo[0:]:
-			dias = i.xpath('./div/ul/li/div/strong/text()').extract()
-			partida = i.xpath('./div/div/strong/text()').extract()
-			time = i.xpath('./div/ul/li')
-
-			keys = []
-
-			for k in dias:
-				if not partida:
-					keys.append(k)
-				else:
-					keys.append(k + " - " + partida[0])
-
-			for j in time[0:]:
-				for m in range(0, len(keys)):
-					conj_horarios[keys[m]] = j.xpath('./div/ul/li/div/a/text()').extract()
+		for conj in [linha.xpath('./li/text()').extract() for linha in itinerario]:
+			itinerarios.append([rua.split("-")[1].strip() for rua in conj])
 		
-		item = FindMyBusItem(nome=nome_onibus, preco=preco, empresa="Biguaçu Transportes",
-			horarios=conj_horarios, itinerario=itinerarios, tempo_medio=tempo_medio, modificacao=modificacao)
+		conj_horarios = {}
+		for content in conteudo[0:]:
+			dias = content.xpath('./div/ul/li/div/strong/text()').extract()
+			partida = content.xpath('./div/div/strong/text()').extract()
+			horarios = content.xpath('./div/ul/li')
+
+			lugares_saida = []
+
+			for saida in dias:
+				if not partida:
+					lugares_saida.append(saida)
+				else:
+					lugares_saida.append(saida + " - " + partida[0])
+
+			for horario in horarios[0:]:
+				for saida in range(0, len(lugares_saida)):
+					conj_horarios[lugares_saida[saida]] = \
+						horario.xpath('./div/ul/li/div/a/text()').extract()
+
+		for conj in itinerarios:
+			if not conj:
+				conj.append("Itinerário indisponível.")
+		
+		item = FindMyBusItem(nome=nome_onibus, preco=preco, 
+							empresa="Biguaçu Transportes", 
+							horarios=conj_horarios, itinerario=itinerarios, 
+							tempo_medio=tempo_medio, modificacao=modificacao)
 
 		yield item
 		yield self.make_requests_from_url(self.start_urls[0])
