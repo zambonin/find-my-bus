@@ -95,7 +95,7 @@ class BiguacuSpider(InitSpider):
 		for conj in [linha.xpath('./li/text()').extract() for linha in itinerario]:
 			itinerarios.append([rua.split("-")[1].strip() for rua in conj])
 		
-		conj_horarios = {}
+		conj_horarios = []
 		for content in conteudo[0:]:
 			dias = content.xpath('./div/ul/li/div/strong/text()').extract()
 			partida = content.xpath('./div/div/strong/text()').extract()
@@ -104,16 +104,14 @@ class BiguacuSpider(InitSpider):
 			lugares_saida = []
 
 			for saida in dias:
-				lugares_saida.append(saida)
+				if not partida:
+					lugares_saida.append(saida)
+				else:
+					lugares_saida.append(saida + " - " + partida[0])
 
 			for horario in horarios[0:]:
-				for saida in range(0, len(lugares_saida)):
-					saidas = horario.xpath('./div/ul/li/div/a/text()').extract()
-					if not partida:
-						conj_horarios[lugares_saida[saida]] = ["Saída indisponível."] + saidas
-					else:
-						conj_horarios[lugares_saida[saida]] = [partida[0].strip()] + saidas
-
+				for saida in lugares_saida:
+					conj_horarios.append([saida] + horario.xpath('./div/ul/li/div/a/text()').extract())
 
 		for conj in itinerarios:
 			if not conj:
