@@ -76,8 +76,8 @@ class FenixSpider(InitSpider):
 
 		horario = source.xpath('//div[contains(@class, "horario")]')
 
-		nome_onibus = " ".join(horario.xpath('./h1/a/text()').extract()[0] \
-			.split(" - ")[::-1]).strip().upper().split(" ", 1)
+		temp_nome = horario.xpath('./h1/a/text()').extract()[0].split(" - ")
+		nome_onibus = [temp_nome[-1], " ".join(temp_nome[:-1]).upper()]
 		
 		conteudo = horario.xpath('./div')
 
