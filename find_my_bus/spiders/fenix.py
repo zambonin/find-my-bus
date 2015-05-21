@@ -87,22 +87,21 @@ class FenixSpider(InitSpider):
 		tempo_medio = dados[3].strip()[3:5] + " minutos"
 
 		preco = {
-			"cartao": dados[9].strip(),
-			"dinheiro": dados[11].strip(),
+			"card": dados[9].strip(),
+			"money": dados[11].strip(),
 		}
 
 		modificacao = dados[5].strip()[0:]
 
-		conj_horarios = {}
-
+		conj_horarios = []
 		for linha in conteudo[1:]:
-			linhas = linha.xpath('./div')
-			nome = linhas[0].xpath('./h4/text()').extract()[0].split(" - ")
 			horarios = []
-			horarios.append(nome[1])
+			linhas = linha.xpath('./div')
+			nome = linhas[0].xpath('./h4/text()').extract()[0]
+			horarios.append(nome)
 			for rua in linhas[1:]:
 				horarios.append(rua.xpath('./a/text()').extract()[0].strip()[:5])
-			conj_horarios[nome[0]] = horarios
+			conj_horarios.append(horarios)
 
 		it = horario.xpath('./ol/li/text()').extract()
 		itinerario = [it, [i for i in it[::-1]]]
