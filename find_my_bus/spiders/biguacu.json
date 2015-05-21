@@ -1,6 +1,34 @@
 [
     {
         "name": [
+            "930000", 
+            "LORO / ANTONIO CARLOS (VIA SALTO)"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - LORO", 
+                "05:20"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
+                "06:05"
+            ]
+        ], 
+        "price": "R$ 4,00", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ], 
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ]
+        ], 
+        "time": "30 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
             "960000", 
             "SANTA MARIA / ANTONIO CARLOS"
         ], 
@@ -31,40 +59,12 @@
     }, 
     {
         "name": [
-            "930000", 
-            "LORO / ANTONIO CARLOS (VIA SALTO)"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - LORO", 
-                "05:20"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
-                "06:05"
-            ]
-        ], 
-        "price": "R$ 4,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ], 
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ]
-        ], 
-        "time": "30 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "76403", 
             "EXECUTIVO BIGUACU"
         ], 
         "schedule": [
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "05:50", 
                 "06:05", 
                 "06:25", 
@@ -93,7 +93,7 @@
                 "19:00"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "05:50", 
                 "06:05", 
                 "06:25", 
@@ -122,7 +122,7 @@
                 "19:00"
             ], 
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:15", 
                 "07:00", 
                 "07:30", 
@@ -134,7 +134,7 @@
                 "12:45"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:15", 
                 "07:00", 
                 "07:30", 
@@ -146,7 +146,7 @@
                 "12:45"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "07:10", 
                 "08:15", 
                 "09:05", 
@@ -173,7 +173,7 @@
                 "20:20"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "07:10", 
                 "08:15", 
                 "09:05", 
@@ -200,7 +200,7 @@
                 "20:20"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "07:05", 
                 "08:20", 
                 "09:15", 
@@ -212,7 +212,7 @@
                 "14:00"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "07:05", 
                 "08:20", 
                 "09:15", 
@@ -244,7 +244,7 @@
         ], 
         "schedule": [
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "05:50", 
                 "06:05", 
                 "06:25", 
@@ -273,7 +273,7 @@
                 "19:00"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "05:50", 
                 "06:05", 
                 "06:25", 
@@ -302,7 +302,7 @@
                 "19:00"
             ], 
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:15", 
                 "07:00", 
                 "07:30", 
@@ -314,7 +314,7 @@
                 "12:45"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:15", 
                 "07:00", 
                 "07:30", 
@@ -326,7 +326,7 @@
                 "12:45"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "07:10", 
                 "08:15", 
                 "09:05", 
@@ -353,7 +353,7 @@
                 "20:20"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "07:10", 
                 "08:15", 
                 "09:05", 
@@ -380,7 +380,7 @@
                 "20:20"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "07:05", 
                 "08:20", 
                 "09:15", 
@@ -392,7 +392,7 @@
                 "14:00"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "07:05", 
                 "08:20", 
                 "09:15", 
@@ -460,7 +460,7 @@
         ], 
         "schedule": [
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:10", 
                 "06:25", 
                 "06:45", 
@@ -488,7 +488,7 @@
                 "18:55"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:10", 
                 "06:25", 
                 "06:45", 
@@ -516,7 +516,7 @@
                 "18:55"
             ], 
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:20", 
                 "07:00", 
                 "07:35", 
@@ -528,7 +528,7 @@
                 "12:20"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:20", 
                 "07:00", 
                 "07:35", 
@@ -540,7 +540,7 @@
                 "12:20"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "06:15", 
                 "07:20", 
                 "08:50", 
@@ -567,7 +567,7 @@
                 "20:15"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "06:15", 
                 "07:20", 
                 "08:50", 
@@ -594,7 +594,7 @@
                 "20:15"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "06:35", 
                 "07:50", 
                 "08:30", 
@@ -605,7 +605,7 @@
                 "13:00"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "06:35", 
                 "07:50", 
                 "08:30", 
@@ -707,7 +707,7 @@
         ], 
         "schedule": [
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:10", 
                 "06:25", 
                 "06:50", 
@@ -736,7 +736,7 @@
                 "19:40"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:10", 
                 "06:25", 
                 "06:50", 
@@ -765,7 +765,7 @@
                 "19:40"
             ], 
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:20", 
                 "07:00", 
                 "07:35", 
@@ -777,7 +777,7 @@
                 "12:40"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:20", 
                 "07:00", 
                 "07:35", 
@@ -789,7 +789,7 @@
                 "12:40"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "06:20", 
                 "07:20", 
                 "09:00", 
@@ -815,7 +815,7 @@
                 "20:40"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "06:20", 
                 "07:20", 
                 "09:00", 
@@ -841,7 +841,7 @@
                 "20:40"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "06:30", 
                 "08:00", 
                 "09:00", 
@@ -851,7 +851,7 @@
                 "12:15"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "06:30", 
                 "08:00", 
                 "09:00", 
@@ -918,7 +918,7 @@
         ], 
         "schedule": [
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:10", 
                 "06:25", 
                 "06:50", 
@@ -947,7 +947,7 @@
                 "19:40"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:10", 
                 "06:25", 
                 "06:50", 
@@ -976,7 +976,7 @@
                 "19:40"
             ], 
             [
-                "Segunda \u00e0 Sexta - BAIRRO ", 
+                "Segunda \u00e0 Sexta - BAIRRO", 
                 "06:20", 
                 "07:00", 
                 "07:35", 
@@ -988,7 +988,7 @@
                 "12:40"
             ], 
             [
-                "S\u00e1bados - BAIRRO ", 
+                "S\u00e1bados - BAIRRO", 
                 "06:20", 
                 "07:00", 
                 "07:35", 
@@ -1000,7 +1000,7 @@
                 "12:40"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "06:20", 
                 "07:20", 
                 "09:00", 
@@ -1026,7 +1026,7 @@
                 "20:40"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "06:20", 
                 "07:20", 
                 "09:00", 
@@ -1052,7 +1052,7 @@
                 "20:40"
             ], 
             [
-                "Segunda \u00e0 Sexta -  TERM. CIDADE FLORIANOPOLIS", 
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "06:30", 
                 "08:00", 
                 "09:00", 
@@ -1062,7 +1062,7 @@
                 "12:15"
             ], 
             [
-                "S\u00e1bados -  TERM. CIDADE FLORIANOPOLIS", 
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "06:30", 
                 "08:00", 
                 "09:00", 
@@ -1145,35 +1145,6 @@
     }, 
     {
         "name": [
-            "910000", 
-            "RACHADEL / ANTONIO CARLOS (ATE VILA 12)"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - RACHADEL", 
-                "05:25"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
-                "11:20", 
-                "18:00"
-            ]
-        ], 
-        "price": "R$ 4,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ], 
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ]
-        ], 
-        "time": "20 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "900057", 
             "ESTIVA (ATE VIADUTO JANAINA)"
         ], 
@@ -1223,6 +1194,35 @@
             ]
         ], 
         "time": "50 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "910000", 
+            "RACHADEL / ANTONIO CARLOS (ATE VILA 12)"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - RACHADEL", 
+                "05:25"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
+                "11:20", 
+                "18:00"
+            ]
+        ], 
+        "price": "R$ 4,00", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ], 
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ]
+        ], 
+        "time": "20 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -1394,147 +1394,6 @@
             ]
         ], 
         "time": "40 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
-            "90801", 
-            "EXECUTIVO DIRETAO"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BARREIROS ", 
-                "06:20", 
-                "06:50", 
-                "07:20", 
-                "08:40", 
-                "09:10", 
-                "10:50", 
-                "12:10", 
-                "12:40", 
-                "13:10", 
-                "14:30", 
-                "15:00", 
-                "16:40", 
-                "18:00", 
-                "18:30", 
-                "19:00"
-            ], 
-            [
-                "Segunda \u00e0 Sexta -  FAZENDA SANTO ANTONIO", 
-                "06:10", 
-                "07:30", 
-                "08:00", 
-                "08:30", 
-                "11:00", 
-                "11:30", 
-                "12:00", 
-                "13:20", 
-                "13:50", 
-                "14:20", 
-                "16:50", 
-                "17:20", 
-                "17:50", 
-                "19:10", 
-                "19:40"
-            ]
-        ], 
-        "price": "R$ 5,60", 
-        "updated_at": "06/05/2015", 
-        "itinerary": [
-            [
-                "R JEREMIAS EUGENIO DA SILVA", 
-                "RUA PADRE AGOSTINHO VAN VELSE", 
-                "RUA NOSSA SENHORA DO GUADALUPE", 
-                "R ALVARO MEDEIROS DE SANTIAGO", 
-                "R FRANCISCO JACINTO DE MELO", 
-                "RUA JACOB SENS", 
-                "RUA JOAO MANOEL DA SILVA", 
-                "RUA PROGRESSO", 
-                "R SANTA CLARA", 
-                "R EMIDIO FRANCISCO DA SILVA", 
-                "R OTTO JULIO MALINA", 
-                "RUA PLACIDES AMOLDO MEIRA", 
-                "R TTE DIONISIO CARDOSO", 
-                "R DORALICE RAMOS DE PINHO", 
-                "R PADRE JUSTINO CORTEGES", 
-                "RUA DAS PAPOULAS", 
-                "R DAS ORQUIDEAS", 
-                "MARGINAL DA BR 101", 
-                "PARALELA MENINO JULIO CESAR", 
-                "RUA PAULINO PEDRO HERMES.", 
-                "ALCA VIA EXPRESSA", 
-                "RUA SEBASTIAO FURTADO PEREIRA", 
-                "R GERONCIO THIVES", 
-                "R DOMINGOS ANDRE ZANINI", 
-                "R KOESA", 
-                "RUA JOSE MACEDO SOBRINHO", 
-                "AV LEDIO JOAO MARTINS", 
-                "R JOSE FERMINIO NOVAES", 
-                "RUA ANTONIO SCHERER", 
-                "RUA JAIME ARRUDA RAMOS", 
-                "RUA SETE DE SETEMBRO", 
-                "AVENIDA PRESIDENTE KENNEDY", 
-                "RUA JOAQUIM ANTONIO VAZ", 
-                "AV GETULIO VARGAS", 
-                "R HOMERO DE MIRANDA GOMES", 
-                "R PEDRO CUNHA", 
-                "R FREDERICO AFONSO", 
-                "R BENJAMIM GERLACH", 
-                "RUA JACI SCHLISHTING", 
-                "RUA PEDRO COSTA CASTRO", 
-                "RUA SENADOR CARLOS GOMES DE OLIEVIRA", 
-                "SC 407", 
-                "SC 281"
-            ], 
-            [
-                "SC 281", 
-                "SC 407", 
-                "RUA PEDRO COSTA CASTRO", 
-                "RUA NEREU NETO CAPISTRANO", 
-                "RUA ARNOLDO SILVEIRA DE SOUZA", 
-                "R BENJAMIM GERLACH", 
-                "R FREDERICO AFONSO", 
-                "R PEDRO CUNHA", 
-                "R HOMERO DE MIRANDA GOMES", 
-                "AV GETULIO VARGAS", 
-                "R GASPAR NEVES", 
-                "RUA HILARIO VIEIRA", 
-                "AVENIDA BEIRA MAR DE SAO JOSE", 
-                "RUA 1", 
-                "AVENIDA PRESIDENTE KENNEDY", 
-                "AV LEDIO JOAO MARTINS", 
-                "R JORNALISTA BENTO SILVERIO", 
-                "R JOSE FERMINIO NOVAES", 
-                "R SILVIA MARIA FABIO", 
-                "RUA WILSON NASCIMENTO", 
-                "R ADHEMAR DA SILVA", 
-                "R JOSE FERMINIO NOVAES", 
-                "AV LEDIO JOAO MARTINS", 
-                "R VALDEMAR AVELINO MAFRA", 
-                "R DOMINGOS ANDRE ZANINI", 
-                "R GERONCIO THIVES", 
-                "RUA SEBASTIAO FURTADO PEREIRA", 
-                "PARALELA JULIO MULLER", 
-                "AV LEOBERTO LEAL", 
-                "R CANDIDO AMARO DAMAZIO", 
-                "R PADRE JUSTINO CORTEGES", 
-                "R DORALICE RAMOS DE PINHO", 
-                "R TTE DIONISIO CARDOSO", 
-                "RUA PLACIDES AMOLDO MEIRA", 
-                "R OTTO JULIO MALINA", 
-                "R EMIDIO FRANCISCO DA SILVA", 
-                "R SANTA CLARA", 
-                "RUA PROGRESSO", 
-                "RUA JOAO MANOEL DA SILVA", 
-                "RUA JACOB SENS", 
-                "R ALVARO MEDEIROS DE SANTIAGO", 
-                "RUA NOSSA SENHORA DO GUADALUPE", 
-                "RUA PADRE AGOSTINHO VAN VELSE", 
-                "R JEREMIAS EUGENIO DA SILVA"
-            ]
-        ], 
-        "time": "1h 10min", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -1868,6 +1727,147 @@
             ]
         ], 
         "time": "1h 30min", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "90801", 
+            "EXECUTIVO DIRETAO"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BARREIROS", 
+                "06:20", 
+                "06:50", 
+                "07:20", 
+                "08:40", 
+                "09:10", 
+                "10:50", 
+                "12:10", 
+                "12:40", 
+                "13:10", 
+                "14:30", 
+                "15:00", 
+                "16:40", 
+                "18:00", 
+                "18:30", 
+                "19:00"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - FAZENDA SANTO ANTONIO", 
+                "06:10", 
+                "07:30", 
+                "08:00", 
+                "08:30", 
+                "11:00", 
+                "11:30", 
+                "12:00", 
+                "13:20", 
+                "13:50", 
+                "14:20", 
+                "16:50", 
+                "17:20", 
+                "17:50", 
+                "19:10", 
+                "19:40"
+            ]
+        ], 
+        "price": "R$ 5,60", 
+        "updated_at": "06/05/2015", 
+        "itinerary": [
+            [
+                "R JEREMIAS EUGENIO DA SILVA", 
+                "RUA PADRE AGOSTINHO VAN VELSE", 
+                "RUA NOSSA SENHORA DO GUADALUPE", 
+                "R ALVARO MEDEIROS DE SANTIAGO", 
+                "R FRANCISCO JACINTO DE MELO", 
+                "RUA JACOB SENS", 
+                "RUA JOAO MANOEL DA SILVA", 
+                "RUA PROGRESSO", 
+                "R SANTA CLARA", 
+                "R EMIDIO FRANCISCO DA SILVA", 
+                "R OTTO JULIO MALINA", 
+                "RUA PLACIDES AMOLDO MEIRA", 
+                "R TTE DIONISIO CARDOSO", 
+                "R DORALICE RAMOS DE PINHO", 
+                "R PADRE JUSTINO CORTEGES", 
+                "RUA DAS PAPOULAS", 
+                "R DAS ORQUIDEAS", 
+                "MARGINAL DA BR 101", 
+                "PARALELA MENINO JULIO CESAR", 
+                "RUA PAULINO PEDRO HERMES.", 
+                "ALCA VIA EXPRESSA", 
+                "RUA SEBASTIAO FURTADO PEREIRA", 
+                "R GERONCIO THIVES", 
+                "R DOMINGOS ANDRE ZANINI", 
+                "R KOESA", 
+                "RUA JOSE MACEDO SOBRINHO", 
+                "AV LEDIO JOAO MARTINS", 
+                "R JOSE FERMINIO NOVAES", 
+                "RUA ANTONIO SCHERER", 
+                "RUA JAIME ARRUDA RAMOS", 
+                "RUA SETE DE SETEMBRO", 
+                "AVENIDA PRESIDENTE KENNEDY", 
+                "RUA JOAQUIM ANTONIO VAZ", 
+                "AV GETULIO VARGAS", 
+                "R HOMERO DE MIRANDA GOMES", 
+                "R PEDRO CUNHA", 
+                "R FREDERICO AFONSO", 
+                "R BENJAMIM GERLACH", 
+                "RUA JACI SCHLISHTING", 
+                "RUA PEDRO COSTA CASTRO", 
+                "RUA SENADOR CARLOS GOMES DE OLIEVIRA", 
+                "SC 407", 
+                "SC 281"
+            ], 
+            [
+                "SC 281", 
+                "SC 407", 
+                "RUA PEDRO COSTA CASTRO", 
+                "RUA NEREU NETO CAPISTRANO", 
+                "RUA ARNOLDO SILVEIRA DE SOUZA", 
+                "R BENJAMIM GERLACH", 
+                "R FREDERICO AFONSO", 
+                "R PEDRO CUNHA", 
+                "R HOMERO DE MIRANDA GOMES", 
+                "AV GETULIO VARGAS", 
+                "R GASPAR NEVES", 
+                "RUA HILARIO VIEIRA", 
+                "AVENIDA BEIRA MAR DE SAO JOSE", 
+                "RUA 1", 
+                "AVENIDA PRESIDENTE KENNEDY", 
+                "AV LEDIO JOAO MARTINS", 
+                "R JORNALISTA BENTO SILVERIO", 
+                "R JOSE FERMINIO NOVAES", 
+                "R SILVIA MARIA FABIO", 
+                "RUA WILSON NASCIMENTO", 
+                "R ADHEMAR DA SILVA", 
+                "R JOSE FERMINIO NOVAES", 
+                "AV LEDIO JOAO MARTINS", 
+                "R VALDEMAR AVELINO MAFRA", 
+                "R DOMINGOS ANDRE ZANINI", 
+                "R GERONCIO THIVES", 
+                "RUA SEBASTIAO FURTADO PEREIRA", 
+                "PARALELA JULIO MULLER", 
+                "AV LEOBERTO LEAL", 
+                "R CANDIDO AMARO DAMAZIO", 
+                "R PADRE JUSTINO CORTEGES", 
+                "R DORALICE RAMOS DE PINHO", 
+                "R TTE DIONISIO CARDOSO", 
+                "RUA PLACIDES AMOLDO MEIRA", 
+                "R OTTO JULIO MALINA", 
+                "R EMIDIO FRANCISCO DA SILVA", 
+                "R SANTA CLARA", 
+                "RUA PROGRESSO", 
+                "RUA JOAO MANOEL DA SILVA", 
+                "RUA JACOB SENS", 
+                "R ALVARO MEDEIROS DE SANTIAGO", 
+                "RUA NOSSA SENHORA DO GUADALUPE", 
+                "RUA PADRE AGOSTINHO VAN VELSE", 
+                "R JEREMIAS EUGENIO DA SILVA"
+            ]
+        ], 
+        "time": "1h 10min", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -6947,134 +6947,6 @@
     }, 
     {
         "name": [
-            "43500", 
-            "CEASA"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "05:45", 
-                "06:20", 
-                "11:00", 
-                "18:45"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TICEN - PLATAFORMA E", 
-                "06:40", 
-                "07:05", 
-                "07:45", 
-                "08:05", 
-                "08:35", 
-                "09:35", 
-                "12:05", 
-                "12:25", 
-                "13:05", 
-                "13:40", 
-                "14:25", 
-                "15:20", 
-                "16:25", 
-                "17:20", 
-                "18:20", 
-                "19:00", 
-                "19:35", 
-                "20:20", 
-                "21:10", 
-                "22:35"
-            ], 
-            [
-                "S\u00e1bados - TICEN - PLATAFORMA E", 
-                "06:40", 
-                "07:05", 
-                "07:45", 
-                "08:05", 
-                "08:35", 
-                "09:35", 
-                "12:05", 
-                "12:25", 
-                "13:05", 
-                "13:40", 
-                "14:25", 
-                "15:20", 
-                "16:25", 
-                "17:20", 
-                "18:20", 
-                "19:00", 
-                "19:35", 
-                "20:20", 
-                "21:10", 
-                "22:35"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TICEN - PLATAFORMA E", 
-                "06:35", 
-                "07:05", 
-                "08:05", 
-                "08:35", 
-                "10:05", 
-                "11:05", 
-                "11:35", 
-                "12:05", 
-                "12:35", 
-                "13:40"
-            ], 
-            [
-                "S\u00e1bados - TICEN - PLATAFORMA E", 
-                "06:35", 
-                "07:05", 
-                "08:05", 
-                "08:35", 
-                "10:05", 
-                "11:05", 
-                "11:35", 
-                "12:05", 
-                "12:35", 
-                "13:40"
-            ]
-        ], 
-        "price": "R$ 3,00", 
-        "updated_at": "18/05/2015", 
-        "itinerary": [
-            [
-                "R FRANCISCO PEDRO MACHADO", 
-                "PARALELA SEBASTIAO F PEREIRA", 
-                "R DO IANO", 
-                "R NABOR JOAQUIM DE SOUZA", 
-                "R FULVIO VIEIRA DA ROSA", 
-                "R SERVAS DE MARIA REPARADORA", 
-                "R VERGILINO FERREIRA DE SOUZA", 
-                "R NELSON DA SILVA", 
-                "R JOSE VITOR DA ROSA", 
-                "R GREGORIO FELIPE", 
-                "R CAP PEDRO LEITE", 
-                "AV LEOBERTO LEAL", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "PCA DUQUE DE CAXIAS", 
-                "R ENG MAX DE SOUZA", 
-                "RODOVIA 282 (VIA EXPRESSA)", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "AV GUSTAVO RICHARDT", 
-                "TERM. CENTRAL DE INTEGRACAO"
-            ], 
-            [
-                "TERM. CENTRAL DE INTEGRACAO", 
-                "AV GUSTAVO RICHARDT", 
-                "PONTE ENG COLOMBO MACHADO SALLES", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R 14 DE JULHO", 
-                "R FULVIO ADUCCI", 
-                "R CEL PEDRO DEMORO", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "AV LEOBERTO LEAL"
-            ]
-        ], 
-        "time": "30 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "44200", 
             "BARREIROS (VIA SUVEC)"
         ], 
@@ -7228,6 +7100,134 @@
             ]
         ], 
         "time": "35 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "43500", 
+            "CEASA"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "05:45", 
+                "06:20", 
+                "11:00", 
+                "18:45"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TICEN - PLATAFORMA E", 
+                "06:40", 
+                "07:05", 
+                "07:45", 
+                "08:05", 
+                "08:35", 
+                "09:35", 
+                "12:05", 
+                "12:25", 
+                "13:05", 
+                "13:40", 
+                "14:25", 
+                "15:20", 
+                "16:25", 
+                "17:20", 
+                "18:20", 
+                "19:00", 
+                "19:35", 
+                "20:20", 
+                "21:10", 
+                "22:35"
+            ], 
+            [
+                "S\u00e1bados - TICEN - PLATAFORMA E", 
+                "06:40", 
+                "07:05", 
+                "07:45", 
+                "08:05", 
+                "08:35", 
+                "09:35", 
+                "12:05", 
+                "12:25", 
+                "13:05", 
+                "13:40", 
+                "14:25", 
+                "15:20", 
+                "16:25", 
+                "17:20", 
+                "18:20", 
+                "19:00", 
+                "19:35", 
+                "20:20", 
+                "21:10", 
+                "22:35"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TICEN - PLATAFORMA E", 
+                "06:35", 
+                "07:05", 
+                "08:05", 
+                "08:35", 
+                "10:05", 
+                "11:05", 
+                "11:35", 
+                "12:05", 
+                "12:35", 
+                "13:40"
+            ], 
+            [
+                "S\u00e1bados - TICEN - PLATAFORMA E", 
+                "06:35", 
+                "07:05", 
+                "08:05", 
+                "08:35", 
+                "10:05", 
+                "11:05", 
+                "11:35", 
+                "12:05", 
+                "12:35", 
+                "13:40"
+            ]
+        ], 
+        "price": "R$ 3,00", 
+        "updated_at": "18/05/2015", 
+        "itinerary": [
+            [
+                "R FRANCISCO PEDRO MACHADO", 
+                "PARALELA SEBASTIAO F PEREIRA", 
+                "R DO IANO", 
+                "R NABOR JOAQUIM DE SOUZA", 
+                "R FULVIO VIEIRA DA ROSA", 
+                "R SERVAS DE MARIA REPARADORA", 
+                "R VERGILINO FERREIRA DE SOUZA", 
+                "R NELSON DA SILVA", 
+                "R JOSE VITOR DA ROSA", 
+                "R GREGORIO FELIPE", 
+                "R CAP PEDRO LEITE", 
+                "AV LEOBERTO LEAL", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "PCA DUQUE DE CAXIAS", 
+                "R ENG MAX DE SOUZA", 
+                "RODOVIA 282 (VIA EXPRESSA)", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "AV GUSTAVO RICHARDT", 
+                "TERM. CENTRAL DE INTEGRACAO"
+            ], 
+            [
+                "TERM. CENTRAL DE INTEGRACAO", 
+                "AV GUSTAVO RICHARDT", 
+                "PONTE ENG COLOMBO MACHADO SALLES", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R 14 DE JULHO", 
+                "R FULVIO ADUCCI", 
+                "R CEL PEDRO DEMORO", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "AV LEOBERTO LEAL"
+            ]
+        ], 
+        "time": "30 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {

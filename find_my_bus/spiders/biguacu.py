@@ -107,7 +107,7 @@ class BiguacuSpider(InitSpider):
 				if not partida:
 					lugares_saida.append(saida)
 				else:
-					lugares_saida.append(saida + " - " + partida[0])
+					lugares_saida.append(saida + " - " + partida[0].strip())
 
 			for horario in horarios[0:]:
 				for saida in lugares_saida:
