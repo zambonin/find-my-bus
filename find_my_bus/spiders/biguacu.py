@@ -82,7 +82,7 @@ class BiguacuSpider(InitSpider):
 		
 		cabecalho = source.xpath('//div/div')
 
-		nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract().strip()
+		nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract().strip().split(" ", 1)
 		preco = "R$"+ cabecalho.xpath('//div')[0].xpath('//span/text()')[6].extract()
 		modificacao = cabecalho.xpath('//div')[3].xpath('./text()').extract()[0].strip()
 		tempo_medio = cabecalho.xpath('//div')[6].xpath('./text()').extract()[0].strip()
@@ -104,24 +104,25 @@ class BiguacuSpider(InitSpider):
 			lugares_saida = []
 
 			for saida in dias:
-				if not partida:
-					lugares_saida.append(saida)
-				else:
-					lugares_saida.append(saida + " - " + partida[0])
+				lugares_saida.append(saida)
 
 			for horario in horarios[0:]:
 				for saida in range(0, len(lugares_saida)):
-					conj_horarios[lugares_saida[saida]] = \
-						horario.xpath('./div/ul/li/div/a/text()').extract()
+					saidas = horario.xpath('./div/ul/li/div/a/text()').extract()
+					if not partida:
+						conj_horarios[lugares_saida[saida]] = ["Saída indisponível."] + saidas
+					else:
+						conj_horarios[lugares_saida[saida]] = [partida[0].strip()] + saidas
+
 
 		for conj in itinerarios:
 			if not conj:
 				conj.append("Itinerário indisponível.")
 		
-		item = FindMyBusItem(nome=nome_onibus, preco=preco, 
-							empresa="Biguaçu Transportes", 
-							horarios=conj_horarios, itinerario=itinerarios, 
-							tempo_medio=tempo_medio, modificacao=modificacao)
+		item = FindMyBusItem(name=nome_onibus, price=preco, 
+							company="Biguaçu Transportes", 
+							schedule=conj_horarios, itinerary=itinerarios, 
+							time=tempo_medio, updated_at=modificacao)
 
 		yield item
 		yield self.make_requests_from_url(self.start_urls[0])
