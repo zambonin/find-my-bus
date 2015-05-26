@@ -22,7 +22,7 @@ class FenixSpider(InitSpider):
 		Returns:
 			A FormRequest object with the necessary form submission data.
 		"""
-		return Request(url=self.start_urls[0] % "/horarios/", 
+		return Request(url=self.start_urls[0] % "/horarios", 
 						callback=self.organize)
 
 	def organize(self, response):
@@ -94,13 +94,14 @@ class FenixSpider(InitSpider):
 		modificacao = dados[5].strip()[0:]
 
 		conj_horarios = []
-		for linha in conteudo[1:]:
+
+		for linha in conteudo[1:len(conteudo)-1]: 
 			horarios = []
-			linhas = linha.xpath('./div')
-			nome = linhas[0].xpath('./h4/text()').extract()[0]
-			horarios.append(nome)
-			for rua in linhas[1:]:
-				horarios.append(rua.xpath('./a/text()').extract()[0].strip()[:5])
+			horarios.append(linha.xpath('./div')[0].xpath('./h4/text()').extract()[0])
+			for linha in linha.xpath('./div'):
+				lista_horarios = linha.xpath('./a/text()').extract()
+				if len(lista_horarios) > 0:
+					horarios.append(lista_horarios[0].strip()[:5])
 			conj_horarios.append(horarios)
 
 		it = horario.xpath('./ol/li/text()').extract()

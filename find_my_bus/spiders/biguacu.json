@@ -1,64 +1,6 @@
 [
     {
         "name": [
-            "930000", 
-            "LORO / ANTONIO CARLOS (VIA SALTO)"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - LORO", 
-                "05:20"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
-                "06:05"
-            ]
-        ], 
-        "price": "R$ 4,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ], 
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ]
-        ], 
-        "time": "30 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
-            "960000", 
-            "SANTA MARIA / ANTONIO CARLOS"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "04:30"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
-                "07:30", 
-                "17:25", 
-                "19:40"
-            ]
-        ], 
-        "price": "R$ 4,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ], 
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ]
-        ], 
-        "time": "25 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "76403", 
             "EXECUTIVO BIGUACU"
         ], 
@@ -69,10 +11,12 @@
                 "06:05", 
                 "06:25", 
                 "06:55", 
+                "07:05", 
                 "07:15", 
                 "07:45", 
-                "08:00", 
+                "08:10", 
                 "08:55", 
+                "09:20", 
                 "09:45", 
                 "10:20", 
                 "10:45", 
@@ -81,15 +25,18 @@
                 "12:10", 
                 "12:40", 
                 "13:00", 
+                "13:20", 
                 "13:40", 
                 "14:10", 
                 "14:50", 
                 "15:20", 
+                "15:40", 
                 "16:00", 
                 "16:50", 
                 "17:20", 
                 "17:45", 
                 "18:20", 
+                "18:40", 
                 "19:00"
             ], 
             [
@@ -98,10 +45,12 @@
                 "06:05", 
                 "06:25", 
                 "06:55", 
+                "07:05", 
                 "07:15", 
                 "07:45", 
-                "08:00", 
+                "08:10", 
                 "08:55", 
+                "09:20", 
                 "09:45", 
                 "10:20", 
                 "10:45", 
@@ -110,15 +59,18 @@
                 "12:10", 
                 "12:40", 
                 "13:00", 
+                "13:20", 
                 "13:40", 
                 "14:10", 
                 "14:50", 
                 "15:20", 
+                "15:40", 
                 "16:00", 
                 "16:50", 
                 "17:20", 
                 "17:45", 
                 "18:20", 
+                "18:40", 
                 "19:00"
             ], 
             [
@@ -149,6 +101,7 @@
                 "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
                 "07:10", 
                 "08:15", 
+                "08:45", 
                 "09:05", 
                 "09:40", 
                 "10:05", 
@@ -157,25 +110,30 @@
                 "11:30", 
                 "12:00", 
                 "12:20", 
+                "12:40", 
                 "13:00", 
                 "13:30", 
                 "14:10", 
                 "14:40", 
+                "15:00", 
                 "15:20", 
                 "16:10", 
                 "16:40", 
                 "17:05", 
                 "17:40", 
+                "18:00", 
                 "18:20", 
-                "18:40", 
-                "19:10", 
-                "19:35", 
-                "20:20"
+                "18:45", 
+                "19:15", 
+                "19:50", 
+                "20:10", 
+                "20:30"
             ], 
             [
                 "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
                 "07:10", 
                 "08:15", 
+                "08:45", 
                 "09:05", 
                 "09:40", 
                 "10:05", 
@@ -184,20 +142,24 @@
                 "11:30", 
                 "12:00", 
                 "12:20", 
+                "12:40", 
                 "13:00", 
                 "13:30", 
                 "14:10", 
                 "14:40", 
+                "15:00", 
                 "15:20", 
                 "16:10", 
                 "16:40", 
                 "17:05", 
                 "17:40", 
+                "18:00", 
                 "18:20", 
-                "18:40", 
-                "19:10", 
-                "19:35", 
-                "20:20"
+                "18:45", 
+                "19:15", 
+                "19:50", 
+                "20:10", 
+                "20:30"
             ], 
             [
                 "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
@@ -225,7 +187,7 @@
             ]
         ], 
         "price": "R$ 6,80", 
-        "updated_at": "24/03/2015", 
+        "updated_at": "25/05/2015", 
         "itinerary": [
             [
                 "Itiner\u00e1rio indispon\u00edvel."
@@ -455,634 +417,60 @@
     }, 
     {
         "name": [
-            "43103", 
-            "EXECUTIVO BELA VISTA"
+            "960000", 
+            "SANTA MARIA / ANTONIO CARLOS"
         ], 
         "schedule": [
             [
                 "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:10", 
-                "06:25", 
-                "06:45", 
-                "07:10", 
-                "07:35", 
-                "08:00", 
-                "08:35", 
-                "09:20", 
-                "10:05", 
-                "10:50", 
-                "11:40", 
-                "12:00", 
-                "12:35", 
-                "13:10", 
-                "13:40", 
-                "14:10", 
-                "14:40", 
-                "15:10", 
-                "15:35", 
-                "16:00", 
-                "16:45", 
+                "04:30"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
+                "07:30", 
                 "17:25", 
-                "17:45", 
-                "18:30", 
-                "18:55"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "06:10", 
-                "06:25", 
-                "06:45", 
-                "07:10", 
-                "07:35", 
-                "08:00", 
-                "08:35", 
-                "09:20", 
-                "10:05", 
-                "10:50", 
-                "11:40", 
-                "12:00", 
-                "12:35", 
-                "13:10", 
-                "13:40", 
-                "14:10", 
-                "14:40", 
-                "15:10", 
-                "15:35", 
-                "16:00", 
-                "16:45", 
-                "17:25", 
-                "17:45", 
-                "18:30", 
-                "18:55"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:20", 
-                "07:00", 
-                "07:35", 
-                "08:10", 
-                "08:50", 
-                "09:50", 
-                "10:50", 
-                "11:35", 
-                "12:20"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "06:20", 
-                "07:00", 
-                "07:35", 
-                "08:10", 
-                "08:50", 
-                "09:50", 
-                "10:50", 
-                "11:35", 
-                "12:20"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
-                "06:15", 
-                "07:20", 
-                "08:50", 
-                "09:35", 
-                "10:20", 
-                "11:10", 
-                "11:30", 
-                "12:05", 
-                "12:40", 
-                "13:10", 
-                "13:40", 
-                "14:10", 
-                "14:40", 
-                "15:05", 
-                "15:30", 
-                "16:15", 
-                "16:55", 
-                "17:15", 
-                "18:00", 
-                "18:25", 
-                "18:55", 
-                "19:30", 
-                "19:50", 
-                "20:15"
-            ], 
-            [
-                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
-                "06:15", 
-                "07:20", 
-                "08:50", 
-                "09:35", 
-                "10:20", 
-                "11:10", 
-                "11:30", 
-                "12:05", 
-                "12:40", 
-                "13:10", 
-                "13:40", 
-                "14:10", 
-                "14:40", 
-                "15:05", 
-                "15:30", 
-                "16:15", 
-                "16:55", 
-                "17:15", 
-                "18:00", 
-                "18:25", 
-                "18:55", 
-                "19:30", 
-                "19:50", 
-                "20:15"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
-                "06:35", 
-                "07:50", 
-                "08:30", 
-                "09:30", 
-                "10:30", 
-                "11:15", 
-                "12:00", 
-                "13:00"
-            ], 
-            [
-                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
-                "06:35", 
-                "07:50", 
-                "08:30", 
-                "09:30", 
-                "10:30", 
-                "11:15", 
-                "12:00", 
-                "13:00"
+                "19:40"
             ]
         ], 
-        "price": "R$ 6,80", 
-        "updated_at": "24/03/2015", 
+        "price": "R$ 4,00", 
+        "updated_at": "28/04/2015", 
         "itinerary": [
             [
-                "AV ATLANTICA", 
-                "R EVALDO SCHAEFFER", 
-                "R EUGENIO PORTELA", 
-                "R NOSSA SENHORA APARECIDA", 
-                "R SANTO ANTONIO", 
-                "R GERONCIO THIVES", 
-                "VIADUTO RUA DO IANO", 
-                "AV IVO REIS MONTENEGRO", 
-                "R MARIA FILOMENA DA SILVA", 
-                "R WALFRIDES MARTINS", 
-                "R RODOLFO JACOB SCHEFFER", 
-                "R SAO JORGE", 
-                "RUA IANO", 
-                "R JOSE ANTONIO TOMAZ", 
-                "AV SANTA CATARINA", 
-                "R SAO JOSE", 
-                "AV BRASIL", 
-                "PARALELA BR", 
-                "VIADUTO ANTONIO SCHRAEDER", 
-                "R ANTONIO SCHROEDER", 
-                "AV LEOBERTO LEAL", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R ENG MAX DE SOUZA", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "R ANTONIO PEREIRA OLIVEIRA NETO", 
-                "AV PAULO FONTES", 
-                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS", 
-                "R OSVALDO C. ANDRADE", 
-                "RUA AGUINELIO ALBERTO MERIZE"
+                "Itiner\u00e1rio indispon\u00edvel."
             ], 
             [
-                "PRACA XV DE NOVEMBRO", 
-                "R TTE SILVEIRA", 
-                "RUA PEDRO IVO", 
-                "TERM. CENTRAL DE INTEGRACAO", 
-                "R PEDRO BITTENCOURT", 
-                "PONTE ENG COLOMBO MACHADO SALLES", 
-                "R FULVIO ADUCCI", 
-                "R CEL PEDRO DEMORO", 
-                "AV ATLANTICA", 
-                "R EVALDO SCHAEFFER", 
-                "R EUGENIO PORTELA", 
-                "R NOSSA SENHORA APARECIDA", 
-                "R SANTO ANTONIO", 
-                "R GERONCIO THIVES", 
-                "VIADUTO RUA DO IANO", 
-                "AV IVO REIS MONTENEGRO", 
-                "R MARIA FILOMENA DA SILVA", 
-                "R WALFRIDES MARTINS", 
-                "R RODOLFO JACOB SCHEFFER", 
-                "R SAO JORGE", 
-                "RUA IANO", 
-                "R JOSE ANTONIO TOMAZ", 
-                "AV SANTA CATARINA", 
-                "R SAO JOSE", 
-                "AV BRASIL", 
-                "PARALELA BR", 
-                "VIADUTO ANTONIO SCHRAEDER", 
-                "R ANTONIO SCHROEDER", 
-                "AV LEOBERTO LEAL", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R ENG MAX DE SOUZA", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "R ANTONIO PEREIRA OLIVEIRA NETO", 
-                "AV PAULO FONTES", 
-                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS", 
-                "RUA SEBASTIAO FURTADO PEREIRA", 
-                "RUA JULIO MULLER", 
-                "PARALELA ELIANE MOTTA"
+                "Itiner\u00e1rio indispon\u00edvel."
+            ]
+        ], 
+        "time": "25 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "930000", 
+            "LORO / ANTONIO CARLOS (VIA SALTO)"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - LORO", 
+                "05:20"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
+                "06:05"
+            ]
+        ], 
+        "price": "R$ 4,00", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ], 
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
             ]
         ], 
         "time": "30 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
-            "10402", 
-            "EXECUTIVO IPIRANGA"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:10", 
-                "06:25", 
-                "06:50", 
-                "07:10", 
-                "07:55", 
-                "08:15", 
-                "08:30", 
-                "09:35", 
-                "10:35", 
-                "11:05", 
-                "11:30", 
-                "12:05", 
-                "12:35", 
-                "13:00", 
-                "13:35", 
-                "13:55", 
-                "14:35", 
-                "15:00", 
-                "15:30", 
-                "16:00", 
-                "17:00", 
-                "17:40", 
-                "17:50", 
-                "18:35", 
-                "19:15", 
-                "19:40"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "06:10", 
-                "06:25", 
-                "06:50", 
-                "07:10", 
-                "07:55", 
-                "08:15", 
-                "08:30", 
-                "09:35", 
-                "10:35", 
-                "11:05", 
-                "11:30", 
-                "12:05", 
-                "12:35", 
-                "13:00", 
-                "13:35", 
-                "13:55", 
-                "14:35", 
-                "15:00", 
-                "15:30", 
-                "16:00", 
-                "17:00", 
-                "17:40", 
-                "17:50", 
-                "18:35", 
-                "19:15", 
-                "19:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:20", 
-                "07:00", 
-                "07:35", 
-                "08:20", 
-                "09:25", 
-                "10:20", 
-                "11:05", 
-                "11:50", 
-                "12:40"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "06:20", 
-                "07:00", 
-                "07:35", 
-                "08:20", 
-                "09:25", 
-                "10:20", 
-                "11:05", 
-                "11:50", 
-                "12:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
-                "06:20", 
-                "07:20", 
-                "09:00", 
-                "10:00", 
-                "10:30", 
-                "10:55", 
-                "11:30", 
-                "12:00", 
-                "12:25", 
-                "13:00", 
-                "13:20", 
-                "14:00", 
-                "14:25", 
-                "14:55", 
-                "15:25", 
-                "16:25", 
-                "17:05", 
-                "17:25", 
-                "18:00", 
-                "18:40", 
-                "19:05", 
-                "19:35", 
-                "20:40"
-            ], 
-            [
-                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
-                "06:20", 
-                "07:20", 
-                "09:00", 
-                "10:00", 
-                "10:30", 
-                "10:55", 
-                "11:30", 
-                "12:00", 
-                "12:25", 
-                "13:00", 
-                "13:20", 
-                "14:00", 
-                "14:25", 
-                "14:55", 
-                "15:25", 
-                "16:25", 
-                "17:05", 
-                "17:25", 
-                "18:00", 
-                "18:40", 
-                "19:05", 
-                "19:35", 
-                "20:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
-                "06:30", 
-                "08:00", 
-                "09:00", 
-                "10:00", 
-                "10:45", 
-                "11:30", 
-                "12:15"
-            ], 
-            [
-                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
-                "06:30", 
-                "08:00", 
-                "09:00", 
-                "10:00", 
-                "10:45", 
-                "11:30", 
-                "12:15"
-            ]
-        ], 
-        "price": "R$ 6,80", 
-        "updated_at": "13/01/2015", 
-        "itinerary": [
-            [
-                "JOSE CLODOVEL DE SOUZA", 
-                "R INDEPENDENCIA", 
-                "R ALVARO MEDEIROS DE SANTIAGO", 
-                "PARALELA COM A BR 101", 
-                "PARALELA ELIANE MOTTA", 
-                "AV LEOBERTO LEAL", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R ENG MAX DE SOUZA", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "R ANTONIO PEREIRA OLIVEIRA NETO", 
-                "AV PAULO FONTES", 
-                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS"
-            ], 
-            [
-                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS", 
-                "PRACA XV DE NOVEMBRO", 
-                "R TTE SILVEIRA", 
-                "RUA PEDRO IVO", 
-                "AV PAULO FONTES", 
-                "TERM. CENTRAL DE INTEGRACAO", 
-                "R PEDRO BITTENCOURT", 
-                "PONTE ENG COLOMBO MACHADO SALLES", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R FULVIO ADUCCI", 
-                "R CEL PEDRO DEMORO", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "AV LEOBERTO LEAL", 
-                "VIADUTO DE BARREIROS", 
-                "R CANDIDO AMARO DAMAZIO", 
-                "R PADRE JUSTINO CORTEGES", 
-                "R DORALICE RAMOS DE PINHO", 
-                "RUA TENENTE CORONEL DIONISIO CARDOSO", 
-                "RUA PLACIDES AMOLDO MEIRA", 
-                "R OTTO JULIO MALINA", 
-                "RUA ROSALIA HARVEROTS ROHLING", 
-                "R FRANCISCO NAPPI", 
-                "RUA JOB BISPO DE CASTRO", 
-                "R CANDIDO PORTINARI"
-            ]
-        ], 
-        "time": "33 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
-            "10401", 
-            "EXECUTIVO IPIRANGA"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:10", 
-                "06:25", 
-                "06:50", 
-                "07:10", 
-                "07:55", 
-                "08:15", 
-                "08:30", 
-                "09:35", 
-                "10:35", 
-                "11:05", 
-                "11:30", 
-                "12:05", 
-                "12:35", 
-                "13:00", 
-                "13:35", 
-                "13:55", 
-                "14:35", 
-                "15:00", 
-                "15:30", 
-                "16:00", 
-                "17:00", 
-                "17:40", 
-                "17:50", 
-                "18:35", 
-                "19:15", 
-                "19:40"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "06:10", 
-                "06:25", 
-                "06:50", 
-                "07:10", 
-                "07:55", 
-                "08:15", 
-                "08:30", 
-                "09:35", 
-                "10:35", 
-                "11:05", 
-                "11:30", 
-                "12:05", 
-                "12:35", 
-                "13:00", 
-                "13:35", 
-                "13:55", 
-                "14:35", 
-                "15:00", 
-                "15:30", 
-                "16:00", 
-                "17:00", 
-                "17:40", 
-                "17:50", 
-                "18:35", 
-                "19:15", 
-                "19:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:20", 
-                "07:00", 
-                "07:35", 
-                "08:20", 
-                "09:25", 
-                "10:20", 
-                "11:05", 
-                "11:50", 
-                "12:40"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "06:20", 
-                "07:00", 
-                "07:35", 
-                "08:20", 
-                "09:25", 
-                "10:20", 
-                "11:05", 
-                "11:50", 
-                "12:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
-                "06:20", 
-                "07:20", 
-                "09:00", 
-                "10:00", 
-                "10:30", 
-                "10:55", 
-                "11:30", 
-                "12:00", 
-                "12:25", 
-                "13:00", 
-                "13:20", 
-                "14:00", 
-                "14:25", 
-                "14:55", 
-                "15:25", 
-                "16:25", 
-                "17:05", 
-                "17:25", 
-                "18:00", 
-                "18:40", 
-                "19:05", 
-                "19:35", 
-                "20:40"
-            ], 
-            [
-                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
-                "06:20", 
-                "07:20", 
-                "09:00", 
-                "10:00", 
-                "10:30", 
-                "10:55", 
-                "11:30", 
-                "12:00", 
-                "12:25", 
-                "13:00", 
-                "13:20", 
-                "14:00", 
-                "14:25", 
-                "14:55", 
-                "15:25", 
-                "16:25", 
-                "17:05", 
-                "17:25", 
-                "18:00", 
-                "18:40", 
-                "19:05", 
-                "19:35", 
-                "20:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
-                "06:30", 
-                "08:00", 
-                "09:00", 
-                "10:00", 
-                "10:45", 
-                "11:30", 
-                "12:15"
-            ], 
-            [
-                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
-                "06:30", 
-                "08:00", 
-                "09:00", 
-                "10:00", 
-                "10:45", 
-                "11:30", 
-                "12:15"
-            ]
-        ], 
-        "price": "R$ 6,80", 
-        "updated_at": "24/03/2015", 
-        "itinerary": [
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ], 
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ]
-        ], 
-        "time": "33 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -1145,6 +533,35 @@
     }, 
     {
         "name": [
+            "910000", 
+            "RACHADEL / ANTONIO CARLOS (ATE VILA 12)"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - RACHADEL", 
+                "05:25"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
+                "11:20", 
+                "18:00"
+            ]
+        ], 
+        "price": "R$ 4,00", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ], 
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ]
+        ], 
+        "time": "20 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
             "900057", 
             "ESTIVA (ATE VIADUTO JANAINA)"
         ], 
@@ -1194,35 +611,6 @@
             ]
         ], 
         "time": "50 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
-            "910000", 
-            "RACHADEL / ANTONIO CARLOS (ATE VILA 12)"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - RACHADEL", 
-                "05:25"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - RODOVIARIA ANTONIO CARLOS", 
-                "11:20", 
-                "18:00"
-            ]
-        ], 
-        "price": "R$ 4,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ], 
-            [
-                "Itiner\u00e1rio indispon\u00edvel."
-            ]
-        ], 
-        "time": "20 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -4087,110 +3475,6 @@
     }, 
     {
         "name": [
-            "64300", 
-            "TIJUCAS (ATE IMPLAC)"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "16:40"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "16:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "11:00"
-            ], 
-            [
-                "S\u00e1bados - BAIRRO", 
-                "11:00"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - BIGUACU", 
-                "05:30", 
-                "12:10"
-            ], 
-            [
-                "S\u00e1bados - BIGUACU", 
-                "05:30", 
-                "12:10"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - BIGUACU", 
-                "07:30"
-            ], 
-            [
-                "S\u00e1bados - BIGUACU", 
-                "07:30"
-            ]
-        ], 
-        "price": "R$ 4,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "AV JACOB L TAVARES", 
-                "AV BAYER FILHO", 
-                "R TTE CARVALHO", 
-                "PONTE DE FERRO", 
-                "ESTRADA GERAL DE TIJUCAS", 
-                "ESTRADA GERAL DO INFERNINHO", 
-                "SOROCABA DE DENTRO", 
-                "FAZENDA DE DENTRO", 
-                "ESTRADA GERAL DE SOROCABA", 
-                "ESTRADA GERAL DA FAZENDA DA ARMACAO", 
-                "R TREZE DE MAIO", 
-                "PARALELA TRES DE OUTUBRO", 
-                "PARALELA SEBASTIAO LARA", 
-                "R GETULIO VARGAS", 
-                "AV CORONEL TEIXEIRA DE OLIVEIRA", 
-                "VIADUTO DE ANTONIO CARLOS", 
-                "PARALELA JOAO COAN", 
-                "PARALELA HIPOLITO HENRIQUE PELEGER", 
-                "VIADUTO DO FURACAO", 
-                "PARALELA SALINA SALUM", 
-                "PARALELA FRANK TRAEBERT", 
-                "IMPLAC"
-            ], 
-            [
-                "IMPLAC", 
-                "PARALELA FRANK TRAEBERT", 
-                "R GETULIO VARGAS", 
-                "PCA NEREU RAMOS", 
-                "R JOAO PESSOA", 
-                "R FREDERICO BUNN", 
-                "AV RIO BRANCO", 
-                "RODOVIARIA DE BIGUACU", 
-                "R MARECHAL DEODORO", 
-                "R JOAO BORN", 
-                "RODOVIA BR 101", 
-                "PARALELA COM A BR 101", 
-                "VIADUTO DO PRADO", 
-                "PARALELA TRES DE OUTUBRO", 
-                "R TREZE DE MAIO", 
-                "ESTRADA GERAL DA FAZENDA DA ARMACAO", 
-                "FAZENDA DE DENTRO", 
-                "ESTRADA GERAL DE SOROCABA", 
-                "SOROCABA DE DENTRO", 
-                "ESTRADA GERAL DO INFERNINHO", 
-                "ESTRADA GERAL DE TIMBE", 
-                "ESTRADA GERAL DE TIJUCAS", 
-                "PONTE DE FERRO", 
-                "R TTE CARVALHO", 
-                "R 15 DE NOVEMBRO", 
-                "R SANTA CATARINA", 
-                "R CEL BUCHEU", 
-                "PARALELA PONTE TIJUCAS", 
-                "AV VALERIO GOMES", 
-                "RODOVIARIA DE TIJUCAS"
-            ]
-        ], 
-        "time": "1h 50min", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "64201", 
             "SOROCABA (ATE VIADUTO JANAINA)"
         ], 
@@ -4334,6 +3618,110 @@
             ]
         ], 
         "time": "50 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "64300", 
+            "TIJUCAS (ATE IMPLAC)"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "16:40"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "16:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "11:00"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "11:00"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BIGUACU", 
+                "05:30", 
+                "12:10"
+            ], 
+            [
+                "S\u00e1bados - BIGUACU", 
+                "05:30", 
+                "12:10"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BIGUACU", 
+                "07:30"
+            ], 
+            [
+                "S\u00e1bados - BIGUACU", 
+                "07:30"
+            ]
+        ], 
+        "price": "R$ 4,00", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "AV JACOB L TAVARES", 
+                "AV BAYER FILHO", 
+                "R TTE CARVALHO", 
+                "PONTE DE FERRO", 
+                "ESTRADA GERAL DE TIJUCAS", 
+                "ESTRADA GERAL DO INFERNINHO", 
+                "SOROCABA DE DENTRO", 
+                "FAZENDA DE DENTRO", 
+                "ESTRADA GERAL DE SOROCABA", 
+                "ESTRADA GERAL DA FAZENDA DA ARMACAO", 
+                "R TREZE DE MAIO", 
+                "PARALELA TRES DE OUTUBRO", 
+                "PARALELA SEBASTIAO LARA", 
+                "R GETULIO VARGAS", 
+                "AV CORONEL TEIXEIRA DE OLIVEIRA", 
+                "VIADUTO DE ANTONIO CARLOS", 
+                "PARALELA JOAO COAN", 
+                "PARALELA HIPOLITO HENRIQUE PELEGER", 
+                "VIADUTO DO FURACAO", 
+                "PARALELA SALINA SALUM", 
+                "PARALELA FRANK TRAEBERT", 
+                "IMPLAC"
+            ], 
+            [
+                "IMPLAC", 
+                "PARALELA FRANK TRAEBERT", 
+                "R GETULIO VARGAS", 
+                "PCA NEREU RAMOS", 
+                "R JOAO PESSOA", 
+                "R FREDERICO BUNN", 
+                "AV RIO BRANCO", 
+                "RODOVIARIA DE BIGUACU", 
+                "R MARECHAL DEODORO", 
+                "R JOAO BORN", 
+                "RODOVIA BR 101", 
+                "PARALELA COM A BR 101", 
+                "VIADUTO DO PRADO", 
+                "PARALELA TRES DE OUTUBRO", 
+                "R TREZE DE MAIO", 
+                "ESTRADA GERAL DA FAZENDA DA ARMACAO", 
+                "FAZENDA DE DENTRO", 
+                "ESTRADA GERAL DE SOROCABA", 
+                "SOROCABA DE DENTRO", 
+                "ESTRADA GERAL DO INFERNINHO", 
+                "ESTRADA GERAL DE TIMBE", 
+                "ESTRADA GERAL DE TIJUCAS", 
+                "PONTE DE FERRO", 
+                "R TTE CARVALHO", 
+                "R 15 DE NOVEMBRO", 
+                "R SANTA CATARINA", 
+                "R CEL BUCHEU", 
+                "PARALELA PONTE TIJUCAS", 
+                "AV VALERIO GOMES", 
+                "RODOVIARIA DE TIJUCAS"
+            ]
+        ], 
+        "time": "1h 50min", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -5878,79 +5266,6 @@
     }, 
     {
         "name": [
-            "44400", 
-            "BAIRRO SANTOS DUMONT (VIA SANTO ANTONIO E SANTOS DUMONT)"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "11:30", 
-                "14:40"
-            ], 
-            [
-                "Segunda \u00e0 Sexta - TICEN", 
-                "10:20"
-            ]
-        ], 
-        "price": "R$ 3,00", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "R MATIAS CAUBUCHE", 
-                "R SANTO ANTONIO", 
-                "R GERONCIO THIVES", 
-                "R SAO LUDGERO", 
-                "R SAO JUDAS TADEU", 
-                "R ADAO SCHMIDT", 
-                "R NOSSA SENHORA APARECIDA", 
-                "AV LEOBERTO LEAL", 
-                "PCA DUQUE DE CAXIAS", 
-                "R MOURA", 
-                "RUA NOSSA SENHORA APARECIDA(PROCASA)", 
-                "R ELESBAO PINTO DA LUZ", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R ENG MAX DE SOUZA", 
-                "RODOVIA 282 (VIA EXPRESSA)", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "AV GUSTAVO RICHARDT", 
-                "ALCA ACESSO TICEN", 
-                "TERM. CENTRAL DE INTEGRACAO"
-            ], 
-            [
-                "R 14 DE JULHO", 
-                "R MATIAS CAUBUCHE", 
-                "R SANTO ANTONIO", 
-                "R GERONCIO THIVES", 
-                "R SAO LUDGERO", 
-                "R SAO JUDAS TADEU", 
-                "R ADAO SCHMIDT", 
-                "R NOSSA SENHORA APARECIDA", 
-                "R MOURA", 
-                "AV LEOBERTO LEAL", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "PCA DUQUE DE CAXIAS", 
-                "R ENG MAX DE SOUZA", 
-                "RODOVIA 282 (VIA EXPRESSA)", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "AV GUSTAVO RICHARDT", 
-                "TERM. CENTRAL DE INTEGRACAO", 
-                "PONTE ENG COLOMBO MACHADO SALLES", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R FULVIO ADUCCI", 
-                "R CEL PEDRO DEMORO", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "RUA LEOBERTO LEAL"
-            ]
-        ], 
-        "time": "30 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "44303", 
             "SAUDADE"
         ], 
@@ -6126,6 +5441,79 @@
             ]
         ], 
         "time": "55 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "44400", 
+            "BAIRRO SANTOS DUMONT (VIA SANTO ANTONIO E SANTOS DUMONT)"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "11:30", 
+                "14:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TICEN", 
+                "10:20"
+            ]
+        ], 
+        "price": "R$ 3,00", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "R MATIAS CAUBUCHE", 
+                "R SANTO ANTONIO", 
+                "R GERONCIO THIVES", 
+                "R SAO LUDGERO", 
+                "R SAO JUDAS TADEU", 
+                "R ADAO SCHMIDT", 
+                "R NOSSA SENHORA APARECIDA", 
+                "AV LEOBERTO LEAL", 
+                "PCA DUQUE DE CAXIAS", 
+                "R MOURA", 
+                "RUA NOSSA SENHORA APARECIDA(PROCASA)", 
+                "R ELESBAO PINTO DA LUZ", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R ENG MAX DE SOUZA", 
+                "RODOVIA 282 (VIA EXPRESSA)", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "AV GUSTAVO RICHARDT", 
+                "ALCA ACESSO TICEN", 
+                "TERM. CENTRAL DE INTEGRACAO"
+            ], 
+            [
+                "R 14 DE JULHO", 
+                "R MATIAS CAUBUCHE", 
+                "R SANTO ANTONIO", 
+                "R GERONCIO THIVES", 
+                "R SAO LUDGERO", 
+                "R SAO JUDAS TADEU", 
+                "R ADAO SCHMIDT", 
+                "R NOSSA SENHORA APARECIDA", 
+                "R MOURA", 
+                "AV LEOBERTO LEAL", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "PCA DUQUE DE CAXIAS", 
+                "R ENG MAX DE SOUZA", 
+                "RODOVIA 282 (VIA EXPRESSA)", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "AV GUSTAVO RICHARDT", 
+                "TERM. CENTRAL DE INTEGRACAO", 
+                "PONTE ENG COLOMBO MACHADO SALLES", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R FULVIO ADUCCI", 
+                "R CEL PEDRO DEMORO", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "RUA LEOBERTO LEAL"
+            ]
+        ], 
+        "time": "30 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -9626,6 +9014,39 @@
         "updated_at": "10/05/2015", 
         "itinerary": [
             [
+                "R ALVARO MULLER DA SILVEIRA", 
+                "ESTRADA GERAL DE POTECAS", 
+                "R FRANKILIM CACAIS", 
+                "R MARIO CESAR DA COSTA", 
+                "RUA FRANCISCO ALVES MENDES", 
+                "R PALMIRA LAURA FLORENCIO", 
+                "AV DAS TORRES", 
+                "R PALMIRA LAURA FLORENCIO", 
+                "RUA JOSE VOLNEI DE SOUZA", 
+                "RUA FLOMAPE", 
+                "RUA JOB BISPO DE CASTRO", 
+                "R FRANCISCO NAPPI", 
+                "RUA ROSALIA HARVEROTZ", 
+                "RUA PAULINO JULIO DE SOUZA", 
+                "RUA JOSE DAS GRACAS SIMOES", 
+                "R FRANCISCO NAPPI", 
+                "RUA JOSE DAS GRACAS SIMOES", 
+                "R SANTA CLARA", 
+                "R EMIDIO FRANCISCO DA SILVA", 
+                "R OTTO JULIO MALINA", 
+                "PARALELA ELIANE MOTTA", 
+                "VIADUTO DE BARREIROS", 
+                "AV LEOBERTO LEAL", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "PCA DUQUE DE CAXIAS", 
+                "R ENG MAX DE SOUZA", 
+                "RODOVIA 282 (VIA EXPRESSA)", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "AV GUSTAVO RICHARDT", 
+                "TERM. CENTRAL DE INTEGRACAO", 
                 "R MENOTE JARBAS WALTRICK", 
                 "R ALVARO MULLER DA SILVEIRA", 
                 "ESTRADA GERAL DE POTECAS", 
@@ -9655,6 +9076,38 @@
                 "TERM. CENTRAL DE INTEGRACAO"
             ], 
             [
+                "TERM. CENTRAL DE INTEGRACAO", 
+                "AV GUSTAVO RICHARDT", 
+                "PONTE ENG COLOMBO MACHADO SALLES", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R 14 DE JULHO", 
+                "R FULVIO ADUCCI", 
+                "R CEL PEDRO DEMORO", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "AV LEOBERTO LEAL", 
+                "VIADUTO DE BARREIROS", 
+                "R CANDIDO AMARO DAMAZIO", 
+                "R PADRE JUSTINO CORTEGES", 
+                "R DORALICE RAMOS DE PINHO", 
+                "R TTE DIONISIO CARDOSO", 
+                "R ARNOLDO PEDRO MEIRA", 
+                "R OTTO JULIO MALINA", 
+                "R EMIDIO FRANCISCO DA SILVA", 
+                "R SANTA CLARA", 
+                "RUA JOSE DAS GRACAS SIMOES", 
+                "R FRANCISCO NAPPI", 
+                "RUA JOSE DAS GRACAS SIMOES", 
+                "RUA PAULINO JULIO DE SOUZA", 
+                "RUA ROSALIA HARVEROTZ", 
+                "R FRANCISCO NAPPI", 
+                "RUA JOB BISPO DE CASTRO", 
+                "RUA FLOMAPE", 
+                "RUA JOSE VOLNEI DE SOUZA", 
+                "R PALMIRA LAURA FLORENCIO", 
+                "AV DAS TORRES", 
+                "ESTRADA GERAL DE POTECAS", 
+                "R MENOTE JARBAS WALTRICK", 
+                "RUA ALVARO MULLER", 
                 "TERM. CENTRAL DE INTEGRACAO", 
                 "AV GUSTAVO RICHARDT", 
                 "PONTE ENG COLOMBO MACHADO SALLES", 
@@ -14773,68 +14226,6 @@
     }, 
     {
         "name": [
-            "9800", 
-            "JARDIM CIDADE FLORIANOPOLIS"
-        ], 
-        "schedule": [
-            [
-                "Segunda \u00e0 Sexta - BAIRRO", 
-                "06:00", 
-                "06:40"
-            ]
-        ], 
-        "price": "R$ 3,40", 
-        "updated_at": "28/04/2015", 
-        "itinerary": [
-            [
-                "R MARIA JULIA DA LUZ", 
-                "R ITAGUACU", 
-                "R PEDRO BUM", 
-                "R SANTA LUZIA", 
-                "R CANDIDO AMARO DAMAZIO", 
-                "R FRANCISCO C PIRES", 
-                "R JOSE ANTONIO TOMAZ", 
-                "R PADRE JUSTINO CORTEGES", 
-                "R HIDALGO ARAUJO", 
-                "PARALELA ELIANE MOTTA", 
-                "VIADUTO DE BARREIROS", 
-                "AV LEOBERTO LEAL", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "R GAL LIBERATO BITTENCOURT", 
-                "R GAL EURICO GASPAR DUTRA", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "PCA DUQUE DE CAXIAS", 
-                "R ENG MAX DE SOUZA", 
-                "RODOVIA 282 (VIA EXPRESSA)", 
-                "PONTE PEDRO IVO CAMPOS", 
-                "AV GUSTAVO RICHARDT", 
-                "TERM. CENTRAL DE INTEGRACAO"
-            ], 
-            [
-                "TERM. CENTRAL DE INTEGRACAO", 
-                "AV GUSTAVO RICHARDT", 
-                "PONTE ENG COLOMBO MACHADO SALLES", 
-                "AV GOVERNADOR IVO SILVEIRA", 
-                "R 14 DE JULHO", 
-                "R FULVIO ADUCCI", 
-                "R CEL PEDRO DEMORO", 
-                "AV MARINHEIRO MAX SCHARANN", 
-                "AV LEOBERTO LEAL", 
-                "VIADUTO DE BARREIROS", 
-                "R PADRE JUSTINO CORTEGES", 
-                "R FRANCISCO C PIRES", 
-                "R CANDIDO AMARO DAMAZIO", 
-                "R SANTA LUZIA", 
-                "R PEDRO BUM", 
-                "R ITAGUACU", 
-                "R MARIA JULIA DA LUZ"
-            ]
-        ], 
-        "time": "35 minutos", 
-        "company": "Bigua\u00e7u Transportes"
-    }, 
-    {
-        "name": [
             "8800", 
             "BIGUACU / PALHOCA (VIA BR 101)"
         ], 
@@ -14951,6 +14342,68 @@
             ]
         ], 
         "time": "40 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "9800", 
+            "JARDIM CIDADE FLORIANOPOLIS"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:00", 
+                "06:40"
+            ]
+        ], 
+        "price": "R$ 3,40", 
+        "updated_at": "28/04/2015", 
+        "itinerary": [
+            [
+                "R MARIA JULIA DA LUZ", 
+                "R ITAGUACU", 
+                "R PEDRO BUM", 
+                "R SANTA LUZIA", 
+                "R CANDIDO AMARO DAMAZIO", 
+                "R FRANCISCO C PIRES", 
+                "R JOSE ANTONIO TOMAZ", 
+                "R PADRE JUSTINO CORTEGES", 
+                "R HIDALGO ARAUJO", 
+                "PARALELA ELIANE MOTTA", 
+                "VIADUTO DE BARREIROS", 
+                "AV LEOBERTO LEAL", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "PCA DUQUE DE CAXIAS", 
+                "R ENG MAX DE SOUZA", 
+                "RODOVIA 282 (VIA EXPRESSA)", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "AV GUSTAVO RICHARDT", 
+                "TERM. CENTRAL DE INTEGRACAO"
+            ], 
+            [
+                "TERM. CENTRAL DE INTEGRACAO", 
+                "AV GUSTAVO RICHARDT", 
+                "PONTE ENG COLOMBO MACHADO SALLES", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R 14 DE JULHO", 
+                "R FULVIO ADUCCI", 
+                "R CEL PEDRO DEMORO", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "AV LEOBERTO LEAL", 
+                "VIADUTO DE BARREIROS", 
+                "R PADRE JUSTINO CORTEGES", 
+                "R FRANCISCO C PIRES", 
+                "R CANDIDO AMARO DAMAZIO", 
+                "R SANTA LUZIA", 
+                "R PEDRO BUM", 
+                "R ITAGUACU", 
+                "R MARIA JULIA DA LUZ"
+            ]
+        ], 
+        "time": "35 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }, 
     {
@@ -15627,6 +15080,706 @@
             ]
         ], 
         "time": "40 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "43103", 
+            "EXECUTIVO BELA VISTA"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:10", 
+                "06:25", 
+                "06:45", 
+                "07:10", 
+                "07:35", 
+                "08:00", 
+                "08:35", 
+                "09:20", 
+                "10:05", 
+                "10:50", 
+                "11:40", 
+                "12:00", 
+                "12:35", 
+                "13:10", 
+                "13:40", 
+                "14:10", 
+                "14:40", 
+                "15:10", 
+                "15:35", 
+                "16:00", 
+                "16:45", 
+                "17:20", 
+                "17:40", 
+                "18:30", 
+                "18:55"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:10", 
+                "06:25", 
+                "06:45", 
+                "07:10", 
+                "07:35", 
+                "08:00", 
+                "08:35", 
+                "09:20", 
+                "10:05", 
+                "10:50", 
+                "11:40", 
+                "12:00", 
+                "12:35", 
+                "13:10", 
+                "13:40", 
+                "14:10", 
+                "14:40", 
+                "15:10", 
+                "15:35", 
+                "16:00", 
+                "16:45", 
+                "17:20", 
+                "17:40", 
+                "18:30", 
+                "18:55"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:20", 
+                "07:00", 
+                "07:35", 
+                "08:10", 
+                "08:50", 
+                "09:50", 
+                "10:50", 
+                "11:35", 
+                "12:20"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:20", 
+                "07:00", 
+                "07:35", 
+                "08:10", 
+                "08:50", 
+                "09:50", 
+                "10:50", 
+                "11:35", 
+                "12:20"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "07:20", 
+                "08:50", 
+                "09:35", 
+                "10:20", 
+                "11:10", 
+                "11:30", 
+                "12:05", 
+                "12:40", 
+                "13:10", 
+                "13:40", 
+                "14:10", 
+                "14:40", 
+                "15:05", 
+                "15:30", 
+                "16:15", 
+                "16:50", 
+                "17:10", 
+                "18:00", 
+                "18:25", 
+                "18:55", 
+                "19:35", 
+                "19:50", 
+                "20:15"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "07:20", 
+                "08:50", 
+                "09:35", 
+                "10:20", 
+                "11:10", 
+                "11:30", 
+                "12:05", 
+                "12:40", 
+                "13:10", 
+                "13:40", 
+                "14:10", 
+                "14:40", 
+                "15:05", 
+                "15:30", 
+                "16:15", 
+                "16:50", 
+                "17:10", 
+                "18:00", 
+                "18:25", 
+                "18:55", 
+                "19:35", 
+                "19:50", 
+                "20:15"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "06:35", 
+                "07:50", 
+                "08:30", 
+                "09:30", 
+                "10:30", 
+                "11:15", 
+                "12:00", 
+                "13:00"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "06:35", 
+                "07:50", 
+                "08:30", 
+                "09:30", 
+                "10:30", 
+                "11:15", 
+                "12:00", 
+                "13:00"
+            ]
+        ], 
+        "price": "R$ 6,80", 
+        "updated_at": "25/05/2015", 
+        "itinerary": [
+            [
+                "AV ATLANTICA", 
+                "R EVALDO SCHAEFFER", 
+                "R EUGENIO PORTELA", 
+                "R NOSSA SENHORA APARECIDA", 
+                "R SANTO ANTONIO", 
+                "R GERONCIO THIVES", 
+                "VIADUTO RUA DO IANO", 
+                "AV IVO REIS MONTENEGRO", 
+                "R MARIA FILOMENA DA SILVA", 
+                "R WALFRIDES MARTINS", 
+                "R RODOLFO JACOB SCHEFFER", 
+                "R SAO JORGE", 
+                "RUA IANO", 
+                "R JOSE ANTONIO TOMAZ", 
+                "AV SANTA CATARINA", 
+                "R SAO JOSE", 
+                "AV BRASIL", 
+                "PARALELA BR", 
+                "VIADUTO ANTONIO SCHRAEDER", 
+                "R ANTONIO SCHROEDER", 
+                "AV LEOBERTO LEAL", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R ENG MAX DE SOUZA", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "R ANTONIO PEREIRA OLIVEIRA NETO", 
+                "AV PAULO FONTES", 
+                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS", 
+                "R OSVALDO C. ANDRADE", 
+                "RUA AGUINELIO ALBERTO MERIZE"
+            ], 
+            [
+                "PRACA XV DE NOVEMBRO", 
+                "R TTE SILVEIRA", 
+                "RUA PEDRO IVO", 
+                "TERM. CENTRAL DE INTEGRACAO", 
+                "R PEDRO BITTENCOURT", 
+                "PONTE ENG COLOMBO MACHADO SALLES", 
+                "R FULVIO ADUCCI", 
+                "R CEL PEDRO DEMORO", 
+                "AV ATLANTICA", 
+                "R EVALDO SCHAEFFER", 
+                "R EUGENIO PORTELA", 
+                "R NOSSA SENHORA APARECIDA", 
+                "R SANTO ANTONIO", 
+                "R GERONCIO THIVES", 
+                "VIADUTO RUA DO IANO", 
+                "AV IVO REIS MONTENEGRO", 
+                "R MARIA FILOMENA DA SILVA", 
+                "R WALFRIDES MARTINS", 
+                "R RODOLFO JACOB SCHEFFER", 
+                "R SAO JORGE", 
+                "RUA IANO", 
+                "R JOSE ANTONIO TOMAZ", 
+                "AV SANTA CATARINA", 
+                "R SAO JOSE", 
+                "AV BRASIL", 
+                "PARALELA BR", 
+                "VIADUTO ANTONIO SCHRAEDER", 
+                "R ANTONIO SCHROEDER", 
+                "AV LEOBERTO LEAL", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R ENG MAX DE SOUZA", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "R ANTONIO PEREIRA OLIVEIRA NETO", 
+                "AV PAULO FONTES", 
+                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS", 
+                "RUA SEBASTIAO FURTADO PEREIRA", 
+                "RUA JULIO MULLER", 
+                "PARALELA ELIANE MOTTA"
+            ]
+        ], 
+        "time": "30 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "43301", 
+            "EXECUTIVO GOV CELSO RAMOS"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:10", 
+                "11:00", 
+                "14:00", 
+                "17:10"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:10", 
+                "11:00", 
+                "14:00", 
+                "17:10"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "07:30", 
+                "10:40"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "07:30", 
+                "10:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "09:30", 
+                "12:30", 
+                "15:30", 
+                "18:40"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "09:30", 
+                "12:30", 
+                "15:30", 
+                "18:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "09:10", 
+                "12:10"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "09:10", 
+                "12:10"
+            ]
+        ], 
+        "price": "R$ 10,00", 
+        "updated_at": "25/05/2015", 
+        "itinerary": [
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ], 
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ]
+        ], 
+        "time": "1h 30min", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "10402", 
+            "EXECUTIVO IPIRANGA"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:10", 
+                "06:25", 
+                "06:50", 
+                "07:10", 
+                "07:55", 
+                "08:15", 
+                "08:30", 
+                "09:35", 
+                "10:35", 
+                "11:05", 
+                "11:30", 
+                "12:05", 
+                "12:35", 
+                "13:00", 
+                "13:35", 
+                "13:55", 
+                "14:35", 
+                "15:00", 
+                "15:30", 
+                "16:00", 
+                "17:00", 
+                "17:40", 
+                "17:50", 
+                "18:35", 
+                "19:15", 
+                "19:40"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:10", 
+                "06:25", 
+                "06:50", 
+                "07:10", 
+                "07:55", 
+                "08:15", 
+                "08:30", 
+                "09:35", 
+                "10:35", 
+                "11:05", 
+                "11:30", 
+                "12:05", 
+                "12:35", 
+                "13:00", 
+                "13:35", 
+                "13:55", 
+                "14:35", 
+                "15:00", 
+                "15:30", 
+                "16:00", 
+                "17:00", 
+                "17:40", 
+                "17:50", 
+                "18:35", 
+                "19:15", 
+                "19:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:20", 
+                "07:00", 
+                "07:35", 
+                "08:20", 
+                "09:25", 
+                "10:20", 
+                "11:05", 
+                "11:50", 
+                "12:40"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:20", 
+                "07:00", 
+                "07:35", 
+                "08:20", 
+                "09:25", 
+                "10:20", 
+                "11:05", 
+                "11:50", 
+                "12:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "06:20", 
+                "07:20", 
+                "09:00", 
+                "10:00", 
+                "10:30", 
+                "10:55", 
+                "11:30", 
+                "12:00", 
+                "12:25", 
+                "13:00", 
+                "13:20", 
+                "14:00", 
+                "14:25", 
+                "14:55", 
+                "15:25", 
+                "16:25", 
+                "17:05", 
+                "17:25", 
+                "18:00", 
+                "18:40", 
+                "19:05", 
+                "19:35", 
+                "20:40"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "06:20", 
+                "07:20", 
+                "09:00", 
+                "10:00", 
+                "10:30", 
+                "10:55", 
+                "11:30", 
+                "12:00", 
+                "12:25", 
+                "13:00", 
+                "13:20", 
+                "14:00", 
+                "14:25", 
+                "14:55", 
+                "15:25", 
+                "16:25", 
+                "17:05", 
+                "17:25", 
+                "18:00", 
+                "18:40", 
+                "19:05", 
+                "19:35", 
+                "20:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "06:30", 
+                "08:00", 
+                "09:00", 
+                "10:00", 
+                "10:45", 
+                "11:30", 
+                "12:15"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "06:30", 
+                "08:00", 
+                "09:00", 
+                "10:00", 
+                "10:45", 
+                "11:30", 
+                "12:15"
+            ]
+        ], 
+        "price": "R$ 6,80", 
+        "updated_at": "13/01/2015", 
+        "itinerary": [
+            [
+                "JOSE CLODOVEL DE SOUZA", 
+                "R INDEPENDENCIA", 
+                "R ALVARO MEDEIROS DE SANTIAGO", 
+                "PARALELA COM A BR 101", 
+                "PARALELA ELIANE MOTTA", 
+                "AV LEOBERTO LEAL", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "R GAL LIBERATO BITTENCOURT", 
+                "R GAL EURICO GASPAR DUTRA", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R ENG MAX DE SOUZA", 
+                "PONTE PEDRO IVO CAMPOS", 
+                "R ANTONIO PEREIRA OLIVEIRA NETO", 
+                "AV PAULO FONTES", 
+                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS"
+            ], 
+            [
+                "TERMINAL URBANO CIDADE DE FLORIANOPOLIS", 
+                "PRACA XV DE NOVEMBRO", 
+                "R TTE SILVEIRA", 
+                "RUA PEDRO IVO", 
+                "AV PAULO FONTES", 
+                "TERM. CENTRAL DE INTEGRACAO", 
+                "R PEDRO BITTENCOURT", 
+                "PONTE ENG COLOMBO MACHADO SALLES", 
+                "AV GOVERNADOR IVO SILVEIRA", 
+                "R FULVIO ADUCCI", 
+                "R CEL PEDRO DEMORO", 
+                "AV MARINHEIRO MAX SCHARANN", 
+                "AV LEOBERTO LEAL", 
+                "VIADUTO DE BARREIROS", 
+                "R CANDIDO AMARO DAMAZIO", 
+                "R PADRE JUSTINO CORTEGES", 
+                "R DORALICE RAMOS DE PINHO", 
+                "RUA TENENTE CORONEL DIONISIO CARDOSO", 
+                "RUA PLACIDES AMOLDO MEIRA", 
+                "R OTTO JULIO MALINA", 
+                "RUA ROSALIA HARVEROTS ROHLING", 
+                "R FRANCISCO NAPPI", 
+                "RUA JOB BISPO DE CASTRO", 
+                "R CANDIDO PORTINARI"
+            ]
+        ], 
+        "time": "33 minutos", 
+        "company": "Bigua\u00e7u Transportes"
+    }, 
+    {
+        "name": [
+            "10401", 
+            "EXECUTIVO IPIRANGA"
+        ], 
+        "schedule": [
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:10", 
+                "06:25", 
+                "06:50", 
+                "07:10", 
+                "07:30", 
+                "08:00", 
+                "08:30", 
+                "09:35", 
+                "10:35", 
+                "11:05", 
+                "11:30", 
+                "12:05", 
+                "12:35", 
+                "13:00", 
+                "13:35", 
+                "13:55", 
+                "14:35", 
+                "15:00", 
+                "15:30", 
+                "16:00", 
+                "17:00", 
+                "17:40", 
+                "18:00", 
+                "18:35", 
+                "18:55", 
+                "19:15", 
+                "19:40"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:10", 
+                "06:25", 
+                "06:50", 
+                "07:10", 
+                "07:30", 
+                "08:00", 
+                "08:30", 
+                "09:35", 
+                "10:35", 
+                "11:05", 
+                "11:30", 
+                "12:05", 
+                "12:35", 
+                "13:00", 
+                "13:35", 
+                "13:55", 
+                "14:35", 
+                "15:00", 
+                "15:30", 
+                "16:00", 
+                "17:00", 
+                "17:40", 
+                "18:00", 
+                "18:35", 
+                "18:55", 
+                "19:15", 
+                "19:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - BAIRRO", 
+                "06:20", 
+                "07:00", 
+                "07:35", 
+                "08:20", 
+                "09:25", 
+                "10:20", 
+                "11:05", 
+                "11:50", 
+                "12:40"
+            ], 
+            [
+                "S\u00e1bados - BAIRRO", 
+                "06:20", 
+                "07:00", 
+                "07:35", 
+                "08:20", 
+                "09:25", 
+                "10:20", 
+                "11:05", 
+                "11:50", 
+                "12:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "07:35", 
+                "09:00", 
+                "10:00", 
+                "10:30", 
+                "10:55", 
+                "11:30", 
+                "12:00", 
+                "12:25", 
+                "13:00", 
+                "13:20", 
+                "14:00", 
+                "14:25", 
+                "14:55", 
+                "15:25", 
+                "16:25", 
+                "17:05", 
+                "17:25", 
+                "18:00", 
+                "18:20", 
+                "18:40", 
+                "19:05", 
+                "19:35", 
+                "20:40"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "07:35", 
+                "09:00", 
+                "10:00", 
+                "10:30", 
+                "10:55", 
+                "11:30", 
+                "12:00", 
+                "12:25", 
+                "13:00", 
+                "13:20", 
+                "14:00", 
+                "14:25", 
+                "14:55", 
+                "15:25", 
+                "16:25", 
+                "17:05", 
+                "17:25", 
+                "18:00", 
+                "18:20", 
+                "18:40", 
+                "19:05", 
+                "19:35", 
+                "20:40"
+            ], 
+            [
+                "Segunda \u00e0 Sexta - TERM. CIDADE FLORIANOPOLIS", 
+                "06:30", 
+                "08:00", 
+                "09:00", 
+                "10:00", 
+                "10:45", 
+                "11:30", 
+                "12:15"
+            ], 
+            [
+                "S\u00e1bados - TERM. CIDADE FLORIANOPOLIS", 
+                "06:30", 
+                "08:00", 
+                "09:00", 
+                "10:00", 
+                "10:45", 
+                "11:30", 
+                "12:15"
+            ]
+        ], 
+        "price": "R$ 6,80", 
+        "updated_at": "25/05/2015", 
+        "itinerary": [
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ], 
+            [
+                "Itiner\u00e1rio indispon\u00edvel."
+            ]
+        ], 
+        "time": "33 minutos", 
         "company": "Bigua\u00e7u Transportes"
     }
 ]
