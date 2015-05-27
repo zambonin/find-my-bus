@@ -81,10 +81,16 @@ class FenixSpider(InitSpider):
 		
 		conteudo = horario.xpath('./div')
 
-		dados = [it for it in conteudo[0].xpath('.//text()') \
-										.extract() if it != u' ']
+		dados = [it for it in conteudo[0].xpath('.//text()').extract() if it != u' ']
 
-		tempo_medio = dados[3].strip()[3:5] + " minutos"
+		minutos = dados[3].strip()[3:5]
+		if minutos.isdigit():
+			if (int(minutos) / 60 > 0):
+				tempo_medio = str(int(minutos) / 60) + "h " + str(int(minutos) % 60) + "min"
+			else:
+				tempo_medio = minutos + " minutos"
+		else:
+			tempo_medio = "Não disponível."
 
 		preco = {
 			"card": dados[9].strip(),
@@ -96,8 +102,9 @@ class FenixSpider(InitSpider):
 		conj_horarios = []
 
 		for linha in conteudo[1:len(conteudo)-1]: 
+			saida = linha.xpath('./div')[0].xpath('./h4/text()').extract()[0].split(" - ")
 			horarios = []
-			horarios.append(linha.xpath('./div')[0].xpath('./h4/text()').extract()[0])
+			horarios.append(saida[0] + " - " + saida[1])
 			for linha in linha.xpath('./div'):
 				lista_horarios = linha.xpath('./a/text()').extract()
 				if len(lista_horarios) > 0:
@@ -105,15 +112,15 @@ class FenixSpider(InitSpider):
 			conj_horarios.append(horarios)
 
 		it = horario.xpath('./ol/li/text()').extract()
-		itinerario = [it, [i for i in it[::-1]]]
+		# itinerario = [it, [i for i in it[::-1]]]
 
-		for conj in itinerario:
+		for conj in it:
 			if not conj:
 				conj.append("Itinerário indisponível.")
 
 		item = FindMyBusItem(name=nome_onibus, price=preco, 
 							company="Consórcio Fênix", schedule=conj_horarios,
-							itinerary=itinerario, time=tempo_medio, 
+							itinerary=it, time=tempo_medio, 
 							updated_at=modificacao)
 
 		yield item
