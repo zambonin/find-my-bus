@@ -121,7 +121,7 @@ class BiguacuSpider(InitSpider):
             for saida, horario in zip(lugares_saida, horarios):
                 lista_horas = horario.xpath('./div/ul/li/div/a/text()').extract()
                 if lista_horas is not None:
-                    conj_horarios.append([saida] + horario.xpath('./div/ul/li/div/a/text()').extract())
+                    conj_horarios.append([saida] + lista_horas)
 
         for conj in itinerarios:
             if not conj:
