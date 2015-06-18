@@ -18,3 +18,4 @@ class FindMyBusItem(scrapy.Item):
 	itinerary = scrapy.Field()
 	time = scrapy.Field()
 	updated_at = scrapy.Field()
+	route = scrapy.Field()

@@ -3,6 +3,7 @@ import scrapy
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
 from scrapy.contrib.spiders.init import InitSpider
+from pprint import pprint
 
 from find_my_bus.items import FindMyBusItem
 
@@ -11,10 +12,11 @@ class BiguacuSpider(InitSpider):
     allowed_domains = ["biguacutransportes.com.br"]
     start_urls = (
         'http://www.biguacutransportes.com.br/ajax/lineBus/searchGetLine',
-        'http://www.biguacutransportes.com.br/ajax/lineBus/preview/?line=%s\
-        &company=1&detail%%5B%%5D=1&detail%%5B%%5D=2&detail%%5B%%5D=3'
+        'http://www.biguacutransportes.com.br/ajax/lineBus/preview/?line=%s&detail%%5B%%5D=1&detail%%5B%%5D=2&detail%%5B%%5D=3',
+        'http://www.biguacutransportes.com.br/ajax/lineBus/map?idLine=%s&type=2'
     )
-    urls = []
+    
+    bus_info, map_info = [], []
 
     def init_request(self):
         """
@@ -45,10 +47,11 @@ class BiguacuSpider(InitSpider):
         source = Selector(response)
         links = [it.xpath('./td')[0].xpath('./text()') 
                 for it in source.xpath('//tr')]
-        
+
         for link in links:
             path = link.extract()[0]
-            self.urls.append(self.start_urls[1] % path)
+            self.bus_info.append(self.start_urls[1] % path)
+            self.map_info.append(self.start_urls[2] % path)
 
         return self.initialized()
 
@@ -63,10 +66,50 @@ class BiguacuSpider(InitSpider):
         Returns:
             A Request object for each one of the URLs from the main class array.
         """
-        if len(self.urls):
-            return Request(self.urls.pop(), callback=self.parse)
+        # if len(self.bus_info):
+        #     return Request(self.bus_info.pop(), callback=self.parse_bus_info)
+        if len(self.map_info):
+            return Request(self.map_info.pop(), callback=self.parse_map_info)
 
-    def parse(self, response):
+    def parse_map_info(self, response):
+        """
+        Organize the contents from specific map URLs through xpath manipulation,
+        searching for URLs that contain a specific combination of characters
+        through regular expressions.
+
+        Detailed breakdown of the expression used:
+            http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+
+
+                http            match the string literally
+                [s]?            match the character inside brackets up to 1 time
+                ://             match the string literally
+                (?:             start of non-capturing group
+                    [a-zA-Z0-9]     match any alphanumeric characters
+                    |               or
+                    [/_@.:~]        match one of the characters inside brackets
+                )+              end of non-capturing group. it will be executed
+                                until it finds no more matches
+
+        Parameters:
+            response: the reply from the earlier request.
+
+        Returns:
+            A FindMyBusItem object that contains the pertinent information about
+            each bus line, yielding it so it can begin the process again through
+            make_requests_from_url().
+        """
+        import re
+
+        source = Selector(response)
+        kml_js = source.xpath('//script/text()').extract()
+
+        out = re.findall('http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+', str(kml_js))
+
+        print([x for x in out if "kml" in x])
+
+        yield self.make_requests_from_url(self.start_urls[0])
+
+    def parse_bus_info(self, response):
         """
         Organize the contents from each URL through xpath manipulation.
 
@@ -79,7 +122,6 @@ class BiguacuSpider(InitSpider):
             make_requests_from_url().
         """
         source = Selector(response)
-        
         cabecalho = source.xpath('//div/div')
 
         preco = {
