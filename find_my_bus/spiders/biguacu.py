@@ -15,8 +15,8 @@ class BiguacuSpider(InitSpider):
         'http://www.biguacutransportes.com.br/ajax/lineBus/preview/?line=%s&detail%%5B%%5D=1&detail%%5B%%5D=2&detail%%5B%%5D=3',
         'http://www.biguacutransportes.com.br/ajax/lineBus/map?idLine=%s&type=2'
     )
-    
-    bus_info, map_info = [], []
+
+    bus_info, map_info, maps = [], [], []
 
     def init_request(self):
         """
@@ -55,7 +55,7 @@ class BiguacuSpider(InitSpider):
 
         return self.initialized()
 
-    def make_requests_from_url(self, url):
+    def make_requests_from_url(self, url=None):
         """
         Formalize, for each URL that was constructed earlier, a request to read 
         its contents.
@@ -66,10 +66,10 @@ class BiguacuSpider(InitSpider):
         Returns:
             A Request object for each one of the URLs from the main class array.
         """
-        # if len(self.bus_info):
-        #     return Request(self.bus_info.pop(), callback=self.parse_bus_info)
         if len(self.map_info):
             return Request(self.map_info.pop(), callback=self.parse_map_info)
+        elif len(self.bus_info):
+            return Request(self.bus_info.pop(), callback=self.parse_bus_info)
 
     def parse_map_info(self, response):
         """
@@ -104,10 +104,12 @@ class BiguacuSpider(InitSpider):
         kml_js = source.xpath('//script/text()').extract()
 
         out = re.findall('http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+', str(kml_js))
+        routes = [x for x in out if "kml" in x]
 
-        print([x for x in out if "kml" in x])
+        if len(routes) > 0:
+            self.maps.append(routes)
 
-        yield self.make_requests_from_url(self.start_urls[0])
+        return self.make_requests_from_url()
 
     def parse_bus_info(self, response):
         """
@@ -169,10 +171,18 @@ class BiguacuSpider(InitSpider):
             if not conj:
                 conj.append("Itinerário indisponível.")
 
+        for each_map in self.maps:
+            if nome_onibus[0] in each_map[0]:
+                rota = each_map
+                break
+            else:
+                rota = ["Mapa não disponível."]
+
         item = FindMyBusItem(name=nome_onibus, price=preco, 
                             company="Biguaçu Transportes", 
                             schedule=conj_horarios, itinerary=itinerarios, 
-                            time=tempo_medio, updated_at=modificacao)
+                            time=tempo_medio, updated_at=modificacao,
+                            route=rota)
 
         yield item
         yield self.make_requests_from_url(self.start_urls[0])
