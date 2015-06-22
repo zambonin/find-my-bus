@@ -4,38 +4,42 @@ import string
 from find_my_bus.items import FindMyBusItem
 from scrapy.http import Request
 from scrapy.selector import Selector
-from scrapy.contrib.spiders.init import InitSpider
+from scrapy.spiders.init import InitSpider
 
 class FenixSpider(InitSpider):
 	name = "fenix"
 	allowed_domains = ["consorciofenix.com.br"]
 	start_urls = (
-		'http://www.consorciofenix.com.br%s',
+		'http://www.consorciofenix.com.br/%s',
 	)
+
 	urls = []
 
 	def init_request(self):
-		"""
-		Aggregate the proper FormRequest objects, initiating the communication 
-		with the website.
+		"""Requests the base URL from the domain.
+
+		Initializes communication with the site by feeding it information such
+		as form data and request type.
 
 		Returns:
 			A FormRequest object with the necessary form submission data.
 		"""
-		return Request(url=self.start_urls[0] % "/horarios", 
+		return Request(url=self.start_urls[0] % "horarios", 
 						callback=self.organize)
 
 	def organize(self, response):
-		"""
-		Build the set of URLs that will be accessed later in accordance to the
-		form data received.
+		"""Constructs the list of URLs that will be scraped.
 
-		Parameters:
-			response: the previous FormRequest object.
+		Prepares the URLs for the scraping, appending the necessary information
+		so every URL is valid.
+
+		Args:
+			response (FormRequest): The object that contains the information
+									about every item that will be scraped.
 
 		Returns:
-			Calls the initialized() method that kickstarts the crawling (refer
-			to scrapy docs).
+			self.initialized(): Specific method to Scrapy that starts the
+								crawling process.
 		"""
 		source = Selector(response)
 		links = source.xpath('//ul[contains(@class, "nav-custom1")]/li/a')
@@ -47,30 +51,34 @@ class FenixSpider(InitSpider):
 		return self.initialized()
 
 	def make_requests_from_url(self, url):
-		"""
-		Formalize, for each URL that was constructed earlier, a request to read
-		its contents.
+		"""Requests the content from a given URL.
 
-		Parameters:
-			url: a single URL to be requested from.
+		Generates requests if given a valid URL from anywhere in the class,
+		converting it to a valid Request object.
+
+		Args:
+			url (str): A single URL to be requested from.
 
 		Returns:
-			A Request object for each one of the URLs from the main class array.
+			A Request object generated from the URL passed as an argument.
 		"""
 		if len(self.urls):
 			return Request(url % self.urls.pop(), callback=self.parse)
 
 	def parse(self, response):
-		"""
-		Organize the contents from each URL through xpath manipulation.
+		"""Organizes the contents from each URL.
 
-		Parameters:
-			response: the reply from the earlier request.
+		Looks over the source code of its argument and parses information using
+		Xpath manipulation.
 
-		Returns:
-			A FindMyBusItem object that contains the pertinent information about
-			each bus line, yielding it so it can begin the process again through
-			make_requests_from_url().
+		Args:
+			response (Request): Any valid response generated from an URL.
+
+		Yields:
+			item (FindMyBusItem): Contains information about a bus line.
+			make_requests_from_url (Request): The next bus line on the list, 
+											  maintaning the process until there
+											  are no more URLs.
 		"""
 		source = Selector(response)
 
@@ -86,7 +94,8 @@ class FenixSpider(InitSpider):
 		minutos = dados[3].strip()[3:5]
 		if minutos.isdigit():
 			if (int(minutos) / 60 > 0):
-				tempo_medio = str(int(minutos) / 60) + "h " + str(int(minutos) % 60) + "min"
+				tempo_medio = str(int(minutos) / 60) + "h " \
+							+ str(int(minutos) % 60) + "min"
 			else:
 				tempo_medio = minutos + " minutos"
 		else:
@@ -112,16 +121,21 @@ class FenixSpider(InitSpider):
 			conj_horarios.append(horarios)
 
 		it = horario.xpath('./ol/li/text()').extract()
-		# itinerario = [it, [i for i in it[::-1]]]
 
 		for conj in it:
 			if not conj:
 				conj.append("Itinerário indisponível.")
 
+		if source.xpath('//div[contains(@class, "mapac")]/img/@src').extract():
+			map_url = "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/"
+			rota = map_url + nome_onibus[0] + ".jpg"
+		else:
+			rota = "Mapa não disponível."
+
 		item = FindMyBusItem(name=nome_onibus, price=preco, 
 							company="Consórcio Fênix", schedule=conj_horarios,
 							itinerary=it, time=tempo_medio, 
-							updated_at=modificacao)
+							updated_at=modificacao, route=rota)
 
 		yield item
 		yield self.make_requests_from_url(self.start_urls[0])

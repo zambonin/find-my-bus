@@ -127,11 +127,12 @@
                 "13:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/333.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TITRI", 
             "AV.PROF. HENRIQUE DA SILVA FONTES", 
@@ -179,11 +180,12 @@
                 "22:08"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/848.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -229,11 +231,12 @@
                 "21:15"
             ]
         ], 
+        "route": "Mapa n\u00e3o dispon\u00edvel.", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA SC 405", 
             "AVENIDA JORGE LACERDA", 
@@ -340,11 +343,12 @@
                 "18:52"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/110.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. ANT\u00d4NIO PEREIRA OLIVEIRA", 
@@ -410,11 +414,12 @@
                 "22:28"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/235.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -530,11 +535,12 @@
                 "00:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/231.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -660,11 +666,12 @@
                 "23:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/332.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
@@ -704,11 +711,12 @@
                 "18:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/212.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "ELEVADO FRANCISCO DIAS VELHO", 
@@ -743,11 +751,12 @@
                 "18:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/310.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -863,11 +872,12 @@
                 "23:21"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/331.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "AV. PAULO FONTES", 
@@ -1340,11 +1350,12 @@
                 "20:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/410.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -1698,11 +1709,12 @@
                 "00:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/430.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -1751,11 +1763,12 @@
                 "22:08"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/845.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -1954,11 +1967,12 @@
                 "22:19"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/320.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -2009,11 +2023,12 @@
                 "08:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/311.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -2321,11 +2336,12 @@
                 "23:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/330.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -2495,11 +2511,12 @@
                 "23:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/841.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "AVENIDA AFONSO DELAMBERT NETO", 
             "RUA LAURINDO JANU\u00c1RIO DA SILVEIRA", 
@@ -2663,11 +2680,12 @@
                 "00:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/843.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -2788,11 +2806,12 @@
                 "19:31"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/230.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -3120,11 +3139,12 @@
                 "22:26"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/233.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -3563,11 +3583,12 @@
                 "21:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/221.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -4060,11 +4081,12 @@
                 "22:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/210.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -4158,11 +4180,12 @@
                 "19:08"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/840.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "RUA FRANCISCO FAUSTO MARTINS", 
             "TRAVESSA OLINDINA VIEIRA DOS SANTOS", 
@@ -4269,11 +4292,12 @@
                 "20:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/842.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "R. FRANCISCO FAUSTINO MARTINS", 
@@ -4357,7 +4381,7 @@
                 "20:39", 
                 "21:09", 
                 "21:38", 
-                "22:08", 
+                "22:12", 
                 "22:40", 
                 "23:08", 
                 "23:40", 
@@ -4546,11 +4570,12 @@
                 "22:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/134.jpg", 
+        "updated_at": "27/05/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -4861,11 +4886,12 @@
                 "23:49"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/133.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -4939,11 +4965,12 @@
                 "21:53"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/132.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -5153,11 +5180,12 @@
                 "23:19"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/131.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. CTE. CONSTANTINO NICOLAU SPYRIDES", 
@@ -5208,11 +5236,12 @@
                 "12:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/296.jpg", 
+        "updated_at": "09/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "09/02/2015", 
         "itinerary": [
             "ESTRADA DOM JO\u00c3O BECKER", 
             "RUA INTENDENTE JO\u00c3O NUNES VIEIRA", 
@@ -5251,11 +5280,12 @@
                 "07:42"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-174.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "ROD. VIRG\u00cdLIO V\u00c1RZEA", 
             "ROD. JO\u00c3O PAULO", 
@@ -5298,11 +5328,12 @@
                 "11:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-267.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL", 
             "RODOVIA JO\u00c3O GUALBERTO SOARES", 
@@ -5338,11 +5369,12 @@
                 "05:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-565.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA SC 405", 
             "VIA EXPRESSA SUL", 
@@ -5366,11 +5398,12 @@
                 "12:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-266.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
             "TICEN", 
@@ -5411,11 +5444,12 @@
                 "06:42"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-168.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "R. TIMBA\u00daBA", 
             "R. DO MARFIM", 
@@ -5475,11 +5509,12 @@
                 "03:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/501.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -5552,11 +5587,12 @@
                 "04:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/500.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -5624,11 +5660,12 @@
                 "01:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/200.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "ESTRADA DOM JO\u00c3O BECKER", 
             "RUA INTENDENTE JO\u00c3O NUNES VIEIRA", 
@@ -5746,11 +5783,12 @@
                 "05:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/300.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "AV. PAULO FONTES", 
@@ -5826,11 +5864,12 @@
                 "04:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/600.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "AVENIDA GOVERNADOR IVO SILVEIRA", 
             "RUA F\u00daLVIO ADUCCI", 
@@ -5905,11 +5944,12 @@
                 "04:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/100.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "AV. PAULO FONTES", 
@@ -5955,11 +5995,12 @@
                 "22:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/946.jpg", 
+        "updated_at": "22/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "22/12/2014", 
         "itinerary": [
             "RUA GENUINO PEREIRA DA SILVA", 
             "RUA ELESB\u00c3O PINTO DA LUZ", 
@@ -6058,11 +6099,12 @@
                 "08:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/294.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "AVENIDA DOS B\u00daZIOS", 
             "RODOVIA MAUR\u00cdCIO SIROTSKY SOBRINHO", 
@@ -6111,11 +6153,12 @@
                 "12:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-264.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "AVENIDA GOVERNADOR GUSTAVO RICHARD", 
             "TICEN", 
@@ -6153,11 +6196,12 @@
                 "06:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-563.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA SC 406", 
             "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -6189,11 +6233,12 @@
                 "17:34"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-163.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "R. MAESTRO ALDO KRIEGER", 
             "R. JO\u00c3O PIO DUARTE SILVA", 
@@ -6232,57 +6277,6 @@
     }, 
     {
         "name": [
-            "607", 
-            "CIRCULAR CONTINENTE VIA BIBLIOTECA P\u00daBLICA"
-        ], 
-        "schedule": [
-            [
-                "Dias \u00dateis - Sa\u00edda Big Capoeiras", 
-                "12:50", 
-                "17:30"
-            ]
-        ], 
-        "price": {
-            "money": "R$ 3,10", 
-            "card": "R$ 2,98"
-        }, 
-        "updated_at": "01/11/2014", 
-        "itinerary": [
-            "RUA VALMOR AZULINO DUARTE", 
-            "RUA MAURO DE CARVALHO", 
-            "RUA MIGUEL VALENTINA DA SILVA", 
-            "RUA JOAQUIM NABUCO", 
-            "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
-            "AVENIDA ATL\u00c2NTICA", 
-            "AVENIDA MARINHEIRO MAX SCHRAMM", 
-            "RUA GENERAL LIBERATO BITTENCOURT", 
-            "RUA PROFESSORA ANTONIETA DE BARROS", 
-            "RUA JO\u00c3O EVANGELISTA DA COSTA", 
-            "RUA AFONSO PENA", 
-            "RUA GENERAL LIBERATO BITTENCOURT", 
-            "RUA GENERAL EURICO GASPAR DUTRA", 
-            "RUA DOUTOR HEITOR BLUM", 
-            "RUA L\u00cdBIA CRUZ", 
-            "RUA JOAQUIM NABUCO", 
-            "RUA URSULINA DE SENNA CASTRO", 
-            "RUA DEPUTADO BENEDITO TER\u00c9ZIO DE CARVALHO JUNIOR", 
-            "RUA SANTOS SARAIVA", 
-            "RUA PREFEITO DIB CHEREM", 
-            "RUA C\u00c2NDIDO RAMOS", 
-            "RUA AC\u00c1CIO MOREIRA", 
-            "RUA EDELBERTO DE OLIVEIRA", 
-            "RUA GENUINO PEREIRA DA SILVA", 
-            "RUA ELESB\u00c3O PINTO DA LUZ", 
-            "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
-            "RUA PARALELA AO SUPERMERCADO BIG", 
-            "TICEN", 
-            "RUA PEDRO BITTENCOURT"
-        ], 
-        "time": "55 minutos", 
-        "company": "Cons\u00f3rcio F\u00eanix"
-    }, 
-    {
-        "name": [
             "603", 
             "CIRCULAR CONTINENTE VIA BIBLIOTECA P\u00daBLICA"
         ], 
@@ -6293,11 +6287,12 @@
                 "11:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/603.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA JOAQUIM NABUCO", 
             "RUA VALMOR AZULINO DUARTE", 
@@ -6331,6 +6326,58 @@
             "RUA LATERAL AO SUPERMERCADO BIG"
         ], 
         "time": "43 minutos", 
+        "company": "Cons\u00f3rcio F\u00eanix"
+    }, 
+    {
+        "name": [
+            "607", 
+            "CIRCULAR CONTINENTE VIA BIBLIOTECA P\u00daBLICA"
+        ], 
+        "schedule": [
+            [
+                "Dias \u00dateis - Sa\u00edda Big Capoeiras", 
+                "12:50", 
+                "17:30"
+            ]
+        ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/607.jpg", 
+        "updated_at": "01/11/2014", 
+        "price": {
+            "money": "R$ 3,10", 
+            "card": "R$ 2,98"
+        }, 
+        "itinerary": [
+            "RUA VALMOR AZULINO DUARTE", 
+            "RUA MAURO DE CARVALHO", 
+            "RUA MIGUEL VALENTINA DA SILVA", 
+            "RUA JOAQUIM NABUCO", 
+            "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
+            "AVENIDA ATL\u00c2NTICA", 
+            "AVENIDA MARINHEIRO MAX SCHRAMM", 
+            "RUA GENERAL LIBERATO BITTENCOURT", 
+            "RUA PROFESSORA ANTONIETA DE BARROS", 
+            "RUA JO\u00c3O EVANGELISTA DA COSTA", 
+            "RUA AFONSO PENA", 
+            "RUA GENERAL LIBERATO BITTENCOURT", 
+            "RUA GENERAL EURICO GASPAR DUTRA", 
+            "RUA DOUTOR HEITOR BLUM", 
+            "RUA L\u00cdBIA CRUZ", 
+            "RUA JOAQUIM NABUCO", 
+            "RUA URSULINA DE SENNA CASTRO", 
+            "RUA DEPUTADO BENEDITO TER\u00c9ZIO DE CARVALHO JUNIOR", 
+            "RUA SANTOS SARAIVA", 
+            "RUA PREFEITO DIB CHEREM", 
+            "RUA C\u00c2NDIDO RAMOS", 
+            "RUA AC\u00c1CIO MOREIRA", 
+            "RUA EDELBERTO DE OLIVEIRA", 
+            "RUA GENUINO PEREIRA DA SILVA", 
+            "RUA ELESB\u00c3O PINTO DA LUZ", 
+            "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
+            "RUA PARALELA AO SUPERMERCADO BIG", 
+            "TICEN", 
+            "RUA PEDRO BITTENCOURT"
+        ], 
+        "time": "55 minutos", 
         "company": "Cons\u00f3rcio F\u00eanix"
     }, 
     {
@@ -6376,11 +6423,12 @@
                 "19:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/606.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA JOSU\u00c9 DI BERNARDI", 
             "AVENIDA PRESIDENTE KENNEDY", 
@@ -6443,11 +6491,12 @@
                 "19:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/602.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA JOAQUIM NABUCO", 
             "RUA VALMOR AZULINO DUARTE", 
@@ -6501,11 +6550,12 @@
                 "18:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/601.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "AVENIDA GOVERNADOR IVO SILVEIRA", 
             "AVENIDA PATR\u00cdCIO CALDEIRA DE ANDRADE", 
@@ -6565,11 +6615,12 @@
                 "20:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/608.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA PROFESSOR EG\u00cdDIO FERREIRA", 
             "RUA PEDRO I", 
@@ -6638,11 +6689,12 @@
                 "20:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/605.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "AVENIDA GOVERNADOR IVO SILVEIRA", 
             "AVENIDA PATR\u00cdCIO CALDEIRA DE ANDRADE", 
@@ -6701,11 +6753,12 @@
                 "22:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/948.jpg", 
+        "updated_at": "22/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "22/12/2014", 
         "itinerary": [
             "RUA JOSU\u00c9 DE BERNARDI", 
             "RUA AC\u00c1CIO MOREIRA", 
@@ -6772,11 +6825,12 @@
                 "16:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/941.jpg", 
+        "updated_at": "09/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "09/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -6817,11 +6871,12 @@
                 "07:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-846.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TISAN", 
             "ESTRADA CAMINHO DOS A\u00c7ORES", 
@@ -6867,11 +6922,12 @@
                 "12:02"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-260.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "Rua Edelberto de Oliveira", 
             "Rua Porto Rico", 
@@ -6913,11 +6969,12 @@
                 "13:05"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/D-360.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "R. AMARO COELHO", 
             "R. ALTAMIRO BARCELO DUTRA", 
@@ -6974,11 +7031,12 @@
                 "22:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/949.jpg", 
+        "updated_at": "22/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "22/12/2014", 
         "itinerary": [
             "RUA PROFESSORA ROSINHA CAMPOS", 
             "RUA JO\u00c3O MEIRELLES", 
@@ -7043,11 +7101,12 @@
                 "17:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/2124.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "Terminal Cidade De Florian\u00f3polis", 
             "Pra\u00e7a Fernando Machado", 
@@ -7183,11 +7242,12 @@
                 "13:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1125.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "P\u00c1TIO DA POL\u00cdCIA AMBIENTAL", 
             "RODOVIA JO\u00c3O GUALBERTO SOARES", 
@@ -7269,11 +7329,12 @@
                 "19:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/4123.jpg", 
+        "updated_at": "22/12/2014", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "22/12/2014", 
         "itinerary": [
             "Rodovia Baldicero Filomeno (sa\u00edda Bairro)", 
             "Rodovia SC-405", 
@@ -7306,7 +7367,7 @@
     {
         "name": [
             "1122", 
-            "EXECUTIVO PONTA DAS CANAS / PRAIA BRAVA"
+            "EXECUTIVO PRAIA BRAVA"
         ], 
         "schedule": [
             [
@@ -7366,11 +7427,12 @@
                 "13:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1122.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "ESTRADA JORNALISTA JAIME DE ARRUDA RAMOS", 
             "AVENIDA LUIZ BOITEUX PIAZZA", 
@@ -7479,11 +7541,12 @@
                 "20:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1113.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "Terminal Cidade De Florian\u00f3polis", 
             "Pra\u00e7a Fernando Machado", 
@@ -7568,11 +7631,12 @@
                 "18:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/4125.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "Estrada Jo\u00e3o Berlamino da Silva (Sa\u00edda Bairro)", 
             "\"Rodovia \"\"Seu Chico\"\"Francisco Thomaz dos Santos(SC 406)\"", 
@@ -7622,11 +7686,12 @@
             "EXECUTIVO PANTANO DO SUL VIA CAMPECHE"
         ], 
         "schedule": [], 
+        "route": "Mapa n\u00e3o dispon\u00edvel.", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "Estrada Jo\u00e3o Belarrmino da Silva (Sa\u00edda Bairro)", 
             "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
@@ -7729,11 +7794,12 @@
                 "13:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/4120.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "Estrada Jo\u00e3o Belarrmino da Silva (Sa\u00edda Bairro)", 
             "\"Rodovia \"\"Seu Chico\"\" Francisco Thomaz dos Santos\"", 
@@ -7814,11 +7880,12 @@
                 "20:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1129.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "SA\u00cdDA BAIRRO", 
             "R. MANOEL PETRONILHO DA SILVEIRA (MUQU\u00c9M)", 
@@ -7868,11 +7935,12 @@
             "EXECUTIVO LAGOA DA CONCEI\u00c7\u00c3O VIA JOAQUINA"
         ], 
         "schedule": [], 
+        "route": "Mapa n\u00e3o dispon\u00edvel.", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "Terminal Cidade de Florian\u00f3polis", 
             "Pra\u00e7a Fernando Machado", 
@@ -7967,11 +8035,12 @@
                 "12:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1123.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
             "PRA\u00c7A FERNANDO MACHADO", 
@@ -8081,11 +8150,12 @@
                 "19:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1117.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TERMINAL CIDADE DE FLORIANOPOLIS", 
             "P\u00c7A FERNANDO MACHADO", 
@@ -8192,11 +8262,12 @@
                 "19:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/3002.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "Rua Gibraltar (Sa\u00edda C\u00f3rrego Grande)", 
             "Rua Florenza", 
@@ -8376,11 +8447,12 @@
                 "13:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1121.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "ESTRADA VEREADOR ONILDO LEMOS", 
             "ESTRADA DOM JO\u00c3O BECKER", 
@@ -8454,11 +8526,12 @@
                 "20:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1127.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "RUA DAS GAIVOTAS", 
             "RODOVIA SC 403", 
@@ -8552,11 +8625,12 @@
                 "13:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1128.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "RUA C\u00c2NDIDO PEREIRA DOS ANJOS", 
             "RODOVIA JO\u00c3O GUALBERTO SOARES", 
@@ -8626,11 +8700,12 @@
                 "18:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1118.jpg", 
+        "updated_at": "01/12/2014", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "01/12/2014", 
         "itinerary": [
             "Terminal Cidade de Florian\u00f3polis", 
             "Pra\u00e7a Fernando Machado", 
@@ -8699,11 +8774,12 @@
                 "22:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1115.jpg", 
+        "updated_at": "17/11/2014", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "17/11/2014", 
         "itinerary": [
             "TERMINAL CIDADE DE FLORIANOPOLIS", 
             "PRA\u00c7A FERNANDO MACHADO", 
@@ -8800,11 +8876,12 @@
                 "12:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1120.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
             "PRA\u00c7A FERNANDO MACHADO", 
@@ -8864,7 +8941,7 @@
         ], 
         "schedule": [
             [
-                "Dias \u00dateis - Sa\u00edda Pedrita", 
+                "Dias \u00dateis - Sa\u00edda Campeche", 
                 "06:30", 
                 "07:10", 
                 "08:20", 
@@ -8898,11 +8975,12 @@
                 "19:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/4122.jpg", 
+        "updated_at": "01/12/2014", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "01/12/2014", 
         "itinerary": [
             "R\u00f3tula da Praia do Campeche (Sa\u00edda Bairro)", 
             "Avenida Campeche", 
@@ -8995,11 +9073,12 @@
                 "19:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/4124.jpg", 
+        "updated_at": "01/12/2014", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "01/12/2014", 
         "itinerary": [
             "Rodovia Baldicero Filomeno (sa\u00edda Bairro)", 
             "Rodovia A\u00e7oriana", 
@@ -9075,11 +9154,12 @@
                 "19:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/1126.jpg", 
+        "updated_at": "22/12/2014", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "22/12/2014", 
         "itinerary": [
             "Estrada Anarolina Silveira Santos (Sa\u00edda Bairro)", 
             "R. Leonel Pereira", 
@@ -9211,11 +9291,12 @@
                 "18:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/2120.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 7,00", 
             "card": "R$ 7,00"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TERMINAL CIDADE DE FLORIAN\u00d3POLIS", 
             "PRA\u00c7A FERNANDO MACHADO", 
@@ -9310,11 +9391,12 @@
                 "19:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/6120.jpg", 
+        "updated_at": "22/12/2014", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "22/12/2014", 
         "itinerary": [
             "Aeroporto Herc\u00edlio Luz", 
             "Avenida Deputado Diom\u00edcio Freitas", 
@@ -9469,11 +9551,12 @@
                 "13:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/3001.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 5,50", 
             "card": "R$ 5,50"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "Rua Jos\u00e9 Filomeno (Sa\u00edda Capoeiras)", 
             "Rua Josu\u00e9 di Bernardi", 
@@ -9573,11 +9656,12 @@
                 "18:31"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/471.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "RUA JOS\u00c9 OL\u00cdMPIO DA SILVA (PONTO FINAL)", 
             "RODOVIA A\u00c7ORIANA", 
@@ -9682,11 +9766,12 @@
                 "23:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/180.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -9723,11 +9808,12 @@
                 "17:58"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/182.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "ROD. SC 401", 
@@ -9762,11 +9848,12 @@
                 "18:41"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/470.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA A\u00c7ORIANA", 
             "RUA JOS\u00c9 CORREIA", 
@@ -9844,11 +9931,12 @@
                 "13:42"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/155.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "ROD. SC 401", 
@@ -10010,11 +10098,12 @@
                 "23:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/179.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TITRI", 
             "R. PROF. MILTON ROQUE RAMOS KRIENGER", 
@@ -10064,11 +10153,12 @@
                 "18:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/175.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10219,11 +10309,12 @@
                 "22:06"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/177.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -10441,11 +10532,12 @@
                 "00:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/174.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10511,15 +10603,15 @@
                 "18:20", 
                 "19:45", 
                 "20:39", 
-                "22:30", 
                 "23:27"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/176.jpg", 
+        "updated_at": "27/05/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10700,11 +10792,12 @@
                 "22:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/178.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10747,11 +10840,12 @@
                 "18:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/944.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -10858,11 +10952,12 @@
                 "19:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/943.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "R. MILTON ROQUE RAMOS KRIGER", 
@@ -10906,11 +11001,12 @@
                 "08:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/172.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -10949,11 +11045,12 @@
                 "18:54"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/171.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11092,11 +11189,12 @@
                 "21:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/173.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11218,7 +11316,11 @@
                 "14:02", 
                 "16:01", 
                 "20:02", 
-                "23:00"
+                "20:30", 
+                "21:30", 
+                "22:30", 
+                "23:00", 
+                "23:30"
             ], 
             [
                 "Domingo - Sa\u00edda TITRI", 
@@ -11227,14 +11329,20 @@
                 "13:50", 
                 "15:50", 
                 "19:50", 
-                "22:50"
+                "20:20", 
+                "21:20", 
+                "22:20", 
+                "22:50", 
+                "23:20", 
+                "00:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/169.jpg", 
+        "updated_at": "07/06/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11375,11 +11483,7 @@
                 "16:31", 
                 "17:31", 
                 "18:30", 
-                "19:30", 
-                "20:30", 
-                "21:30", 
-                "22:30", 
-                "23:30"
+                "19:30"
             ], 
             [
                 "Domingo - Sa\u00edda TITRI", 
@@ -11397,19 +11501,15 @@
                 "16:20", 
                 "17:20", 
                 "18:20", 
-                "19:20", 
-                "20:20", 
-                "21:20", 
-                "22:20", 
-                "23:20", 
-                "00:23"
+                "19:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/168.jpg", 
+        "updated_at": "07/06/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11457,11 +11557,12 @@
                 "18:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/167.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11495,11 +11596,12 @@
                 "12:32"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/166.jpg", 
+        "updated_at": "09/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "09/02/2015", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -11713,11 +11815,12 @@
                 "00:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/165.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -11757,11 +11860,12 @@
                 "18:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/187.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES / BEIRA-MAR NORTE", 
@@ -11787,7 +11891,6 @@
             [
                 "Dias \u00dateis - Sa\u00edda Po\u00e7\u00e3o", 
                 "06:48", 
-                "07:48", 
                 "09:15", 
                 "10:07", 
                 "11:31", 
@@ -11799,12 +11902,17 @@
                 "19:37", 
                 "20:23", 
                 "21:24", 
+                "22:27", 
                 "22:50"
+            ], 
+            [
+                "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o", 
+                "07:20"
             ], 
             [
                 "Dias \u00dateis - Sa\u00edda TITRI", 
                 "06:30", 
-                "07:22", 
+                "07:03", 
                 "08:53", 
                 "09:45", 
                 "11:01", 
@@ -11817,6 +11925,7 @@
                 "19:12", 
                 "20:03", 
                 "21:05", 
+                "22:08", 
                 "22:31"
             ], 
             [
@@ -11872,11 +11981,12 @@
                 "22:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/164.jpg", 
+        "updated_at": "27/05/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "R. MILTON ROQUE RAMOS KRIGER", 
@@ -11902,11 +12012,14 @@
         ], 
         "schedule": [
             [
+                "Dias \u00dateis - Sa\u00edda Po\u00e7\u00e3o", 
+                "07:48"
+            ], 
+            [
                 "Dias \u00dateis - Sa\u00edda Subesta\u00e7\u00e3o", 
                 "05:33", 
                 "06:05", 
                 "06:19", 
-                "07:20", 
                 "07:58", 
                 "08:17", 
                 "08:34", 
@@ -11935,7 +12048,7 @@
                 "Dias \u00dateis - Sa\u00edda TITRI", 
                 "06:07", 
                 "06:45", 
-                "07:03", 
+                "07:22", 
                 "07:40", 
                 "07:59", 
                 "08:17", 
@@ -12064,11 +12177,12 @@
                 "00:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/163.jpg", 
+        "updated_at": "27/05/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "R. MILTON ROQUE RAMOS KRIGER", 
@@ -12136,11 +12250,12 @@
                 "22:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/170.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TITRI", 
             "AV. PROF. HENRIQUE DA SILVA FONTES", 
@@ -12276,11 +12391,12 @@
                 "00:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/846.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TISAN", 
             "ROD. NILTA FRANZONI VIEGAS", 
@@ -12477,11 +12593,12 @@
                 "00:34"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/365.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TISAN", 
             "ROD. NILTA FRANZONI VIEGAS", 
@@ -12656,11 +12773,12 @@
                 "00:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/272.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TISAN", 
             "RODOVIA SC 401", 
@@ -12811,11 +12929,12 @@
                 "23:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/271.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TISAN", 
             "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
@@ -12983,11 +13102,12 @@
                 "00:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/273.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TISAN", 
             "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
@@ -13150,11 +13270,12 @@
                 "23:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/940.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TISAN", 
             "RUA PADRE LOUREN\u00c7O RODRIGUES DE ANDRADE", 
@@ -13189,11 +13310,12 @@
                 "12:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/181.jpg", 
+        "updated_at": "09/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "09/02/2015", 
         "itinerary": [
             "ROD. JO\u00c3O PAULO", 
             "VILA IVAN MATOS", 
@@ -13369,11 +13491,12 @@
                 "21:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/466.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -13454,11 +13577,12 @@
                 "08:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/469.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -13495,11 +13619,12 @@
                 "23:08"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/565.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA SC 405", 
             "TIRIO", 
@@ -13616,11 +13741,12 @@
                 "00:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/564.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA SC 406", 
             "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -13829,11 +13955,12 @@
                 "00:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/563.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "ESTRADA JO\u00c3O BELARMINO DA SILVA", 
             "RODOVIA SC 406", 
@@ -13888,11 +14015,12 @@
                 "13:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/562.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA SC 406", 
             "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
@@ -14014,11 +14142,12 @@
                 "14:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/464.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -14216,11 +14345,12 @@
                 "00:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/463.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -14264,11 +14394,12 @@
                 "22:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/472.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -14537,11 +14668,12 @@
                 "00:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/462.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TIRIO", 
             "RODOVIA SC 405", 
@@ -14580,11 +14712,12 @@
                 "18:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/566.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA A\u00c7ORIANA", 
             "RODOVIA APAR\u00cdCIO RAMOS CORDEIRO", 
@@ -14878,11 +15011,12 @@
                 "00:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/561.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RODOVIA BALDICERO FILOMENO", 
             "RODOVIA SC 405", 
@@ -14905,11 +15039,12 @@
                 "06:25"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/560.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA ANT\u00d4NIO BORGES DOS SANTOS", 
             "RODOVIA SC 406", 
@@ -14938,11 +15073,12 @@
                 "21:26"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/364.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -15038,11 +15174,12 @@
                 "19:17"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/363.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TILAG", 
             "R. CRISOGONO VIEIRA DA CRUZ", 
@@ -15150,11 +15287,12 @@
                 "20:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/362.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -15481,11 +15619,12 @@
                 "01:05"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/360.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TILAG", 
             "AV. AFONSO DELAMBERT NETO", 
@@ -15646,11 +15785,12 @@
                 "23:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/138.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -15817,11 +15957,12 @@
                 "23:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/137.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -15983,11 +16124,12 @@
                 "23:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/136.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. DR. \u00c1LVARO MILEN DA SILVEIRA", 
@@ -16151,11 +16293,12 @@
                 "00:05"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/135.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -16195,11 +16338,12 @@
                 "06:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/669.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -16394,11 +16538,12 @@
                 "21:16"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/761.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -16561,11 +16706,12 @@
                 "23:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/671.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -16642,11 +16788,12 @@
                 "22:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/150.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
@@ -16686,11 +16833,12 @@
                 "22:33"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/154.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -16824,11 +16972,12 @@
                 "23:21"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/185.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "R. ANT\u00d4NIO PEREIRA OLIVEIRA NETO", 
@@ -17107,11 +17256,12 @@
                 "23:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/184.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "AV. OSVALDO RODRIGUES CABRAL", 
@@ -17167,11 +17317,12 @@
                 "21:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/191.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TITRI", 
             "AVENIDA PROFESSOR HENRIQUE DA SILVA FONTES", 
@@ -17224,11 +17375,12 @@
                 "12:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/104.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "ELEVADO RITA MARIA", 
@@ -17466,11 +17618,12 @@
                 "18:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/461.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "AVENIDA PAULO FONTES", 
@@ -17773,11 +17926,12 @@
                 "00:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/467.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -17866,11 +18020,12 @@
                 "12:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/162.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -18005,11 +18160,12 @@
                 "20:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/668.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -18051,11 +18207,12 @@
                 "06:37"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/667.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -18221,11 +18378,12 @@
                 "13:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/460.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -18363,15 +18521,17 @@
                 "23:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/769.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
             "AV. PAULO FONTES", 
+            "DOUTOR \u00c1LVARO MILLEN DA SILVIERA", 
             "R. DR. JORGE DA LUZ FONTES", 
             "R. SILVA JARDIM", 
             "AV. MAURO RAMOS", 
@@ -18381,14 +18541,12 @@
             "R. JADE MAGALH\u00c3ES", 
             "R. CRUZ E SOUZA", 
             "R. JAIRO CALLADO", 
-            "R. ARMANDO VAL\u00c9RIO DE ASSIS", 
+            "R.ALLAN KARDEC", 
             "R. ERNESTO STODIECK", 
             "AV. DO ANT\u00c3O", 
             "SERVID\u00c3O LEOPOLDO JO\u00c3O CUST\u00d3DIO (PONTO FINAL)", 
             "R. JO\u00c3O CARVALHO", 
-            "R. MARIA DA GRA\u00c7A CARPES", 
-            "R. MONS. MANFREDO LEITE", 
-            "R. ARMANDO VAL\u00c9RIO DE ASSIS", 
+            "R.FREI CANECA", 
             "R. JAIRO CALLADO", 
             "R. CRUZ E SOUZA", 
             "R. JADE MAGALH\u00c3ES", 
@@ -18515,11 +18673,12 @@
                 "23:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/768.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -18561,11 +18720,12 @@
                 "13:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/767.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -18662,11 +18822,12 @@
                 "12:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/760.jpg", 
+        "updated_at": "04/02/2015", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "04/02/2015", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -18711,11 +18872,12 @@
                 "19:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/770.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "AV. PAULO FONTES", 
@@ -18824,11 +18986,12 @@
                 "17:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/766.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -18995,11 +19158,12 @@
                 "23:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/765.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -19129,11 +19293,12 @@
                 "22:05"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/161.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -19275,11 +19440,12 @@
                 "20:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/160.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -19467,11 +19633,12 @@
                 "23:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/764.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -19897,11 +20064,12 @@
                 "00:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/670.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -20056,11 +20224,12 @@
                 "19:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/664.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -20136,11 +20305,12 @@
                 "19:06"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/153.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -20350,11 +20520,12 @@
                 "19:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/186.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA PROCURADOR ABELARDO GOMES", 
             "AVENIDA PAULO FONTES", 
@@ -20625,11 +20796,12 @@
                 "00:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/183.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA PROCURADOR ABELARDO GOMES", 
             "AVENIDA PAULO FONTES", 
@@ -21099,11 +21271,12 @@
                 "00:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/630.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "R PEDRO BITTENCOURT", 
@@ -21175,11 +21348,12 @@
                 "12:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/663.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -21248,11 +21422,12 @@
                 "19:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/101.jpg", 
+        "updated_at": "29/12/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "29/12/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -21341,11 +21516,12 @@
                 "13:50"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/772.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "RUA PEDRO BITTENCOURT", 
             "PONTE GOVERNADOR COLOMBO SALLES", 
@@ -21416,11 +21592,12 @@
                 "21:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/156.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PROCURADOR ABELARDO GOMES", 
@@ -21469,11 +21646,12 @@
                 "12:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/151.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "AV. JORNALISTA RUBENS ARRUDA RAMOS / BEIRA-MAR NORTE", 
@@ -21498,11 +21676,12 @@
                 "07:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/632.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -21874,11 +22053,12 @@
                 "00:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/631.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -22101,11 +22281,12 @@
                 "22:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/763.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -22207,11 +22388,12 @@
                 "12:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/661.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R PEDRO BITTENCOURT", 
@@ -22534,11 +22716,12 @@
                 "00:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/844.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -22826,11 +23009,12 @@
                 "00:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/660.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -22975,11 +23159,12 @@
                 "19:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/762.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 2,15", 
             "card": "R$ 1,86"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICEN", 
             "R. PROC. ABELARDO GOMES", 
@@ -23435,11 +23620,12 @@
                 "00:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/665.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICEN", 
             "RUA PEDRO BITTENCOURT", 
@@ -23571,11 +23757,12 @@
                 "23:40"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/282.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -23732,11 +23919,12 @@
                 "23:10"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/270.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23770,11 +23958,12 @@
                 "18:59"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/283.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23806,11 +23995,12 @@
                 "17:21"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/284.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -23858,11 +24048,12 @@
                 "22:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/269.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -23986,11 +24177,12 @@
                 "13:05"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/268.jpg", 
+        "updated_at": "26/01/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "26/01/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24069,11 +24261,12 @@
                 "21:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/274.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24403,11 +24596,12 @@
                 "01:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/267.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24638,11 +24832,12 @@
                 "22:55"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/266.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -24701,11 +24896,12 @@
                 "01:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/265.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25120,11 +25316,12 @@
                 "01:01"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/264.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25243,11 +25440,12 @@
                 "21:15"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/263.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25320,11 +25518,12 @@
                 "07:38"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/250.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25364,11 +25563,12 @@
                 "17:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/280.jpg", 
+        "updated_at": "09/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "09/02/2015", 
         "itinerary": [
             "ESTRADA ANAROLINA SILVEIRA SANTOS", 
             "RUA LEONEL PEREIRA", 
@@ -25554,11 +25754,12 @@
                 "23:45"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/281.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25711,11 +25912,12 @@
                 "22:05"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/262.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25817,11 +26019,12 @@
                 "23:20"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/275.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25942,11 +26145,12 @@
                 "07:30"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/261.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -25983,11 +26187,12 @@
                 "12:35"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/291.jpg", 
+        "updated_at": "09/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "09/02/2015", 
         "itinerary": [
             "AVENIDA LUIZ BOITEUX PIAZZA", 
             "RODOVIA SC 401", 
@@ -26247,11 +26452,12 @@
                 "00:23"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/260.jpg", 
+        "updated_at": "01/11/2014", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "01/11/2014", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTINO MARTINS", 
@@ -26308,11 +26514,12 @@
                 "19:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/277.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RUA FRANCISCO FAUSTO MARTINS", 
@@ -26606,11 +26813,12 @@
                 "23:00"
             ]
         ], 
+        "route": "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/276.jpg", 
+        "updated_at": "23/02/2015", 
         "price": {
             "money": "R$ 3,10", 
             "card": "R$ 2,98"
         }, 
-        "updated_at": "23/02/2015", 
         "itinerary": [
             "TICAN", 
             "RODOVIA SC 401", 
