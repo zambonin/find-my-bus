@@ -116,8 +116,10 @@ class FenixSpider(InitSpider):
 			horarios.append(saida[0] + " - " + saida[1])
 			for linha in linha.xpath('./div'):
 				lista_horarios = linha.xpath('./a/text()').extract()
-				if len(lista_horarios) > 0:
-					horarios.append(lista_horarios[0].strip()[:5])
+				if len(lista_horarios) > 1:
+					horarios.append(lista_horarios[0] + lista_horarios[1])
+				elif len(lista_horarios) > 0:
+					horarios.append(lista_horarios[0])
 			conj_horarios.append(horarios)
 
 		it = horario.xpath('./ol/li/text()').extract()
