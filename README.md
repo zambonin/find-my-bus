@@ -1,4 +1,3 @@
-# UFSC-INE5417
-Software engineering project. First semester of '15.
+# — Find my bus!
 
-Describes a software capable of listing public transport schedules for the microregion of Florianópolis, Brazil.
+Describes a software capable of listing public transport schedules and their prices for the microregion of Florianópolis, Brazil. Powered by [Scrapy](http://scrapy.org/).
