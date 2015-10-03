@@ -14,8 +14,5 @@ SPIDER_MODULES = ['find_my_bus.spiders']
 NEWSPIDER_MODULE = 'find_my_bus.spiders'
 
 ITEM_PIPELINES = {
-	'find_my_bus.pipelines.FilePipeline': 999,
+    'find_my_bus.pipelines.FilePipeline': 999,
 }
-
-# Crawl responsibly by identifying yourself (and your website) on the user-agent
-#USER_AGENT = 'find_my_bus (+http://www.yourdomain.com)'

@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 import requests
-import scrapy
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
 from scrapy.spiders.init import InitSpider
-
 from find_my_bus.items import FindMyBusItem
+
 
 class BiguacuSpider(InitSpider):
     name = "biguacu"
@@ -28,9 +27,9 @@ class BiguacuSpider(InitSpider):
         """
         for i in [1, 3]:
             # 1 for the main lines, 3 for the executive ones
-            yield FormRequest(url=self.start_urls[0], 
-                            formdata={'company': str(i)},
-                            callback=self.organize)
+            yield FormRequest(url=self.start_urls[0],
+                              formdata={'company': str(i)},
+                              callback=self.organize)
 
     def organize(self, response):
         """Constructs the list of URLs that will be scraped.
@@ -47,8 +46,8 @@ class BiguacuSpider(InitSpider):
                                 crawling process.
         """
         source = Selector(response)
-        links = [it.xpath('./td')[0].xpath('./text()') 
-                for it in source.xpath('//tr')]
+        links = [it.xpath('./td')[0].xpath('./text()')
+                 for it in source.xpath('//tr')]
 
         detail = '&detail[]=1,2,3'
         for link in links:
@@ -75,21 +74,22 @@ class BiguacuSpider(InitSpider):
     def parse_map_info(self, line):
         """Organizes the contents for each URL.
 
-        Organizes the contents from specific map URLs, searching for URLs that 
-        contain a certain combination of characters through regular expressions.
+        Organizes the contents from specific map URLs, searching
+        for URLs that contain a certain combination of characters
+        through regular expressions.
 
         Detailed breakdown of the expression used:
             http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+
 
-                http            match the string literally
-                [s]?            match the character inside brackets up to 1 time
-                ://             match the string literally
-                (?:             start of non-capturing group
-                    [a-zA-Z0-9]     match any alphanumeric characters
-                    |               or
-                    [/_@.:~]        match one of the characters inside brackets
-                )+              end of non-capturing group. it will be executed
-                                until it finds no more matches
+                http          match the string literally
+                [s]?          match the character inside brackets up to 1 time
+                ://           match the string literally
+                (?:           start of non-capturing group
+                  [a-zA-Z0-9]   match any alphanumeric characters
+                  |             or
+                  [/_@.:~]      match one of the characters inside brackets
+                )+            end of non-capturing group. it will be executed
+                              until it finds no more matches
 
         Args:
             line (str): The ID for the bus line.
@@ -121,36 +121,45 @@ class BiguacuSpider(InitSpider):
 
         Yields:
             item (FindMyBusItem): Contains information about a bus line.
-            make_requests_from_url (Request): The next bus line on the list, 
-                                              maintaning the process until there
-                                              are no more URLs.
+            make_requests_from_url (Request): The next bus line on the list,
+                                              maintaning the process until
+                                              there are no more URLs.
         """
         source = Selector(response)
         cabecalho = source.xpath('//div/div')
 
-        nome_onibus = cabecalho.xpath('//div')[0].xpath('//span/text()')[3].extract().strip().split(" ", 1)
+        nome_onibus = cabecalho.xpath('//div')[0].xpath(
+            '//span/text()')[3].extract().strip().split(" ", 1)
 
         preco = {
             "card": 0,
             "money": 0,
         }
         if (len(cabecalho.xpath('//div')[0].xpath('//span/text()')) > 12):
-            preco["card"] = "R$ " + cabecalho.xpath('//div')[0].xpath('//span/text()')[8].extract().strip()[:4]
-            preco["money"] = "R$" + cabecalho.xpath('//div')[0].xpath('//sapn/text()').extract()[0]
+            preco["card"] = "R$ " + cabecalho.xpath(
+                '//div')[0].xpath('//span/text()')[8].extract().strip()[:4]
+            preco["money"] = "R$" + cabecalho.xpath(
+                '//div')[0].xpath('//sapn/text()').extract()[0]
         else:
-            unico = "R$" + cabecalho.xpath('//div')[0].xpath('//span/text()')[6].extract()
+            unico = "R$" + cabecalho.xpath(
+                '//div')[0].xpath('//span/text()')[6].extract()
             preco["card"] = unico
             preco["money"] = unico
 
-        modificacao = cabecalho.xpath('//div')[3].xpath('./text()').extract()[0].strip()
-        tempo_medio = cabecalho.xpath('//div')[6].xpath('./text()').extract()[0].strip()
+        modificacao = cabecalho.xpath(
+            '//div')[3].xpath('./text()').extract()[0].strip()
+        tempo_medio = cabecalho.xpath(
+            '//div')[6].xpath('./text()').extract()[0].strip()
 
-        itinerario = source.xpath('//div[@id="tabContent2"]').xpath('./div/div/ul')
+        itinerario = source.xpath(
+            '//div[@id="tabContent2"]').xpath('./div/div/ul')
         itinerarios = []
-        for conj in [linha.xpath('./li/text()').extract() for linha in itinerario]:
+        for conj in [linha.xpath('./li/text()').extract()
+                     for linha in itinerario]:
             itinerarios.append([rua.split("-")[1].strip() for rua in conj])
-        
-        conteudo = source.xpath('//div[contains(@class, "tabContent")]').xpath('./div')
+
+        conteudo = source.xpath(
+            '//div[contains(@class, "tabContent")]').xpath('./div')
         conj_horarios = []
         for content in conteudo:
             dias = content.xpath('./div/ul/li/div/strong/text()').extract()
@@ -165,7 +174,8 @@ class BiguacuSpider(InitSpider):
 
             horarios = content.xpath('./div/ul/li')
             for saida, horario in zip(lugares_saida, horarios):
-                lista_horas = horario.xpath('./div/ul/li/div/a/text()').extract()
+                lista_horas = horario.xpath(
+                    './div/ul/li/div/a/text()').extract()
                 if lista_horas is not None:
                     conj_horarios.append([saida] + lista_horas)
 
@@ -175,11 +185,11 @@ class BiguacuSpider(InitSpider):
 
         rota = self.parse_map_info(nome_onibus[0])
 
-        item = FindMyBusItem(name=nome_onibus, price=preco, 
-                            company="Biguaçu Transportes", 
-                            schedule=conj_horarios, itinerary=itinerarios, 
-                            time=tempo_medio, updated_at=modificacao,
-                            route=rota)
+        item = FindMyBusItem(name=nome_onibus, price=preco,
+                             company="Biguaçu Transportes",
+                             schedule=conj_horarios, itinerary=itinerarios,
+                             time=tempo_medio, updated_at=modificacao,
+                             route=rota)
 
         yield item
         yield self.make_requests_from_url()
