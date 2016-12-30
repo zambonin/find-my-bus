@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+
 from find_my_bus.items import FindMyBusItem
 from scrapy.http import Request
 from scrapy.selector import Selector
@@ -93,9 +94,9 @@ class FenixSpider(InitSpider):
 
         minutos = dados[3].strip()[3:5]
         if minutos.isdigit():
-            if (int(minutos) / 60 > 0):
-                tempo_medio = str(int(minutos) / 60) + "h " \
-                    + str(int(minutos) % 60) + "min"
+            if int(minutos) > 60:
+                tempo_medio = "{}h {}min".format(
+                    int(minutos) // 60, int(minutos) % 60)
             else:
                 tempo_medio = minutos + " minutos"
         else:
@@ -110,17 +111,16 @@ class FenixSpider(InitSpider):
 
         conj_horarios = []
 
-        for linha in conteudo[1:len(conteudo)-1]:
+        for linha in conteudo[4:len(conteudo) - 1]:
             saida = linha.xpath('./div')[0].xpath(
                 './h4/text()').extract()[0].split(" - ")
             horarios = []
             horarios.append(saida[0] + " - " + saida[1])
             for linha in linha.xpath('./div'):
-                lista_horarios = linha.xpath('./a/text()').extract()
-                if len(lista_horarios) > 1:
-                    horarios.append(lista_horarios[0] + lista_horarios[1])
-                elif len(lista_horarios) > 0:
-                    horarios.append(lista_horarios[0])
+                try:
+                    horarios.append(linha.xpath('./a/text()').extract()[0])
+                except IndexError:
+                    pass
             conj_horarios.append(horarios)
 
         it = horario.xpath('./ol/li/text()').extract()
@@ -131,7 +131,7 @@ class FenixSpider(InitSpider):
 
         if source.xpath('//div[contains(@class, "mapac")]/img/@src').extract():
             map_url = "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/"
-            rota = map_url + nome_onibus[0] + ".jpg"
+            rota = map_url + nome_onibus[1].split(" ")[0] + ".jpg"
         else:
             rota = "Mapa não disponível."
 

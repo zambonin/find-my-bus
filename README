@@ -1,0 +1,10 @@
+    — Find my bus!
+
+Describes a software capable of listing public transport schedules and their
+prices for the microregion of Florianópolis, Brazil.
+
+Install the needed Python packages with
+
+    # pip install -r requirements.txt
+
+Original assignment: 1d1ecdb7bd5640a37c253f5ca60686b990cab17e

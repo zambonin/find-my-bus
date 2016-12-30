@@ -1,5 +1,7 @@
 # -*- coding: utf-8 -*-
-import requests
+
+from re import findall
+from requests import get as rget
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
 from scrapy.spiders.init import InitSpider
@@ -95,20 +97,14 @@ class BiguacuSpider(InitSpider):
             line (str): The ID for the bus line.
 
         Returns:
-            A list of KML maps containing the routes for each bus line.
+            A list of KML maps containing the routes for each bus line, or
+            an error message.
         """
-        import re
-
         url = 'http://www.biguacutransportes.com.br/ajax/lineBus/map?idLine=%s'
-        r = requests.get(url % line, params={'type': '2'})
+        r = rget(url % line, params={'type': '2'})
+        o = findall('http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+', r.text)
 
-        out = re.findall('http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+', r.text)
-        routes = [x for x in out if "kml" in x]
-
-        if len(routes) > 0:
-            return routes
-
-        return "Mapa não disponível."
+        return list(filter(lambda x: "kml" in x, o)) or "Mapa não disponível."
 
     def parse_bus_info(self, response):
         """Organizes the contents from each URL.
