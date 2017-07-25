@@ -62,8 +62,10 @@ class FenixSpider(InitSpider):
         Returns:
             A Request object generated from the URL passed as an argument.
         """
-        if len(self.urls):
+        try:
             return Request(url % self.urls.pop(), callback=self.parse)
+        except IndexError:
+            pass
 
     def parse(self, response):
         """Organizes the contents from each URL.
@@ -116,16 +118,16 @@ class FenixSpider(InitSpider):
                 './h4/text()').extract()[0].split(" - ")
             horarios = []
             horarios.append(saida[0] + " - " + saida[1])
-            for linha in linha.xpath('./div'):
+            for hor in linha.xpath('./div'):
                 try:
-                    horarios.append(linha.xpath('./a/text()').extract()[0])
+                    horarios.append(hor.xpath('./a/text()').extract()[0])
                 except IndexError:
                     pass
             conj_horarios.append(horarios)
 
-        it = horario.xpath('./ol/li/text()').extract()
+        itin = horario.xpath('./ol/li/text()').extract()
 
-        for conj in it:
+        for conj in itin:
             if not conj:
                 conj.append("Itinerário indisponível.")
 
@@ -137,7 +139,7 @@ class FenixSpider(InitSpider):
 
         item = FindMyBusItem(name=nome_onibus, price=preco,
                              company="Consórcio Fênix", schedule=conj_horarios,
-                             itinerary=it, time=tempo_medio,
+                             itinerary=itin, time=tempo_medio,
                              updated_at=modificacao, route=rota)
 
         yield item

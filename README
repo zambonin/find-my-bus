@@ -5,6 +5,10 @@ prices for the microregion of Florianópolis, Brazil.
 
 Install the needed Python packages with
 
-    # pip install -r requirements.txt
+    $ pip install -r requirements.txt
+
+Run the spiders with
+
+    $ scrapy crawl fenix # or biguacu
 
 Original assignment: 1d1ecdb7bd5640a37c253f5ca60686b990cab17e

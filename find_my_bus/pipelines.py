@@ -5,24 +5,25 @@
 # Don't forget to add your pipeline to the ITEM_PIPELINES setting
 # See: http://doc.scrapy.org/en/latest/topics/item-pipeline.html
 
-import json
-from scrapy.contrib.exporter import BaseItemExporter
+from scrapy.exporters import JsonItemExporter
 
 
-class FindMyBusPipeline(object):
-    def process_item(self, item, spider):
-        return item
+class FilePipeline(JsonItemExporter):
+    def __init__(self):
+        self.file = None
+        self.exporter = None
+        super().__init__(self.file)
 
-
-class FilePipeline(BaseItemExporter):
     def open_spider(self, spider):
-        self.list = []
+        self.file = open(spider.name + ".json", 'wb')
+        self.exporter = JsonItemExporter(self.file, encoding='utf-8',
+                                         ensure_ascii=False, indent=2)
+        self.exporter.start_exporting()
 
-    def close_spider(self, spider):
-        with open(spider.name + '.json', 'w') as fp:
-            json.dump(self.list, fp, indent=4)
+    def close_spider(self, _spider):
+        self.exporter.finish_exporting()
+        self.file.close()
 
-    def process_item(self, item, spider):
-        tmp = dict(self._get_serialized_fields(item))
-        self.list.append(tmp)
+    def process_item(self, item, _spider):
+        self.exporter.export_item(item)
         return item

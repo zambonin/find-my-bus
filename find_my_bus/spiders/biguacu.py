@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 
 from re import findall
-from requests import get as rget
+from urllib.request import urlopen
 from scrapy.http import FormRequest, Request
 from scrapy.selector import Selector
 from scrapy.spiders.init import InitSpider
@@ -27,11 +27,11 @@ class BiguacuSpider(InitSpider):
         Yields:
             A FormRequest object with the necessary form submission data.
         """
-        for i in [1, 3]:
-            # 1 for the main lines, 3 for the executive ones
-            yield FormRequest(url=self.start_urls[0],
-                              formdata={'company': str(i)},
-                              callback=self.organize)
+        # 1 for the main lines, 3 for the executive ones
+        return [
+            FormRequest(url=self.start_urls[0], formdata={'company': str(i)},
+                        callback=self.organize) for i in [1, 3]
+        ]
 
     def organize(self, response):
         """Constructs the list of URLs that will be scraped.
@@ -52,11 +52,12 @@ class BiguacuSpider(InitSpider):
                  for it in source.xpath('//tr')]
 
         detail = '&detail[]=1,2,3'
+        last = bool(len(self.urls))
         for link in links:
             path = link.extract()[0]
             self.urls.append(self.start_urls[1] % (path, detail))
 
-        return self.initialized()
+        return self.initialized() if last else None
 
     def make_requests_from_url(self, url=None):
         """Requests the content from a given URL.
@@ -70,43 +71,13 @@ class BiguacuSpider(InitSpider):
         Returns:
             A Request object generated from the URL passed as an argument.
         """
-        if len(self.urls):
-            return Request(self.urls.pop(), callback=self.parse_bus_info)
+        try:
+            return Request(self.urls.pop(), callback=self.parse)
+        except IndexError:
+            pass
 
-    def parse_map_info(self, line):
-        """Organizes the contents for each URL.
 
-        Organizes the contents from specific map URLs, searching
-        for URLs that contain a certain combination of characters
-        through regular expressions.
-
-        Detailed breakdown of the expression used:
-            http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+
-
-                http          match the string literally
-                [s]?          match the character inside brackets up to 1 time
-                ://           match the string literally
-                (?:           start of non-capturing group
-                  [a-zA-Z0-9]   match any alphanumeric characters
-                  |             or
-                  [/_@.:~]      match one of the characters inside brackets
-                )+            end of non-capturing group. it will be executed
-                              until it finds no more matches
-
-        Args:
-            line (str): The ID for the bus line.
-
-        Returns:
-            A list of KML maps containing the routes for each bus line, or
-            an error message.
-        """
-        url = 'http://www.biguacutransportes.com.br/ajax/lineBus/map?idLine=%s'
-        r = rget(url % line, params={'type': '2'})
-        o = findall('http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+', r.text)
-
-        return list(filter(lambda x: "kml" in x, o)) or "Mapa não disponível."
-
-    def parse_bus_info(self, response):
+    def parse(self, response):
         """Organizes the contents from each URL.
 
         Looks over the source code of its argument and parses information using
@@ -121,6 +92,41 @@ class BiguacuSpider(InitSpider):
                                               maintaning the process until
                                               there are no more URLs.
         """
+        def parse_map_info(line):
+            """Organizes the contents for each URL.
+
+            Organizes the contents from specific map URLs, searching
+            for URLs that contain a certain combination of characters
+            through regular expressions.
+
+            Detailed breakdown of the expression used:
+              http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+
+
+                http          match the string literally
+                [s]?          match `s` up to 1 time
+                ://           match the string literally
+                (?:           start of non-capturing group
+                  [a-zA-Z0-9]   match any alphanumeric characters
+                  |             or
+                  [/_@.:~]      match one of the characters inside brackets
+                )+            end of non-capturing group. it will be executed
+                              until it finds no more matches
+
+            Args:
+                line (str): The ID for the bus line.
+
+            Returns:
+                A list of KML maps containing the routes for each bus line,
+                or an error message.
+            """
+            url = 'http://www.biguacutransportes.com.br/ajax/lineBus/map'
+            pattern = 'http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+'
+            unavailable = "Mapa não disponível."
+
+            with urlopen(url + "?idLine={}&type=2".format(line)) as resp:
+                matches = findall(pattern, str(resp.read()))
+                return [m for m in matches if "kml" in m] or unavailable
+
         source = Selector(response)
         cabecalho = source.xpath('//div/div')
 
@@ -131,7 +137,7 @@ class BiguacuSpider(InitSpider):
             "card": 0,
             "money": 0,
         }
-        if (len(cabecalho.xpath('//div')[0].xpath('//span/text()')) > 12):
+        if len(cabecalho.xpath('//div')[0].xpath('//span/text()')) > 12:
             preco["card"] = "R$ " + cabecalho.xpath(
                 '//div')[0].xpath('//span/text()')[8].extract().strip()[:4]
             preco["money"] = "R$" + cabecalho.xpath(
@@ -179,13 +185,11 @@ class BiguacuSpider(InitSpider):
             if not conj:
                 conj.append("Itinerário indisponível.")
 
-        rota = self.parse_map_info(nome_onibus[0])
-
         item = FindMyBusItem(name=nome_onibus, price=preco,
                              company="Biguaçu Transportes",
                              schedule=conj_horarios, itinerary=itinerarios,
                              time=tempo_medio, updated_at=modificacao,
-                             route=rota)
+                             route=parse_map_info(nome_onibus[0]))
 
         yield item
         yield self.make_requests_from_url()

@@ -5,18 +5,8 @@
 # See documentation in:
 # http://doc.scrapy.org/en/latest/topics/items.html
 
-import scrapy
+from scrapy import Field, Item
 
-
-class FindMyBusItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-
-    name = scrapy.Field()
-    price = scrapy.Field()
-    company = scrapy.Field()
-    schedule = scrapy.Field()
-    itinerary = scrapy.Field()
-    time = scrapy.Field()
-    updated_at = scrapy.Field()
-    route = scrapy.Field()
+class FindMyBusItem(Item):
+    name, price, company, schedule, itinerary, \
+        time, updated_at, route = (Field(),) * 8
