@@ -1,22 +1,32 @@
 # -*- coding: utf-8 -*-
 
+"""biguacu.py
+
+Spider tailored to a specific local business website, that needs to ignore
+the AJAX-ridden website and use specific requests to get all the bus lines.
+
+    * `scrapy.http.FormRequest` extends the base Request with functionality
+        for dealing with HTML forms.
+    * `scrapy.selector.Selector` is a wrapper over response to select certain
+        parts of its content.
+    * `scrapy.spiders.init.InitSpider` is a spider (class that defines how
+        a certain site will be scraped) with initialization facilities.
+"""
+
 from re import findall
 from urllib.request import urlopen
-from scrapy.http import FormRequest, Request
+
+from find_my_bus.items import FindMyBusItem
+from scrapy.http import FormRequest
 from scrapy.selector import Selector
 from scrapy.spiders.init import InitSpider
-from find_my_bus.items import FindMyBusItem
 
 
 class BiguacuSpider(InitSpider):
+    """Instantiates the Biguacu spider."""
     name = "biguacu"
     allowed_domains = ["biguacutransportes.com.br"]
-    start_urls = (
-        'http://www.biguacutransportes.com.br/ajax/lineBus/searchGetLine',
-        'http://www.biguacutransportes.com.br/ajax/lineBus/preview/?line=%s%s',
-    )
-
-    urls = []
+    start_urls = []
 
     def init_request(self):
         """Requests the base URL from the domain.
@@ -24,14 +34,13 @@ class BiguacuSpider(InitSpider):
         Initializes communication with the site by feeding it information such
         as form data and request type.
 
-        Yields:
+        Returns:
             A FormRequest object with the necessary form submission data.
         """
         # 1 for the main lines, 3 for the executive ones
-        return [
-            FormRequest(url=self.start_urls[0], formdata={'company': str(i)},
-                        callback=self.organize) for i in [1, 3]
-        ]
+        url = 'http://www.biguacutransportes.com.br/ajax/lineBus/searchGetLine'
+        return [FormRequest(url=url, formdata={'company': str(i)},
+                            callback=self.organize) for i in [1, 3]]
 
     def organize(self, response):
         """Constructs the list of URLs that will be scraped.
@@ -48,34 +57,17 @@ class BiguacuSpider(InitSpider):
                                 crawling process.
         """
         source = Selector(response)
+        url = 'http://www.biguacutransportes.com.br/ajax/lineBus/preview/'
         links = [it.xpath('./td')[0].xpath('./text()')
                  for it in source.xpath('//tr')]
 
-        detail = '&detail[]=1,2,3'
-        last = bool(len(self.urls))
+        last = bool(len(self.start_urls))
         for link in links:
             path = link.extract()[0]
-            self.urls.append(self.start_urls[1] % (path, detail))
+            self.start_urls.append(
+                url + "?line={}{}".format(path, '&detail[]=1,2,3'))
 
         return self.initialized() if last else None
-
-    def make_requests_from_url(self, url=None):
-        """Requests the content from a given URL.
-
-        Generates requests if given a valid URL from anywhere in the class,
-        converting it to a valid Request object.
-
-        Args:
-            url (str): a single URL to be requested from.
-
-        Returns:
-            A Request object generated from the URL passed as an argument.
-        """
-        try:
-            return Request(self.urls.pop(), callback=self.parse)
-        except IndexError:
-            pass
-
 
     def parse(self, response):
         """Organizes the contents from each URL.
@@ -87,10 +79,7 @@ class BiguacuSpider(InitSpider):
             response (Request): Any valid response generated from an URL.
 
         Yields:
-            item (FindMyBusItem): Contains information about a bus line.
-            make_requests_from_url (Request): The next bus line on the list,
-                                              maintaning the process until
-                                              there are no more URLs.
+            FindMyBusItem: Contains information about a bus line.
         """
         def parse_map_info(line):
             """Organizes the contents for each URL.
@@ -185,11 +174,8 @@ class BiguacuSpider(InitSpider):
             if not conj:
                 conj.append("Itinerário indisponível.")
 
-        item = FindMyBusItem(name=nome_onibus, price=preco,
-                             company="Biguaçu Transportes",
-                             schedule=conj_horarios, itinerary=itinerarios,
-                             time=tempo_medio, updated_at=modificacao,
-                             route=parse_map_info(nome_onibus[0]))
-
-        yield item
-        yield self.make_requests_from_url()
+        yield FindMyBusItem(
+            name=nome_onibus, price=preco, company="Biguaçu Transportes",
+            schedule=conj_horarios, itinerary=itinerarios, time=tempo_medio,
+            updated_at=modificacao, route=parse_map_info(nome_onibus[0])
+        )

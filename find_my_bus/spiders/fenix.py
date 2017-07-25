@@ -1,5 +1,18 @@
 # -*- coding: utf-8 -*-
 
+"""fenix.py
+
+Spider tailored to a specific local business website that scrapes a page
+with all the bus lines and, then, those pages to get the data.
+
+    * `scrapy.http.Request` represents an HTTP request, usually generated in
+        the spider and executed by the downloader, thus generating a Response.
+    * `scrapy.selector.Selector` is a wrapper over response to select certain
+        parts of its content.
+    * `scrapy.spiders.init.InitSpider` is a spider (class that defines how
+        a certain site will be scraped) with initialization facilities.
+"""
+
 from find_my_bus.items import FindMyBusItem
 from scrapy.http import Request
 from scrapy.selector import Selector
@@ -7,13 +20,10 @@ from scrapy.spiders.init import InitSpider
 
 
 class FenixSpider(InitSpider):
+    """Instantiates the Fenix spider."""
     name = "fenix"
     allowed_domains = ["consorciofenix.com.br"]
-    start_urls = (
-        'http://www.consorciofenix.com.br/%s',
-    )
-
-    urls = []
+    start_urls = []
 
     def init_request(self):
         """Requests the base URL from the domain.
@@ -24,7 +34,7 @@ class FenixSpider(InitSpider):
         Returns:
             A FormRequest object with the necessary form submission data.
         """
-        return Request(url=self.start_urls[0] % "horarios",
+        return Request(url='http://www.consorciofenix.com.br/horarios',
                        callback=self.organize)
 
     def organize(self, response):
@@ -46,26 +56,9 @@ class FenixSpider(InitSpider):
 
         for link in links:
             path = link.xpath('@href').extract()[0]
-            self.urls.append(path)
+            self.start_urls.append("http://www.consorciofenix.com.br/" + path)
 
         return self.initialized()
-
-    def make_requests_from_url(self, url):
-        """Requests the content from a given URL.
-
-        Generates requests if given a valid URL from anywhere in the class,
-        converting it to a valid Request object.
-
-        Args:
-            url (str): A single URL to be requested from.
-
-        Returns:
-            A Request object generated from the URL passed as an argument.
-        """
-        try:
-            return Request(url % self.urls.pop(), callback=self.parse)
-        except IndexError:
-            pass
 
     def parse(self, response):
         """Organizes the contents from each URL.
@@ -77,10 +70,7 @@ class FenixSpider(InitSpider):
             response (Request): Any valid response generated from an URL.
 
         Yields:
-            item (FindMyBusItem): Contains information about a bus line.
-            make_requests_from_url (Request): The next bus line on the list,
-                                              maintaning the process until
-                                              there are no more URLs.
+            FindMyBusItem: Contains information about a bus line.
         """
         source = Selector(response)
 
@@ -137,10 +127,8 @@ class FenixSpider(InitSpider):
         else:
             rota = "Mapa não disponível."
 
-        item = FindMyBusItem(name=nome_onibus, price=preco,
-                             company="Consórcio Fênix", schedule=conj_horarios,
-                             itinerary=itin, time=tempo_medio,
-                             updated_at=modificacao, route=rota)
-
-        yield item
-        yield self.make_requests_from_url(self.start_urls[0])
+        yield FindMyBusItem(
+            name=nome_onibus, price=preco, company="Consórcio Fênix",
+            schedule=conj_horarios, itinerary=itin, time=tempo_medio,
+            updated_at=modificacao, route=rota
+        )
