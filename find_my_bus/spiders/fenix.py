@@ -13,10 +13,13 @@ with all the bus lines and, then, those pages to get the data.
         a certain site will be scraped) with initialization facilities.
 """
 
-from find_my_bus.items import FindMyBusItem
+from datetime import timedelta
+
 from scrapy.http import Request
 from scrapy.selector import Selector
 from scrapy.spiders.init import InitSpider
+
+from find_my_bus.items import FindMyBusItem
 
 
 class FenixSpider(InitSpider):
@@ -74,61 +77,52 @@ class FenixSpider(InitSpider):
         """
         source = Selector(response)
 
-        horario = source.xpath('//div[contains(@class, "horario")]')
-
-        temp_nome = horario.xpath('./h1/a/text()').extract()[0].split(" - ")
-        nome_onibus = [temp_nome[-1], " ".join(temp_nome[:-1]).upper()]
-
-        conteudo = horario.xpath('./div')
-
-        dados = [it for it in conteudo[0].xpath('.//text()').extract()
-                 if it != u' ']
-
-        minutos = dados[3].strip()[3:5]
-        if minutos.isdigit():
-            if int(minutos) > 60:
-                tempo_medio = "{}h {}min".format(
-                    int(minutos) // 60, int(minutos) % 60)
-            else:
-                tempo_medio = minutos + " minutos"
-        else:
-            tempo_medio = "Não disponível."
-
-        preco = {
-            "card": dados[9].strip(),
-            "money": dados[11].strip(),
+        xpaths = {
+            'code_name':
+                source.xpath('//div[contains(@class, "horario")]/h1/a/text()'),
+            'timetable':
+                source.xpath('//div[contains(@class, "horario")]/div'),
+            'itinerary':
+                source.xpath('//div[contains(@class, "horario")]/ol/li/text()'),
+            'price':
+                source.xpath('//div[contains(@class, "tarifa")]/text()'),
+            'time_date':
+                source.xpath('//div[contains(@class, "col-sm-4")]/text()'),
+            'route':
+                source.xpath('//div[contains(@class, "mapac")]/img/@src'),
         }
 
-        modificacao = dados[5].strip()[0:]
+        cod, name = xpaths['code_name'].extract()[0].split(" - ", 1)
+        itinerary = xpaths['itinerary'].extract()
 
-        conj_horarios = []
+        price = {}
+        price['card'], price['money'] = \
+            map(str.strip, xpaths['price'].extract()[2:5:2])
 
-        for linha in conteudo[4:len(conteudo) - 1]:
-            saida = linha.xpath('./div')[0].xpath(
-                './h4/text()').extract()[0].split(" - ")
-            horarios = []
-            horarios.append(saida[0] + " - " + saida[1])
-            for hor in linha.xpath('./div'):
-                try:
-                    horarios.append(hor.xpath('./a/text()').extract()[0])
-                except IndexError:
-                    pass
-            conj_horarios.append(horarios)
+        timetable = {}
+        for section in xpaths['timetable'][3:-1]:
+            horarios = ["".join(line.xpath('.//text()').extract()).strip()
+                        for line in section.xpath('./div')]
+            try:
+                timetable[horarios.pop(0)] = horarios
+            except IndexError:
+                pass    # lines that only operate throughout the school year
 
-        itin = horario.xpath('./ol/li/text()').extract()
+        time, last_mod = map(str.strip, xpaths['time_date'].extract()[3:6:2])
+        try:
+            time = str(timedelta(minutes=int(
+                time[time.find(':') + 1:time.find('a')])))
+        except ValueError:
+            time = "Não disponível."
 
-        for conj in itin:
-            if not conj:
-                conj.append("Itinerário indisponível.")
+        try:
+            route = self.allowed_domains[0] + xpaths['route'].extract()[0]
+        except IndexError:
+            route = "Não disponível."
 
-        if source.xpath('//div[contains(@class, "mapac")]/img/@src').extract():
-            map_url = "http://www.consorciofenix.com.br/r/w/mapas/1000x1000/"
-            rota = map_url + nome_onibus[1].split(" ")[0] + ".jpg"
-        else:
-            rota = "Mapa não disponível."
-
-        yield FindMyBusItem(
-            name=nome_onibus, price=preco, company="Consórcio Fênix",
-            schedule=conj_horarios, itinerary=itin, time=tempo_medio,
-            updated_at=modificacao, route=rota
-        )
+        yield {
+            cod : FindMyBusItem(
+                name=name, price=price, company="Consórcio Fênix",
+                schedule=timetable, itinerary=itinerary,
+                time=time, updated_at=last_mod, route=route)
+        }
