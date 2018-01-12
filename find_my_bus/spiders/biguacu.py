@@ -13,13 +13,15 @@ the AJAX-ridden website and use specific requests to get all the bus lines.
         a certain site will be scraped) with initialization facilities.
 """
 
+from datetime import timedelta
 from re import findall
 from urllib.request import urlopen
 
-from find_my_bus.items import FindMyBusItem
 from scrapy.http import FormRequest
 from scrapy.selector import Selector
 from scrapy.spiders.init import InitSpider
+
+from find_my_bus.items import FindMyBusItem
 
 
 class BiguacuSpider(InitSpider):
@@ -56,16 +58,16 @@ class BiguacuSpider(InitSpider):
             self.initialized(): specific method to Scrapy that starts the
                                 crawling process.
         """
-        source = Selector(response)
         url = 'http://www.biguacutransportes.com.br/ajax/lineBus/preview/'
         links = [it.xpath('./td')[0].xpath('./text()')
-                 for it in source.xpath('//tr')]
+                 for it in Selector(response).xpath('//tr')]
 
+        # doesn't return self.initialized() if it isn't the last callback
         last = bool(len(self.start_urls))
+
         for link in links:
-            path = link.extract()[0]
             self.start_urls.append(
-                url + "?line={}{}".format(path, '&detail[]=1,2,3'))
+                url + "?line={}&detail[]=1,2,3".format(link.extract()[0]))
 
         return self.initialized() if last else None
 
@@ -110,72 +112,61 @@ class BiguacuSpider(InitSpider):
             """
             url = 'http://www.biguacutransportes.com.br/ajax/lineBus/map'
             pattern = 'http[s]?://(?:[a-zA-Z0-9]|[/_@.:~])+'
-            unavailable = "Mapa não disponível."
 
             with urlopen(url + "?idLine={}&type=2".format(line)) as resp:
                 matches = findall(pattern, str(resp.read()))
-                return [m for m in matches if "kml" in m] or unavailable
+                return [m for m in matches if "kml" in m] or "Não disponível."
 
         source = Selector(response)
-        cabecalho = source.xpath('//div/div')
 
-        nome_onibus = cabecalho.xpath('//div')[0].xpath(
-            '//span/text()')[3].extract().strip().split(" ", 1)
-
-        preco = {
-            "card": 0,
-            "money": 0,
+        xpaths = {
+            'header': source.xpath(
+                '//div/div[contains(@class, "cabecalho-linha")]/div//text()'),
+            'route': source.xpath(
+                '//div[@id="tabContent2"]/div/div/ul'),
+            'timetable': source.xpath(
+                '//div[contains(@class, "tabContent")]/div'),
         }
-        if len(cabecalho.xpath('//div')[0].xpath('//span/text()')) > 12:
-            preco["card"] = "R$ " + cabecalho.xpath(
-                '//div')[0].xpath('//span/text()')[8].extract().strip()[:4]
-            preco["money"] = "R$" + cabecalho.xpath(
-                '//div')[0].xpath('//sapn/text()').extract()[0]
+
+        header = list(map(str.strip, xpaths['header'].extract()))
+        last_mod, cod, name, avgtime = \
+            header[3], *header[6].split(" ", 1), header[8]
+
+        # positive lookahead assertion and hack to prevent IndexError
+        avgtime = str(timedelta(
+            hours=int((findall(r'\d+(?=h | h)', avgtime) + [0])[0]),
+            minutes=int((findall(r'\d+(?=m| m)', avgtime) + [0])[0])))
+
+        price = {}
+        if 's' in header[9]:
+            price['card'] = "R$ " + header[12][:4]
+            price['money'] = "R$ " + header[16]
         else:
-            unico = "R$" + cabecalho.xpath(
-                '//div')[0].xpath('//span/text()')[6].extract()
-            preco["card"] = unico
-            preco["money"] = unico
+            price['card'] = price['money'] = "R$ " + header[10]
 
-        modificacao = cabecalho.xpath(
-            '//div')[3].xpath('./text()').extract()[0].strip()
-        tempo_medio = cabecalho.xpath(
-            '//div')[6].xpath('./text()').extract()[0].strip()
+        itinerary = []
+        for conj in xpaths['route']:
+            route = list(map(
+                lambda x: x.split("-")[1].strip(),
+                conj.xpath('./li/text()').extract())) or "Não disponível."
+            itinerary.append(route)
 
-        itinerario = source.xpath(
-            '//div[@id="tabContent2"]').xpath('./div/div/ul')
-        itinerarios = []
-        for conj in [linha.xpath('./li/text()').extract()
-                     for linha in itinerario]:
-            itinerarios.append([rua.split("-")[1].strip() for rua in conj])
+        timetable = {}
+        for table in xpaths['timetable']:
+            start = table.xpath('./div/div/strong/text()').extract()[0]
+            timetable[start] = {}
 
-        conteudo = source.xpath(
-            '//div[contains(@class, "tabContent")]').xpath('./div')
-        conj_horarios = []
-        for content in conteudo:
-            dias = content.xpath('./div/ul/li/div/strong/text()').extract()
-            partida = content.xpath('./div/div/strong/text()').extract()
+            days = table.xpath('./div/ul/li/div/strong/text()').extract()
+            # TODO extract markers (wheelchair-enabled bus, different route)
+            times = [hour.xpath('./div/ul/li/div/a/text()').extract()
+                     for hour in table.xpath('./div/ul/li')]
 
-            lugares_saida = []
-            for saida in dias:
-                if not partida:
-                    lugares_saida.append(saida)
-                else:
-                    lugares_saida.append(saida + " - " + partida[0].strip())
+            for day, time in zip(days, times):
+                timetable[start][day] = time
 
-            horarios = content.xpath('./div/ul/li')
-            for saida, horario in zip(lugares_saida, horarios):
-                lista_horas = horario.xpath(
-                    './div/ul/li/div/a/text()').extract()
-                if lista_horas is not None:
-                    conj_horarios.append([saida] + lista_horas)
-
-        for conj in itinerarios:
-            if not conj:
-                conj.append("Itinerário indisponível.")
-
-        yield FindMyBusItem(
-            name=nome_onibus, price=preco, company="Biguaçu Transportes",
-            schedule=conj_horarios, itinerary=itinerarios, time=tempo_medio,
-            updated_at=modificacao, route=parse_map_info(nome_onibus[0])
-        )
+        yield {
+            cod : FindMyBusItem(
+                name=name, price=price, company="Biguaçu Transportes",
+                schedule=timetable, itinerary=itinerary, time=avgtime,
+                updated_at=last_mod, route=parse_map_info(cod))
+        }

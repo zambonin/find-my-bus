@@ -104,7 +104,10 @@ class FenixSpider(InitSpider):
             horarios = ["".join(line.xpath('.//text()').extract()).strip()
                         for line in section.xpath('./div')]
             try:
-                timetable[horarios.pop(0)] = horarios
+                day, place = horarios.pop(0).split(" - Saída ")
+                if place not in timetable.keys():
+                    timetable[place] = {}
+                timetable[place].update({day: horarios})
             except IndexError:
                 pass    # lines that only operate throughout the school year
 
@@ -116,7 +119,8 @@ class FenixSpider(InitSpider):
             time = "Não disponível."
 
         try:
-            route = self.allowed_domains[0] + xpaths['route'].extract()[0]
+            route = "http://" + self.allowed_domains[0] \
+                    + xpaths['route'].extract()[0]
         except IndexError:
             route = "Não disponível."
 

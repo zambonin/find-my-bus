@@ -3,22 +3,17 @@
 """pipelines.py
 
 Models for scraped items with capabilities similar to a dictionary.
-
-    * `scrapy.exporters.JsonItemExporter` handles exporting of data
-        to a JSON object, possibly to be consumed by other systems.
 """
 
-from scrapy.exporters import JsonItemExporter
+from json import dump
 
-
-class FilePipeline(JsonItemExporter):
+class FilePipeline(object):
     """
     Manages all items that shall be output to a file when scraping ends.
     """
     def __init__(self):
         self.file = None
-        self.exporter = None
-        super().__init__(self.file)
+        self.temp = {}
 
     def open_spider(self, spider):
         """
@@ -28,10 +23,7 @@ class FilePipeline(JsonItemExporter):
         Args:
             spider (Spider): the spider which was opened.
         """
-        self.file = open(spider.name + ".json", 'wb')
-        self.exporter = JsonItemExporter(self.file, encoding='utf-8',
-                                         ensure_ascii=False, indent=2)
-        self.exporter.start_exporting()
+        self.file = open(spider.name + ".json", 'w', encoding='utf-8')
 
     def close_spider(self, _spider):
         """
@@ -40,7 +32,7 @@ class FilePipeline(JsonItemExporter):
         Args:
             spider (Spider): the spider which was closed.
         """
-        self.exporter.finish_exporting()
+        dump(self.temp, self.file, indent=2, ensure_ascii=False)
         self.file.close()
 
     def process_item(self, item, _spider):
@@ -54,5 +46,6 @@ class FilePipeline(JsonItemExporter):
         Returns:
             An Item object to be handled further in the pipeline.
         """
-        self.exporter.export_item(item)
+        key, value = next(iter(item.items()))
+        self.temp.update({key : dict(value)})
         return item
