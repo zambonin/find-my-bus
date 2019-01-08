@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# pylint: disable=R0903
 
 """items.py
 
@@ -9,11 +10,15 @@ Models for scraped items with capabilities similar to a dictionary.
     * `scrapy.Item` aggregates data to define a common output format.
 """
 
+from __future__ import absolute_import
 from scrapy import Field, Item
+
 
 class FindMyBusItem(Item):
     """
     Custom container that collects scraped data pertinent to a bus line.
     """
-    name, price, company, schedule, itinerary, \
-        time, updated_at, route = (Field(),) * 8
+
+    name, price, company, schedule, itinerary, time, updated_at, route = (
+        Field(),
+    ) * 8

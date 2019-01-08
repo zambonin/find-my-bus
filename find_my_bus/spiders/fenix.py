@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+# pylint: disable=R0914
 
 """fenix.py
 
@@ -13,6 +14,7 @@ with all the bus lines and, then, those pages to get the data.
         a certain site will be scraped) with initialization facilities.
 """
 
+from __future__ import absolute_import
 from datetime import timedelta
 
 from scrapy.http import Request
@@ -24,6 +26,7 @@ from find_my_bus.items import FindMyBusItem
 
 class FenixSpider(InitSpider):
     """Instantiates the Fenix spider."""
+
     name = "fenix"
     allowed_domains = ["consorciofenix.com.br"]
     start_urls = []
@@ -37,8 +40,10 @@ class FenixSpider(InitSpider):
         Returns:
             A FormRequest object with the necessary form submission data.
         """
-        return Request(url='http://www.consorciofenix.com.br/horarios',
-                       callback=self.organize)
+        return Request(
+            url="http://www.consorciofenix.com.br/horarios",
+            callback=self.organize,
+        )
 
     def organize(self, response):
         """Constructs the list of URLs that will be scraped.
@@ -58,7 +63,7 @@ class FenixSpider(InitSpider):
         links = source.xpath('//ul[contains(@class, "nav-custom1")]/li/a')
 
         for link in links:
-            path = link.xpath('@href').extract()[0]
+            path = link.xpath("@href").extract()[0]
             self.start_urls.append("http://www.consorciofenix.com.br/" + path)
 
         return self.initialized()
@@ -78,55 +83,70 @@ class FenixSpider(InitSpider):
         source = Selector(response)
 
         xpaths = {
-            'code_name':
-                source.xpath('//div[contains(@class, "horario")]/h1/a/text()'),
-            'timetable':
-                source.xpath('//div[contains(@class, "horario")]/div'),
-            'itinerary':
-                source.xpath('//div[contains(@class, "horario")]/ol/li/text()'),
-            'price':
-                source.xpath('//div[contains(@class, "tarifa")]/text()'),
-            'time_date':
-                source.xpath('//div[contains(@class, "col-sm-4")]/text()'),
-            'route':
-                source.xpath('//div[contains(@class, "mapac")]/img/@src'),
+            "code_name": source.xpath(
+                '//div[contains(@class, "horario")]/h1/a/text()'
+            ),
+            "timetable": source.xpath('//div[contains(@class, "horario")]/div'),
+            "itinerary": source.xpath(
+                '//div[contains(@class, "horario")]/ol/li/text()'
+            ),
+            "price": source.xpath('//div[contains(@class, "tarifa")]/text()'),
+            "time_date": source.xpath(
+                '//div[contains(@class, "col-sm-4")]/text()'
+            ),
+            "route": source.xpath('//div[contains(@class, "mapac")]/img/@src'),
         }
 
-        cod, name = xpaths['code_name'].extract()[0].split(" - ", 1)
-        itinerary = xpaths['itinerary'].extract()
+        cod, name = xpaths["code_name"].extract()[0].split(" - ", 1)
+        itinerary = xpaths["itinerary"].extract()
 
         price = {}
-        price['card'], price['money'] = \
-            map(str.strip, xpaths['price'].extract()[2:5:2])
+        price["card"], price["money"] = map(
+            str.strip, xpaths["price"].extract()[2:5:2]
+        )
 
         timetable = {}
-        for section in xpaths['timetable'][3:-1]:
-            horarios = ["".join(line.xpath('.//text()').extract()).strip()
-                        for line in section.xpath('./div')]
+        for section in xpaths["timetable"][3:-1]:
+            horarios = [
+                "".join(line.xpath(".//text()").extract()).strip()
+                for line in section.xpath("./div")
+            ]
             try:
                 day, place = horarios.pop(0).split(" - Saída ")
-                if place not in timetable.keys():
+                if place not in list(timetable.keys()):
                     timetable[place] = {}
                 timetable[place].update({day: horarios})
             except IndexError:
-                pass    # lines that only operate throughout the school year
+                pass  # lines that only operate throughout the school year
 
-        time, last_mod = map(str.strip, xpaths['time_date'].extract()[3:6:2])
+        time, last_mod = map(str.strip, xpaths["time_date"].extract()[3:6:2])
         try:
-            time = str(timedelta(minutes=int(
-                time[time.find(':') + 1:time.find('a')])))
+            time = str(
+                timedelta(
+                    minutes=int(time[time.find(":") + 1 : time.find("a")])
+                )
+            )
         except ValueError:
             time = "Não disponível."
 
         try:
-            route = "http://" + self.allowed_domains[0] \
-                    + xpaths['route'].extract()[0]
+            route = (
+                "http://"
+                + self.allowed_domains[0]
+                + xpaths["route"].extract()[0]
+            )
         except IndexError:
             route = "Não disponível."
 
         yield {
-            cod : FindMyBusItem(
-                name=name, price=price, company="Consórcio Fênix",
-                schedule=timetable, itinerary=itinerary,
-                time=time, updated_at=last_mod, route=route)
+            cod: FindMyBusItem(
+                name=name,
+                price=price,
+                company="Consórcio Fênix",
+                schedule=timetable,
+                itinerary=itinerary,
+                time=time,
+                updated_at=last_mod,
+                route=route,
+            )
         }

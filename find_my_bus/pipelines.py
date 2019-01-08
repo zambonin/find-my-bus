@@ -5,12 +5,15 @@
 Models for scraped items with capabilities similar to a dictionary.
 """
 
+from __future__ import absolute_import
 from json import dump
 
-class FilePipeline(object):
+
+class FilePipeline:
     """
     Manages all items that shall be output to a file when scraping ends.
     """
+
     def __init__(self):
         self.file = None
         self.temp = {}
@@ -23,7 +26,7 @@ class FilePipeline(object):
         Args:
             spider (Spider): the spider which was opened.
         """
-        self.file = open(spider.name + ".json", 'w', encoding='utf-8')
+        self.file = open(spider.name + ".json", "w", encoding="utf-8")
 
     def close_spider(self, _spider):
         """
@@ -47,5 +50,5 @@ class FilePipeline(object):
             An Item object to be handled further in the pipeline.
         """
         key, value = next(iter(item.items()))
-        self.temp.update({key : dict(value)})
+        self.temp.update({key: dict(value)})
         return item
